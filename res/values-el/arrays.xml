@@ -16,61 +16,61 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string-array name="timezone_filters">
-    <item>"Америка"</item>
-    <item>"Европа"</item>
-    <item>"Африка"</item>
-    <item>"Азия"</item>
-    <item>"Австралия"</item>
-    <item>"Тихий океан"</item>
-    <item>"Все"</item>
+    <item>"Αμερική"</item>
+    <item>"Ευρώπη"</item>
+    <item>"Αφρική"</item>
+    <item>"Ασία"</item>
+    <item>"Αυστραλία"</item>
+    <item>"Ειρηνικός"</item>
+    <item>"Όλα"</item>
   </string-array>
   <string-array name="screen_timeout_entries">
-    <item>"15 секунд"</item>
-    <item>"30 секунд"</item>
-    <item>"1 минута"</item>
-    <item>"2 минуты"</item>
-    <item>"10 минут"</item>
-    <item>"Без тайм-аута"</item>
+    <item>"15 δευτερόλεπτα"</item>
+    <item>"30 δευτερόλεπτα"</item>
+    <item>"1 λεπτό"</item>
+    <item>"2 λεπτά"</item>
+    <item>"10 λεπτά"</item>
+    <item>"Να μην λήγει ποτέ ο χρόνος σύνδεσης"</item>
   </string-array>
   <string-array name="wifi_security_entries">
-    <item>"Авто"</item>
-    <item>"Нет"</item>
+    <item>"Αυτόματο"</item>
+    <item>"Κανένα"</item>
     <item>"WEP"</item>
     <item>"WPA Personal"</item>
     <item>"WPA2 Personal"</item>
   </string-array>
   <string-array name="wifi_security_without_auto_entries">
-    <item>"Нет"</item>
+    <item>"Κανένα"</item>
     <item>"WEP"</item>
     <item>"WPA Personal"</item>
     <item>"WPA2 Personal"</item>
   </string-array>
   <string-array name="wifi_wep_type">
-    <item>"Авто"</item>
+    <item>"Αυτόματο"</item>
     <item>"WEP ASCII"</item>
-    <item>"Шестнадцатеричный WEP"</item>
+    <item>"WEP δεκαεξαδικός"</item>
   </string-array>
   <string-array name="wifi_sleep_policy_entries">
-    <item>"При выключении экрана"</item>
-    <item>"Никогда, если устройство подключено к сети питания"</item>
-    <item>"Никогда"</item>
+    <item>"Όταν η οθόνη απενεργοποιείται"</item>
+    <item>"Ποτέ όταν είναι συνδεδεμένο"</item>
+    <item>"Ποτέ"</item>
   </string-array>
   <string-array name="battery_history_type_spinner">
-    <item>"Использование процессора"</item>
-    <item>"Использование сети"</item>
-    <item>"Использование GPS"</item>
-    <item>"Использование сенсора"</item>
-    <item>"Использование частичного включения"</item>
-    <item>"Прочее использование"</item>
+    <item>"Χρήση CPU"</item>
+    <item>"Χρήση δικτύου"</item>
+    <item>"Χρήση GPS"</item>
+    <item>"Χρήση αισθητήρα"</item>
+    <item>"μερική χρήση αφύπνισης"</item>
+    <item>"Άλλη χρήση"</item>
   </string-array>
   <string-array name="battery_history_which_spinner">
-    <item>"С последнего отключения питания"</item>
-    <item>"Всего с момента загрузки"</item>
-    <item>"Всего за все время"</item>
+    <item>"Από την τελευταία φορά που αποσυνδέθηκε"</item>
+    <item>"Συνολικά από την εκκίνηση"</item>
+    <item>"Συνολικά για όλο το χρονικό διάστημα"</item>
   </string-array>
   <string-array name="usage_stats_display_order_types">
-    <item>"Время использования"</item>
-    <item>"Начать подсчет"</item>
-    <item>"Название приложения"</item>
+    <item>"Χρόνος χρήσης"</item>
+    <item>"Εκκίνηση καταμέτρησης"</item>
+    <item>"Όνομα εφαρμογής"</item>
   </string-array>
 </resources>

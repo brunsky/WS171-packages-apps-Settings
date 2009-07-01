@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="device_info_default">"Bilinmiyor"</string>
+    <string name="turn_on_radio">"Radyoyu aç"</string>
+    <string name="turn_off_radio">"Radyoyu kapat"</string>
+    <string name="turn_on_qxdm">"QXDM SD kaydını etkinleştir"</string>
+    <string name="turn_off_qxdm">"QXDM SD kaydını devre dışı bırak"</string>
+    <string name="radioInfo_menu_viewADN">"SIM rehberini görüntüle"</string>
+    <string name="radioInfo_menu_viewFDN">"Sabit Arama Numaralarını Görüntüle"</string>
+    <string name="radioInfo_menu_viewSDN">"Servis Tarafından Aranan Numaralarını Görüntüle"</string>
+    <string name="radioInfo_menu_getPDP">"PDP listesi al"</string>
+    <string name="radioInfo_menu_enableData">"Veri bağlantısını etkinleştir"</string>
+    <string name="radioInfo_menu_disableData">"Veri bağlantısını devre dışı bırak"</string>
+    <string name="radioInfo_menu_enableDataOnBoot">"Verileri başlangıçta etkinleştir"</string>
+    <string name="radioInfo_menu_disableDataOnBoot">"Başlangıçta verileri devre dışı bırak"</string>
+    <string name="radioInfo_service_in">"Hizmet vermekte"</string>
+    <string name="radioInfo_service_out">"Servis dışı"</string>
+    <string name="radioInfo_service_emergency">"Yalnızca acil durum aramaları"</string>
+    <string name="radioInfo_service_off">"Radyo kapalı"</string>
+    <string name="radioInfo_roaming_in">"Yönlendirme"</string>
+    <string name="radioInfo_roaming_not">"Yönlendirilmiyor"</string>
+    <string name="radioInfo_phone_idle">"Hareketsiz"</string>
+    <string name="radioInfo_phone_ringing">"Zil çalma"</string>
+    <string name="radioInfo_phone_offhook">"Arama sürüyor"</string>
+    <string name="radioInfo_data_disconnected">"Bağlantı kesildi"</string>
+    <string name="radioInfo_data_connecting">"Bağlanıyor"</string>
+    <string name="radioInfo_data_connected">"Bağlandı"</string>
+    <string name="radioInfo_data_suspended">"Beklemede"</string>
+    <string name="radioInfo_unknown">"bilinmeyen"</string>
+    <string name="radioInfo_display_packets">"pkts"</string>
+    <string name="radioInfo_display_bytes">"bayt"</string>
+    <string name="radioInfo_display_dbm">"dBm"</string>
+    <string name="radioInfo_display_asu">"asu"</string>
+    <string name="radioInfo_lac">"LAC"</string>
+    <string name="radioInfo_cid">"CID"</string>
+    <string name="sdcard_unmount">"SD kartı ayır"</string>
+    <!-- no translation found for sdcard_format (362497552060004057) -->
+    <skip />
+    <string name="small_font">"Küçük"</string>
+    <string name="medium_font">"Orta"</string>
+    <string name="large_font">"Geniş"</string>
+    <string name="font_size_save">"Tamam"</string>
+    <string name="sdcard_setting">"SD kart"</string>
+    <string name="battery_info_status_label">"Pil durumu:"</string>
+    <string name="battery_info_scale_label">"Pil ölçeği:"</string>
+    <string name="battery_info_level_label">"Pil seviyesi:"</string>
+    <string name="battery_info_health_label">"Pil durumu:"</string>
+    <string name="battery_info_technology_label">"Pil teknolojisi:"</string>
+    <string name="battery_info_voltage_label">"Pil voltajı:"</string>
+    <string name="battery_info_voltage_units">"mV"</string>
+    <string name="battery_info_temperature_label">"Pil sıcaklığı:"</string>
+    <string name="battery_info_temperature_units">"° C"</string>
+    <string name="battery_info_uptime">"Başlangıçtan sonra saat:"</string>
+    <string name="battery_info_awake_battery">"Pildeki uyanma süresi:"</string>
+    <string name="battery_info_awake_plugged">"Şarj ederken uyanma zamanı:"</string>
+    <string name="battery_info_screen_on">"Ekranın AÇIK kalma süresi:"</string>
+    <string name="battery_info_status_unknown">"Bilinmiyor"</string>
+    <string name="battery_info_status_charging">"Şarj oluyor"</string>
+    <string name="battery_info_status_charging_ac">"(AC)"</string>
+    <string name="battery_info_status_charging_usb">"(USB)"</string>
+    <string name="battery_info_status_discharging">"Şarj bitiyor"</string>
+    <string name="battery_info_status_not_charging">"Şarj olmuyor"</string>
+    <string name="battery_info_status_full">"Dolu"</string>
+    <string name="battery_info_health_unknown">"Bilinmiyor"</string>
+    <string name="battery_info_health_good">"İyi"</string>
+    <string name="battery_info_health_overheat">"Aşırı ısınma"</string>
+    <string name="battery_info_health_dead">"Sinyal yok"</string>
+    <string name="battery_info_health_over_voltage">"Aşırı voltaj"</string>
+    <string name="battery_info_health_unspecified_failure">"Bilinmeyen hata"</string>
+    <string name="bluetooth">"Bluetooth"</string>
+    <string name="bluetooth_visibility">"Görülebilir"</string>
+    <string name="bluetooth_is_discoverable">"<xliff:g id="DISCOVERABLE_TIME_PERIOD">%1$s</xliff:g> saniye için görülebilir…"</string>
+    <string name="bluetooth_not_discoverable">"Cihazı görülebilir yap"</string>
+    <string name="bluetooth_devices">"Bluetooth cihazlar"</string>
+    <string name="bluetooth_device_name">"Cihaz adı"</string>
+    <string name="bluetooth_name_not_set">"Hesap adını kullanan hiç ad yok"</string>
+    <string name="bluetooth_scan_for_devices">"Cihazları tara"</string>
+    <string name="bluetooth_disconnect_blank">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> bağlantısı kesilecek"</string>
+    <string name="bluetooth_connected">"Bağlandı"</string>
+    <string name="bluetooth_disconnected">"Bağlantı kesildi"</string>
+    <string name="bluetooth_disconnecting">"Bağlantı kesiliyor..."</string>
+    <string name="bluetooth_connecting">"Bağlanıyor..."</string>
+    <!-- no translation found for bluetooth_unknown (644716244548801421) -->
+    <skip />
+    <string name="bluetooth_not_connected">"Bu cihazla eşleştir"</string>
+    <string name="bluetooth_pairing">"Eşleştiriliyor..."</string>
+    <!-- no translation found for bluetooth_paired (1247541089000057726) -->
+    <skip />
+    <string name="bluetooth_device">"ahize/kulaklık"</string>
+    <string name="progress_scanning">"Tarama"</string>
+    <string name="bluetooth_notif_ticker">"Bluetooth eşleştirme talebi"</string>
+    <string name="bluetooth_notif_title">"Eşleşme isteği"</string>
+    <string name="bluetooth_notif_message">"Şununla eşleştirmek için seç: "</string>
+    <string name="date_and_time">"Tarih &amp; saat ayarları"</string>
+    <string name="date_time_12_hour_sample">"13:00"</string>
+    <string name="date_time_24_hour_sample">"13:00"</string>
+    <!-- no translation found for date_time_changeTime_text (7037437020000867740) -->
+    <skip />
+    <!-- no translation found for date_time_changeDate_text (5259762626498028057) -->
+    <skip />
+    <string name="choose_timezone">"Saat dilimini seç"</string>
+    <string name="display_preview_label">"Önizleme:"</string>
+    <string name="display_font_size_label">"Yazı boyutu:"</string>
+    <!-- no translation found for intent_sender_data_label (6332324780477289261) -->
+    <skip />
+    <string name="intent_sender_sendbroadcast_text">"Gönder <xliff:g id="BROADCAST">broadcast</xliff:g>"</string>
+    <string name="intent_sender_action_label">"<xliff:g id="ACTION">Action</xliff:g>:"</string>
+    <string name="intent_sender_startactivity_text">"Başlat <xliff:g id="ACTIVITY">activity</xliff:g>"</string>
+    <string name="intent_sender_resource_label">"<xliff:g id="RESOURCE">Resource</xliff:g>:"</string>
+    <string name="intent_sender_account_label">"Hesap:"</string>
+    <string name="proxy_clear_text">"Temizle"</string>
+    <string name="proxy_port_label">"Port"</string>
+    <string name="proxy_defaultView_text">"Varsayılanları geri yükle"</string>
+    <string name="proxy_action_text">"Kaydet"</string>
+    <string name="proxy_hostname_label">"Ana makine adı"</string>
+    <string name="proxy_error">"Dikkat"</string>
+    <string name="proxy_error_dismiss">"Tamam"</string>
+    <string name="proxy_error_invalid_host">"Yazdığınız ana makine adı geçerli değil."</string>
+    <string name="proxy_error_empty_port">"Port alanını doldurmanız gerekmektedir."</string>
+    <string name="proxy_error_empty_host_set_port">"Ana makine alanı boşsa port alanı boş olmalıdır."</string>
+    <string name="proxy_error_invalid_port">"Yazdığınız port geçerli değil."</string>
+    <string name="radio_info_signal_location_label">"Yer:"</string>
+    <string name="radio_info_neighboring_location_label">"Komşu CID\'si:"</string>
+    <string name="radio_info_data_attempts_label">"Veri denemeleri:"</string>
+    <string name="radio_info_gprs_service_label">"GPRS servisi:"</string>
+    <string name="radio_info_roaming_label">"Yönlendirme:"</string>
+    <string name="radio_info_imei_label">"IMEI:"</string>
+    <string name="radio_info_call_redirect_label">"Yeniden arama yönlendirme:"</string>
+    <string name="radio_info_ppp_resets_label">"Başlangıçtan sonraki PPP sıfırlama sayısı:"</string>
+    <string name="radio_info_gsm_disconnects_label">"GSM bağlantısı kesiliyor:"</string>
+    <string name="radio_info_current_network_label">"Geçerli ağ:"</string>
+    <string name="radio_info_data_successes_label">"Başarılı veriler:"</string>
+    <string name="radio_info_ppp_received_label">"PPP alındı:"</string>
+    <string name="radio_info_gsm_service_label">"GSM servisi:"</string>
+    <string name="radio_info_signal_strength_label">"Sinyal gücü:"</string>
+    <string name="radio_info_call_status_label">"Arama durumu:"</string>
+    <string name="radio_info_ppp_sent_label">"PPP gönderildi:"</string>
+    <string name="radio_info_radio_resets_label">"Radyo sıfırlama:"</string>
+    <string name="radio_info_message_waiting_label">"Mesaj bekliyor:"</string>
+    <string name="radio_info_phone_number_label">"Telefon numarası:"</string>
+    <string name="radio_info_band_mode_label">"Radyo bandını seç"</string>
+    <string name="radio_info_network_type_label">"Ağ türü:"</string>
+    <string name="radio_info_set_perferred_label">"Tercih edilen ağ türünü ayarla:"</string>
+    <string name="radio_info_ping_ipaddr">"Ping IpAddr:"</string>
+    <string name="radio_info_ping_hostname">"Ping Ana Makine Adı(www.google.com):"</string>
+    <string name="radio_info_http_client_test">"HTTP İstemci testi:"</string>
+    <string name="radio_info_toggle_ciph_label">"Şifrelemeye geç"</string>
+    <string name="ping_test_label">"Ping testini çalıştır"</string>
+    <string name="radio_info_smsc_label">"SMSC:"</string>
+    <string name="radio_info_smsc_update_label">"Güncelle"</string>
+    <string name="radio_info_smsc_refresh_label">"Yenile"</string>
+    <!-- no translation found for radio_info_toggle_dns_check_label (8292252930563286858) -->
+    <skip />
+    <string name="band_mode_title">"GSM/UMTS bandını ayarla"</string>
+    <string name="band_mode_loading">"Bant listesi yükleniyor..."</string>
+    <string name="band_mode_set">"Ayarla"</string>
+    <string name="band_mode_failed">"Başarısız"</string>
+    <string name="band_mode_succeeded">"Başarılı"</string>
+    <string name="sdcard_changes_instructions">"USB kablosu tekrar takıldığında değişiklikler uygulanacak"</string>
+    <string name="sdcard_settings_screen_mass_storage_text">"USB yığın depolamasını etkinleştir"</string>
+    <string name="sdcard_settings_total_bytes_label">"Toplam bayt:"</string>
+    <string name="sdcard_settings_not_present_status">"SD kartı yok"</string>
+    <string name="sdcard_settings_available_bytes_label">"Kullanılabilen bayt:"</string>
+    <string name="sdcard_settings_mass_storage_status">"SD kart yığın depolama cihazı olarak kullanılmakta"</string>
+    <string name="sdcard_settings_unmounted_status">"SD kart şimdi güvenle çıkarılabilir"</string>
+    <string name="sdcard_settings_bad_removal_status">"SD kart kullanımdayken çıkarıldı!"</string>
+    <string name="sdcard_settings_used_bytes_label">"Kullanılan bayt:"</string>
+    <string name="sdcard_settings_scanning_status">"SD kart medya için taranıyor..."</string>
+    <string name="sdcard_settings_read_only_status">"SD kart salt okunu olarak bağlandı"</string>
+    <string name="next_label">"İleri"</string>
+    <string name="language_picker_title">"Yerel bilgiler"</string>
+    <string name="select_your_language">"Dilinizi seçin"</string>
+    <string name="activity_picker_label">"Eylem seç"</string>
+    <string name="device_info_label">"Cihaz bilgileri"</string>
+    <string name="battery_info_label">"Pil bilgileri"</string>
+    <!-- no translation found for battery_history_label (8242244969757414501) -->
+    <skip />
+    <string name="display_label">"Görüntüle"</string>
+    <string name="phone_info_label">"Telefon bilgileri"</string>
+    <string name="sd_card_settings_label">"SD kart"</string>
+    <string name="proxy_settings_label">"Proxy ayarları"</string>
+    <string name="cancel">"İptal"</string>
+    <string name="settings_label">"Ayarlar"</string>
+    <string name="airplane_mode">"Uçak modu"</string>
+    <string name="airplane_mode_summary">"Tüm kablosuz bağlantıları devre dışı bırak"</string>
+    <string name="airplane_mode_turning_on">"Kablosuz bağlantılar devre dışı bırakılıyor..."</string>
+    <string name="airplane_mode_turning_off">"Kablosuz bağlantılar etkinleştiriliyor..."</string>
+    <string name="radio_controls_title">"Kablosuz kontroller"</string>
+    <string name="radio_controls_summary">"Wi-Fi, Bluetooth, uçak modu, &amp; mobil ağlar öğelerini yönet"</string>
+    <string name="date_and_time_settings_title">"Tarih &amp; saat"</string>
+    <string name="date_and_time_settings_summary">"Tarih, zaman, zaman dilimi &amp; biçimler öğelerini ayarlayın"</string>
+    <string name="date_time_auto">"Otomatik"</string>
+    <string name="date_time_auto_summaryOn">"Ağ tarafından sağlanan değerleri kullanın"</string>
+    <string name="date_time_auto_summaryOff">"Ağ tarafından sağlanan değerleri kullan"</string>
+    <string name="date_time_24hour">"24 saat biçimini kullan"</string>
+    <string name="date_time_set_time">"Saati ayarla"</string>
+    <string name="date_time_set_timezone">"Saat dilimini seç"</string>
+    <string name="date_time_set_date">"Tarihi ayarla"</string>
+    <string name="date_time_date_format">"Tarih biçimini seç"</string>
+    <string name="zone_list_menu_sort_alphabetically">"Alfabetik olarak sırala"</string>
+    <string name="zone_list_menu_sort_by_timezone">"Zaman dilimine göre sırala"</string>
+    <string name="security_settings_title">"Güvenlik &amp; konum"</string>
+    <string name="security_settings_summary">"Konumumu, ekran kilidini, SIM kart kilidini ayarla"</string>
+    <string name="security_passwords_title">"Şifreler"</string>
+    <string name="bluetooth_quick_toggle_title">"Bluetooth"</string>
+    <string name="bluetooth_quick_toggle_summary">"Bluetooth\'u aç"</string>
+    <string name="bluetooth_settings">"Bluetooth ayarları"</string>
+    <string name="bluetooth_settings_title">"Bluetooth ayarları"</string>
+    <string name="bluetooth_settings_summary">"Bağlantıları yönet, cihaz adını &amp; görülebilirliği ayarla"</string>
+    <string name="bluetooth_pin_entry">"Bluetooth eşleştirme talebi"</string>
+    <string name="bluetooth_device_info">"Bluetooth cihaz bilgileri"</string>
+    <string name="bluetooth_enter_pin_msg">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>"\n\n"Eşleştirilecek PIN\'i yazın."\n"(0000 veya 1234\'ü deneyin.)"</string>
+    <string name="bluetooth_error_title">"Dikkat"</string>
+    <string name="bluetooth_pairing_error_message">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> ile eşleşmede bir sorun vardı."</string>
+    <string name="bluetooth_pairing_pin_error_message">"Yazılan PIN hatalı olduğu için <xliff:g id="DEVICE_NAME">%1$s</xliff:g> ile eşleşmede hata oluştu."</string>
+    <string name="bluetooth_connecting_error_message">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> bağlantısında sorun vardı."</string>
+    <string name="bluetooth_preference_scan_title">"Cihazları tara"</string>
+    <string name="bluetooth_device_context_connect">"Bağlan"</string>
+    <string name="bluetooth_device_context_disconnect">"Bağlantıyı kes"</string>
+    <string name="bluetooth_device_context_pair_connect">"Eşleştir &amp; bağlan"</string>
+    <string name="bluetooth_device_context_unpair">"Eşleştirmeyi kaldır"</string>
+    <string name="bluetooth_device_context_disconnect_unpair">"Bağlantıyı kes &amp; eşleşmeyi iptal et"</string>
+    <string name="bluetooth_device_context_connect_advanced">"Seçenekler..."</string>
+    <string name="bluetooth_connect_specific_profiles_title">"Şuna bağlan..."</string>
+    <string name="bluetooth_profile_a2dp">"Medya"</string>
+    <string name="bluetooth_profile_headset">"Telefon"</string>
+    <string name="bluetooth_summary_connected_to_a2dp">"Medya ses düzenine bağlandı"</string>
+    <string name="bluetooth_summary_connected_to_headset">"Telefonun ses düzenine bağlandı"</string>
+    <string name="bluetooth_summary_connected_to_a2dp_headset">"Bağlandı"</string>
+    <string name="bluetooth_device_advanced_title">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> seçenekleri"</string>
+    <string name="bluetooth_device_advanced_online_mode_title">"Bağlan"</string>
+    <string name="bluetooth_device_advanced_online_mode_summary">"Bluetooth cihaza bağlan"</string>
+    <string name="bluetooth_device_advanced_profile_header_title">"Profiller"</string>
+    <string name="bluetooth_a2dp_profile_summary_connected">"Medya ses düzenine bağlandı"</string>
+    <string name="bluetooth_headset_profile_summary_connected">"Telefonun ses düzenine bağlandı"</string>
+    <string name="bluetooth_a2dp_profile_summary_use_for">"Medya sesi için kullan"</string>
+    <string name="bluetooth_headset_profile_summary_use_for">"Telefon sesi için kullan"</string>
+    <string name="wifi">"Wi-Fi"</string>
+    <string name="wifi_quick_toggle_title">"Wi-Fi"</string>
+    <string name="wifi_quick_toggle_summary">"Wi-Fi özelliğini aç"</string>
+    <string name="wifi_settings">"Wi-Fi ayarları"</string>
+    <string name="wifi_settings_category">"Wi-Fi ayarları"</string>
+    <string name="wifi_settings_summary">"Kablosuz erişim noktalarını ayarla &amp; yönet"</string>
+    <string name="forget_network">"Hatırlama"</string>
+    <string name="wifi_status">"Durum"</string>
+    <string name="wifi_link_speed">"Hız"</string>
+    <string name="wifi_signal_3">"Mükemmel"</string>
+    <string name="wifi_signal_2">"İyi"</string>
+    <string name="wifi_signal_1">"Zayıf"</string>
+    <string name="wifi_signal_0">"Zayıf"</string>
+    <string name="security">"Güvenlik"</string>
+    <string name="wifi_security_open">"Aç"</string>
+    <string name="wifi_security_wep">"WEP"</string>
+    <string name="wifi_security_wpa">"WPA"</string>
+    <string name="wifi_security_wpa2">"WPA2"</string>
+    <string name="wifi_security_unknown">"Bilinmiyor"</string>
+    <string name="wifi_security_verbose_open">"Ağı aç"</string>
+    <string name="wifi_security_verbose_wep">"WEP ile güvenli"</string>
+    <string name="wifi_security_verbose_wpa">"WPA ile güvenli"</string>
+    <string name="wifi_security_verbose_wpa2">"WPA2 ile güvenli"</string>
+    <string name="ip_address">"IP adresi"</string>
+    <string name="signal">"Sinyal gücü"</string>
+    <string name="wifi_starting">"Açılıyor..."</string>
+    <string name="wifi_stopping">"Kapatılıyor..."</string>
+    <string name="wifi_error">"Hata"</string>
+    <string name="error_starting">"Wi-Fi başlatılamıyor"</string>
+    <string name="error_stopping">"Wi-Fi durdurulamıyor"</string>
+    <string name="error_scanning">"Ağlar taranamıyor"</string>
+    <string name="error_connecting">"Ağ bağlantısı yapılamıyor"</string>
+    <string name="error_saving">"Ağ kaydedilemiyor"</string>
+    <string name="connect">"Bağlan"</string>
+    <string name="connect_to_blank">"Şuna bağlan: <xliff:g id="NETWORK_NAME">%1$s</xliff:g>"</string>
+    <string name="please_type_passphrase">"Kablosuz şifresi"</string>
+    <string name="please_type_hex_key">"WEP hekz anahtar (0-9, A-F)"</string>
+    <string name="wifi_show_password">"Şifreyi göster."</string>
+    <string name="scan_wifi">"Tara"</string>
+    <string name="summary_not_in_range">"Aralıkta değil"</string>
+    <string name="summary_remembered">"Hatırlandı"</string>
+    <string name="summary_connection_failed">"Bağlantı başarısız, tekrar denemeyi seçin"</string>
+    <string name="wifi_access_points">"Wi-Fi ağları"</string>
+    <string name="wifi_type_ssid">"Ağ SSID\'si"</string>
+    <string name="wifi_security">"Güvenlik"</string>
+    <string name="wifi_save_config">"Kaydet"</string>
+    <string name="wifi_password_unchanged">"(değişmedi)"</string>
+    <string name="wifi_add_other_network">"Wi-Fi ağı ekle"</string>
+    <string name="wifi_notify_open_networks">"Ağ bildirimi"</string>
+    <string name="wifi_notify_open_networks_summary">"Açık ağ bulunduğu zaman bana bildir"</string>
+    <string name="wifi_password_incorrect_error">"Yazdığınız ağ şifresi doğru değil. Lütfen tekrar deneyin."</string>
+    <string name="wifi_generic_connection_error">"Ağa bağlanmada sorun var. Lütfen tekrar deneyin."</string>
+    <string name="wifi_menu_advanced">"Gelişmiş"</string>
+    <string name="wifi_ip_settings_titlebar">"IP ayarları"</string>
+    <string name="wifi_ip_settings_menu_save">"Kaydet"</string>
+    <string name="wifi_ip_settings_menu_cancel">"İptal"</string>
+    <string name="wifi_ip_settings_invalid_ip">"Lütfen geçerli bir IP adresi yazın."</string>
+    <string name="wifi_use_static_ip">"Statik IP kullan"</string>
+    <string name="wifi_ip_address">"IP adresi"</string>
+    <string name="wifi_dns1">"DNS 1"</string>
+    <string name="wifi_dns2">"DNS 2"</string>
+    <string name="wifi_gateway">"Ağ geçidi"</string>
+    <string name="wifi_netmask">"Ağ maskesi"</string>
+    <string name="wifi_context_menu_connect">"Ağa bağlan"</string>
+    <string name="wifi_context_menu_forget">"Ağı hatırlama"</string>
+    <string name="wifi_context_menu_change_password">"Şifreyi değiştir"</string>
+    <string name="wifi_advanced_titlebar">"Gelişmiş"</string>
+    <string name="wifi_setting_num_channels_title">"Düzenleyici etki alanı"</string>
+    <string name="wifi_setting_num_channels_summary">"Kullanılacak kanal sayısını ayarla"</string>
+    <string name="wifi_setting_num_channels_error">"Düzenleyici etki alanı ayarlanırken bir sorun oluştu."</string>
+    <string name="wifi_setting_num_channels_channel_phrase">"<xliff:g id="NUM_CHANNELS">%1$d</xliff:g> kanal"</string>
+    <!-- no translation found for wifi_setting_sleep_policy_title (1367731352485585528) -->
+    <skip />
+    <!-- no translation found for wifi_setting_sleep_policy_summary (7573693311804602041) -->
+    <skip />
+    <!-- no translation found for wifi_setting_sleep_policy_error (5103670439972135148) -->
+    <skip />
+    <string name="wifi_advanced_mac_address_title">"MAC adresi"</string>
+    <string name="fragment_status_scanning">"Taranıyor..."</string>
+    <string name="fragment_status_connecting">"<xliff:g id="NETWORK_NAME">%1$s</xliff:g> hedefine bağlanılıyor…"</string>
+    <string name="fragment_status_authenticating">"<xliff:g id="NETWORK_NAME">%1$s</xliff:g> ile kimlik doğrulanıyor…"</string>
+    <string name="fragment_status_obtaining_ip">"IP adresi <xliff:g id="NETWORK_NAME">%1$s</xliff:g> kaynağından alınıyor…"</string>
+    <string name="fragment_status_connected">"<xliff:g id="NETWORK_NAME">%1$s</xliff:g> bağlantısı yapıldı"</string>
+    <string name="fragment_status_disconnecting">"<xliff:g id="NETWORK_NAME">%1$s</xliff:g> bağlantısı kesiliyor…"</string>
+    <string name="fragment_status_disconnected">"Bağlantı kesildi"</string>
+    <string name="fragment_status_failed">"Başarısız"</string>
+    <string name="status_scanning">"Taranıyor..."</string>
+    <string name="status_connecting">"Bağlanıyor..."</string>
+    <string name="status_authenticating">"Yetkilendiriliyor..."</string>
+    <string name="status_obtaining_ip">"Adres alınıyor..."</string>
+    <string name="status_connected">"Bağlandı"</string>
+    <string name="status_disconnecting">"Bağlantı kesiliyor..."</string>
+    <string name="status_disconnected">"Bağlantı kesildi"</string>
+    <string name="status_failed">"Başarısız"</string>
+    <string name="sound_and_display_settings">"Ses &amp; ekran"</string>
+    <string name="sound_settings">"Ses ayarları"</string>
+    <string name="sound_and_display_settings_summary">"Zil seslerini, bildirimleri, ekran parlaklığını ayarla"</string>
+    <string name="silent_mode_title">"Sessiz mod"</string>
+    <string name="silent_mode_summary">"Medya dışındaki tüm sesler &amp; alarmlar susturuldu"</string>
+    <!-- no translation found for silent_mode_incl_alarm_summary (2088830834182228458) -->
+    <skip />
+    <string name="ringtone_title">"Telefon zil sesi"</string>
+    <string name="ringtone_summary">"Varsayılan gelen arama zil sesinizi ayarlayın"</string>
+    <string name="ring_volume_title">"Zil sesi düzeyi"</string>
+    <string name="ring_volume_summary">"Gelen aramalar için ses düzeyini ayarla"</string>
+    <string name="vibrate_title">"Telefonu titreştir"</string>
+    <string name="vibrate_summary">"Gelen aramalarda telefonu titreştir"</string>
+    <string name="notification_sound_title">"Bildirim zil sesi"</string>
+    <string name="notification_sound_summary">"Varsayılan bildirim zil sesinizi ayarlayın"</string>
+    <string name="incoming_call_volume_title">"Gelen arama ses düzeyi"</string>
+    <string name="notification_volume_title">"Bildirim ses düzeyi"</string>
+    <string name="checkbox_notification_same_as_incoming_call">"Bildirimler için gelen arama ses düzeyini kullan"</string>
+    <string name="notification_sound_dialog_title">"Bildirim zil sesini seç"</string>
+    <string name="media_volume_title">"Medya ses düzeyi"</string>
+    <string name="media_volume_summary">"Müzik ve videolar için ses düzeyini ayarla"</string>
+    <string name="dtmf_tone_enable_title">"Duyulabilen dokunma sesleri"</string>
+    <string name="dtmf_tone_enable_summary_on">"Tuş takımını kullanırken ses çıkar"</string>
+    <string name="dtmf_tone_enable_summary_off">"Tuş takımını kullanırken ses çıkar"</string>
+    <string name="sound_effects_enable_title">"Sesli seçim"</string>
+    <string name="sound_effects_enable_summary_on">"Ekran seçimi yaparken ses çal"</string>
+    <string name="sound_effects_enable_summary_off">"Ekran seçimi yaparken ses çal"</string>
+    <!-- no translation found for play_media_notification_sounds_enable_title (1008791464029179529) -->
+    <skip />
+    <!-- no translation found for play_media_notification_sounds_enable_summary_on (426729807044947187) -->
+    <skip />
+    <!-- no translation found for play_media_notification_sounds_enable_summary_off (803791141563778934) -->
+    <skip />
+    <string name="sync_settings">"Veri senkronizasyonu"</string>
+    <string name="sync_settings_summary">"Senkronize edilmiş uygulamaları seç"</string>
+    <string name="display_settings">"Ayarları görüntüle"</string>
+    <string name="animations_title">"Animasyon"</string>
+    <!-- no translation found for animations_summary_on (8843613112130484436) -->
+    <skip />
+    <!-- no translation found for animations_summary_off (2777026828025551983) -->
+    <skip />
+    <!-- no translation found for accelerometer_title (6183763368844793276) -->
+    <skip />
+    <!-- no translation found for accelerometer_summary_on (1133737282813048021) -->
+    <skip />
+    <!-- no translation found for accelerometer_summary_off (5485489363715740761) -->
+    <skip />
+    <string name="brightness">"Parlaklık"</string>
+    <!-- no translation found for brightness_summary (838917350127550703) -->
+    <skip />
+    <string name="screen_timeout">"Ekran zaman aşımı"</string>
+    <!-- no translation found for screen_timeout_summary (2905757633140605334) -->
+    <skip />
+    <string name="sim_lock_settings">"SIM kart kilidi ayarları"</string>
+    <string name="sim_lock_settings_category">"SIM kart kilidini ayarla"</string>
+    <string name="sim_lock_settings_title">"SIM kart kilidi"</string>
+    <string name="sim_pin_toggle">"SIM kartı kilitle"</string>
+    <string name="sim_lock_on">"Telefonu kullanmak için PIN iste"</string>
+    <string name="sim_lock_off">"Telefonu kullanmak için PIN iste"</string>
+    <string name="sim_pin_change">"SIM PIN\'ini değiştir"</string>
+    <string name="sim_enter_pin">"SIM PIN\'i"</string>
+    <string name="sim_enable_sim_lock">"SIM kartı kilitle"</string>
+    <string name="sim_disable_sim_lock">"SIM kilidini aç"</string>
+    <string name="sim_enter_old">"Eski SIM PIN\'i"</string>
+    <string name="sim_enter_new">"Yeni SIM PIN\'i"</string>
+    <string name="sim_reenter_new">"Yeni PIN\'i tekrar yazın"</string>
+    <string name="sim_change_pin">"SIM PIN\'i"</string>
+    <string name="sim_bad_pin">"Hatalı PIN!"</string>
+    <string name="sim_pins_dont_match">"PIN\'ler eşleşmiyor!"</string>
+    <string name="sim_change_failed">"PIN değiştirilemiyor."\n"Muhtemelen PIN yanlış."</string>
+    <string name="sim_change_succeeded">"SIM PIN\'i başarıyla değiştirildi"</string>
+    <string name="sim_lock_failed">"SIM kartın kilit durumu değiştirilemiyor."\n"Muhtemelen PIN hatalı."</string>
+    <string name="sim_enter_ok">"Tamam"</string>
+    <string name="sim_enter_cancel">"İptal"</string>
+    <string name="device_info_settings">"Telefon durumu"</string>
+    <string name="system_update_settings_list_item_title">"Sistem güncellemeleri"</string>
+    <string name="system_update_settings_list_item_summary">"Sistem güncellemelerini kontrol et"</string>
+    <string name="firmware_version">"Bellenim sürümü"</string>
+    <string name="model_number">"Model numarası"</string>
+    <string name="baseband_version">"Ana bant sürümü"</string>
+    <string name="kernel_version">"Çekirdek sürümü"</string>
+    <string name="build_number">"Numara oluştur"</string>
+    <string name="device_info_not_available">"Kullanılamıyor"</string>
+    <string name="device_status_activity_title">"Durum"</string>
+    <string name="device_status">"Durum"</string>
+    <string name="device_status_summary">"IMEI, telefon numarası, sinyal v.b."</string>
+    <string name="storage_settings_title">"SD kart &amp; telefon hafızası"</string>
+    <string name="storage_settings_summary">"SD kartı ayır, kullanılabilen hafızayı görüntüle"</string>
+    <string name="status_number">"Telefon numarası"</string>
+    <!-- no translation found for status_network_type (3279383550222116235) -->
+    <skip />
+    <!-- no translation found for status_data_state (5503181397066522950) -->
+    <skip />
+    <string name="status_service_state">"Servis durumu"</string>
+    <string name="status_signal_strength">"Sinyal gücü"</string>
+    <string name="status_roaming">"Yönlendirme"</string>
+    <string name="status_operator">"Ağ"</string>
+    <string name="status_wifi_mac_address">"Wi-Fi MAC adresi"</string>
+    <string name="status_bt_address">"Bluetooth adresi"</string>
+    <string name="status_unavailable">"Kullanılamıyor"</string>
+    <string name="status_up_time">"Çalışabilirlik süresi"</string>
+    <string name="status_awake_time">"Uyanma zamanı"</string>
+    <string name="internal_memory">"Dahili telefon hafızası"</string>
+    <string name="sd_memory">"SD kart"</string>
+    <string name="memory_available">"Kullanılabilen alan"</string>
+    <string name="memory_size">"Toplam alan"</string>
+    <!-- no translation found for sd_eject (6915293408836853020) -->
+    <skip />
+    <!-- no translation found for sd_eject_summary (3315557796211542962) -->
+    <skip />
+    <!-- no translation found for sd_format (5448738337382712203) -->
+    <skip />
+    <!-- no translation found for sd_format_summary (6616491027883134004) -->
+    <skip />
+    <string name="sd_unavailable">"Kullanılamıyor"</string>
+    <string name="read_only">" (Salt okunur)"</string>
+    <string name="battery_status_title">"Pil durumu"</string>
+    <string name="battery_level_title">"Pil seviyesi"</string>
+    <string name="apn_settings">"APN\'ler"</string>
+    <string name="apn_edit">"Erişim noktasını düzenle"</string>
+    <string name="apn_not_set">"&lt;Not set&gt;"</string>
+    <string name="apn_name">"Adı"</string>
+    <string name="apn_apn">"APN"</string>
+    <string name="apn_http_proxy">"Proxy"</string>
+    <string name="apn_http_port">"Port"</string>
+    <string name="apn_user">"Kullanıcı adı"</string>
+    <string name="apn_password">"Şifre"</string>
+    <string name="apn_server">"Sunucu"</string>
+    <string name="apn_mmsc">"MMSC"</string>
+    <string name="apn_mms_proxy">"MMS proxy"</string>
+    <string name="apn_mms_port">"MMS portu"</string>
+    <string name="apn_mcc">"MCC"</string>
+    <string name="apn_mnc">"MNC"</string>
+    <string name="apn_type">"APN türü"</string>
+    <string name="menu_delete">"APN sil"</string>
+    <string name="menu_new">"Yeni APN"</string>
+    <string name="menu_save">"Kaydet"</string>
+    <string name="menu_cancel">"At"</string>
+    <string name="error_title">"Dikkat"</string>
+    <string name="error_name_empty">"Ad alanı boş bırakılamaz."</string>
+    <string name="error_apn_empty">"APN boş olamaz."</string>
+    <string name="error_mcc_not3">"MCC alanı 3 haneli olmalıdır."</string>
+    <string name="error_mnc_not23">"MNC alanı 2 veya 3 haneli olmalıdır."</string>
+    <!-- no translation found for restore_default_apn (2724583218635739913) -->
+    <skip />
+    <!-- no translation found for menu_restore (8260067415075573273) -->
+    <skip />
+    <!-- no translation found for restore_default_apn_completed (3990449939234957281) -->
+    <skip />
+    <string name="master_clear_title">"Fabrika verilerini sıfırlama"</string>
+    <string name="master_clear_summary">"Telefondaki tüm verileri siler"</string>
+    <string name="master_clear_desc">"Bu eylem, tüm verileri ve indirilen uygulamaları silerek telefonu baştaki fabrika durumuna sıfırlayacak!"</string>
+    <string name="master_clear_button_text">"Telefonu sıfırla"</string>
+    <string name="master_clear_final_desc">"Telefon tüm verileriniz ve uygulamalarınız silinerek sıfırlansın mı? Eylem geri alınamaz!"</string>
+    <string name="master_clear_final_button_text">"Hepsini sil"</string>
+    <string name="master_clear_gesture_prompt">"Kilit açma deseninizi çizin"</string>
+    <string name="master_clear_gesture_explanation">"Telefon sıfırlamayı doğrulamak için kilit açma deseninizi çizmelisiniz."</string>
+    <string name="master_clear_failed">"Sistem Temizleme servisi kullanılamadığı için sıfırlama yapılmadı."</string>
+    <!-- no translation found for media_format_title (4671276096695789895) -->
+    <skip />
+    <!-- no translation found for media_format_summary (3805714639375830120) -->
+    <skip />
+    <!-- no translation found for media_format_desc (1142563222357820834) -->
+    <skip />
+    <!-- no translation found for media_format_button_text (370856400090190151) -->
+    <skip />
+    <!-- no translation found for media_format_final_desc (1776666694910717198) -->
+    <skip />
+    <!-- no translation found for media_format_final_button_text (4881713344315923175) -->
+    <skip />
+    <!-- no translation found for media_format_gesture_prompt (3109349468816856670) -->
+    <skip />
+    <!-- no translation found for media_format_gesture_explanation (4239529439389660159) -->
+    <skip />
+    <string name="call_settings_title">"Arama ayarları"</string>
+    <string name="call_settings_summary">"Sesli mesaj, arama iletme, arama bekletme, arayan kimliği öğelerini ayarla"</string>
+    <string name="network_settings_title">"Mobil ağlar"</string>
+    <string name="network_settings_summary">"Dolaşım, ağlar, APN\'ler için seçenekleri ayarla"</string>
+    <string name="location_title">"Konum kaynaklarım"</string>
+    <string name="location_network_based">"Kablosuz ağları kullan"</string>
+    <string name="location_networks_disabled">"Kablosuz ağları kullanan uygulamalardan (Maps gibi) konuma bak"</string>
+    <string name="location_neighborhood_level">"Konum Wi-Fi ve/veya mobil ağlar tarafından belirlendi"</string>
+    <string name="location_gps">"GPS uydularını etkinleştir"</string>
+    <string name="location_street_level">"Yer bulurken, cadde seviyesi olarak düzeltin (pil tasarrufunu devre dışı bırakın)"</string>
+    <string name="location_gps_disabled">"Cadde düzeyinde yer bulma (havanın açık olmasının yanı sıra daha fazla pil gücüne gereksinim duyar)"</string>
+    <!-- no translation found for location_warning_title (788624242969337259) -->
+    <skip />
+    <!-- no translation found for location_warning_message (2455390825908728808) -->
+    <skip />
+    <!-- no translation found for agree (6288718671527758326) -->
+    <skip />
+    <!-- no translation found for disagree (6221069272309799230) -->
+    <skip />
+    <string name="about_settings">"Telefon hakkında"</string>
+    <string name="about_settings_summary">"Yasal bilgiler, telefon durumu, yazılım sürümü öğelerini görüntüle"</string>
+    <string name="legal_information">"Yasal bilgiler"</string>
+    <string name="contributors_title">"Katılımcılar"</string>
+    <string name="copyright_title">"Telif Hakkı"</string>
+    <string name="license_title">"Lisans"</string>
+    <string name="terms_title">"Şartlar ve koşullar"</string>
+    <!-- no translation found for system_tutorial_list_item_title (4315834755909579018) -->
+    <skip />
+    <!-- no translation found for system_tutorial_list_item_summary (3861815254521030201) -->
+    <skip />
+    <string name="settings_license_activity_title">"Açık kaynak lisansları"</string>
+    <string name="settings_license_activity_unavailable">"Lisansları yüklerken bir sorun meydana geldi."</string>
+    <string name="settings_license_activity_loading">"Yükleniyor..."</string>
+    <string name="lock_settings_title">"Ekran kilidi açma deseni"</string>
+    <string name="lockpattern_change_lock_pattern_label">"Kilit açma desenini değiştir"</string>
+    <string name="lockpattern_need_to_unlock">"Kayıtlı deseni doğrula"</string>
+    <string name="lockpattern_need_to_unlock_wrong">"Maalesef, tekrar deneyin:"</string>
+    <string name="lockpattern_recording_intro_header">"Bir kilit açma deseni çizin"</string>
+    <string name="lockpattern_recording_intro_footer">"Yardım için Menü\'ye basın."</string>
+    <string name="lockpattern_recording_inprogress">"Bittiğinde parmağınızı bırakın."</string>
+    <string name="lockpattern_recording_incorrect_too_short">"En az <xliff:g id="NUMBER">%d</xliff:g> noktayı bağla. Tekrar dene:"</string>
+    <string name="lockpattern_pattern_entered_header">"Desen kaydedildi!"</string>
+    <string name="lockpattern_need_to_confirm">"Şunu doğrulamak için deseni tekrar çiz:"</string>
+    <string name="lockpattern_pattern_confirmed_header">"Yeni kilit açma deseniniz:"</string>
+    <string name="lockpattern_confirm_button_text">"Onayla"</string>
+    <string name="lockpattern_restart_button_text">"Tekrar çiz"</string>
+    <string name="lockpattern_retry_button_text">"Yeniden dene"</string>
+    <string name="lockpattern_continue_button_text">"Devam"</string>
+    <string name="lockpattern_settings_title">"Kilit açma deseni"</string>
+    <string name="lockpattern_settings_enable_title">"Desen iste"</string>
+    <string name="lockpattern_settings_enable_summary">"Ekran kilidini açmak için desen çizilmeli"</string>
+    <string name="lockpattern_settings_enable_visible_pattern_title">"Görünür desen kullan"</string>
+    <string name="lockpattern_settings_enable_tactile_feedback_title">"Dokunsal geribildirim kullan"</string>
+    <string name="lockpattern_settings_choose_lock_pattern">"Kilit açma desenini ayarla"</string>
+    <string name="lockpattern_settings_change_lock_pattern">"Kilit açma desenini değiştir"</string>
+    <string name="lockpattern_settings_help_how_to_record">"Kilit açma deseni nasıl çizilir?"</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_header">"Çok fazla hatalı deneme!"</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">"<xliff:g id="NUMBER">%d</xliff:g> saniye içinde tekrar deneyin."</string>
+    <string name="skip_button_label">"İptal"</string>
+    <string name="next_button_label">"İleri"</string>
+    <string name="lock_title">"Telefonunuzu güvenli hale getirin"</string>
+    <string name="lock_intro_message"><font size="17">"Kişisel bir ekran kilidi açma deseni ile telefonunuzun yetkiniz dışında kullanımını engelleyin. "\n<font height="17">\n</font><b>"1"</b>"  Ekranda, örnek desen çizilirken bekleyin. "\n<font height="17">\n</font><b>"2"</b>"  Hazır olduğunuzda, kendi kişisel kilit açma deseninizi çizin. Farklı desenler deneyin ancak en az dört noktayı birleştirmeniz gereklidir. "\n<font height="17">\n</font><b>"3"</b>"  Doğrulamak için deseninizi yeniden çizin. "\n<font height="17">\n</font><b>"Başlamaya hazır mısınız? “İleri”"</b>" seçeneğini belirleyin. "\n<font height="3">\n</font>"Telefonunuzu korunmasız bırakmak için  “İptal” seçeneğini belirleyin."</font></string>
+    <string name="lock_example_title">"Örnek desen"</string>
+    <string name="lock_example_message">"En az dört nokta bağlayın."\n" "\n"Kendi deseninizi çizmeye hazır olduğunuzda “İleri”yi seçin."</string>
+    <string name="manageapplications_settings_title">"Uygulamaları yönet"</string>
+    <!-- no translation found for manageapplications_settings_summary (6097117021500651232) -->
+    <skip />
+    <string name="applications_settings">"Uygulamalar"</string>
+    <string name="applications_settings_summary">"Uygulamaları yönet, hızlı başlatma kısayollarını ayarla"</string>
+    <string name="applications_settings_header">"Uygulama ayarları"</string>
+    <string name="install_applications">"Bilinmeyen kaynaklar"</string>
+    <string name="install_unknown_applications">"Piyasada bulunamayan uygulamaların yüklenmesine izin ver"</string>
+    <string name="install_all_warning">"Telefonunuz ve kişisel verileriniz bilinmeyen kaynaklardan gelen uygulamaların saldırısına karşı çok savunmasız. Bu uygulamaları kullanmanızdan oluşabilecek her tür telefon hasarından veya veri kaybından tamamen sorumlu olduğunuzu kabul etmiş olursunuz."</string>
+    <string name="application_info_label">"Uygulama bilgisi"</string>
+    <string name="storage_label">"Depolama"</string>
+    <string name="auto_launch_label">"Varsayılan ile başlat"</string>
+    <string name="permissions_label">"İzinler"</string>
+    <string name="cache_header_label">"Önbellek"</string>
+    <string name="clear_cache_btn_text">"Önbelleği temizle"</string>
+    <string name="cache_size_label">"Önbellek"</string>
+    <!-- no translation found for controls_label (7611113077086853799) -->
+    <skip />
+    <!-- no translation found for force_stop (7435006169872876756) -->
+    <skip />
+    <string name="total_size_label">"Toplam"</string>
+    <string name="application_size_label">"Uygulama"</string>
+    <string name="data_size_label">"Veri"</string>
+    <string name="uninstall_text">"Kaldır"</string>
+    <string name="clear_user_data_text">"Verileri sil"</string>
+    <string name="auto_launch_enable_text">"Bu uygulamayı bazı eylemler için varsayılan olarak başlatmayı seçtiniz."</string>
+    <string name="auto_launch_disable_text">"Varsayılan ayar yok."</string>
+    <string name="clear_activities">"Varsayılanları sil"</string>
+    <string name="unknown">"Bilinmiyor"</string>
+    <string name="sort_order_alpha">"Sırala"</string>
+    <string name="sort_order_size">"Boyuta göre sırala"</string>
+    <string name="manage_space_text">"Alanı yönet"</string>
+    <!-- no translation found for filter (2018011724373033887) -->
+    <skip />
+    <!-- no translation found for filter_dlg_title (6507663329723966854) -->
+    <skip />
+    <string name="filter_apps_all">"Tümü"</string>
+    <string name="filter_apps_third_party">"Üçüncü taraf"</string>
+    <string name="filter_apps_running">"Çalışıyor"</string>
+    <string name="loading">"Yükleniyor..."</string>
+    <string name="recompute_size">"Boyut tekrar hesaplanıyor..."</string>
+    <string name="clear_data_dlg_title">"Sil"</string>
+    <string name="clear_data_dlg_text">"Bu uygulama içerisine kaydettiğiniz tüm bilgiler kalıcı olarak silinecek."</string>
+    <string name="dlg_ok">"Tamam"</string>
+    <string name="dlg_cancel">"İptal"</string>
+    <string name="app_not_found_dlg_title">"Uygulama bulunamadı"</string>
+    <string name="app_not_found_dlg_text">"Uygulama yüklenmiş uygulamalar listesinde bulunamadı."</string>
+    <string name="clear_data_failed">"Uygulama verileri silinemiyor."</string>
+    <string name="security_settings_desc">"Bu uygulama telefonunuzdan aşağıdakilere erişebilir:"</string>
+    <!-- no translation found for computing_size (1599186977475211186) -->
+    <skip />
+    <string name="invalid_size_value">"Paket boyutu hesaplanamıyor"</string>
+    <string name="empty_list_msg">"Yüklenmiş herhangi bir üçüncü taraf uygulamasına sahip değilsiniz."</string>
+    <string name="language_settings">"Yerel bilgiler &amp; metin"</string>
+    <string name="language_settings_summary">"Yerel bilgileri (dil ve bölge), metin girişi ve otomatik düzeltme seçeneklerini ayarlayın"</string>
+    <string name="language_category">"Yerel ayar"</string>
+    <string name="text_category">"Metin ayarları"</string>
+    <string name="phone_language">"Yerel bilgileri seç"</string>
+    <!-- no translation found for phone_language_summary (1809580675831352352) -->
+    <skip />
+    <string name="auto_replace">"Otomatik değiştir"</string>
+    <string name="auto_replace_summary">"Hatalı yazılmış sözcükleri düzelt"</string>
+    <string name="auto_caps">"Otomatik büyük harf"</string>
+    <string name="auto_caps_summary">"Cümlelerde ilk harfi büyük yap"</string>
+    <string name="auto_punctuate">"Otomatik noktalama"</string>
+    <!-- no translation found for hardkeyboard_category (5957168411305769899) -->
+    <skip />
+    <string name="auto_punctuate_summary">"\".\" eklemek için Boşluk tuşuna iki kez basın"</string>
+    <string name="show_password">"Görünen şifreler"</string>
+    <string name="show_password_summary">"Yazdığınız şifreyi göstersin"</string>
+    <!-- no translation found for ime_security_warning (3458652708716006477) -->
+    <skip />
+    <!-- no translation found for user_dict_settings_titlebar (765659257455000490) -->
+    <skip />
+    <!-- no translation found for user_dict_settings_title (8357027437499042191) -->
+    <skip />
+    <!-- no translation found for user_dict_settings_summary (2460427065601355471) -->
+    <skip />
+    <!-- no translation found for user_dict_settings_add_menu_title (4056762757149923551) -->
+    <skip />
+    <!-- no translation found for user_dict_settings_add_dialog_title (4702613990174126482) -->
+    <skip />
+    <!-- no translation found for user_dict_settings_edit_dialog_title (8967476444840548674) -->
+    <skip />
+    <!-- no translation found for user_dict_settings_context_menu_edit_title (2210564879320004837) -->
+    <skip />
+    <!-- no translation found for user_dict_settings_context_menu_delete_title (9140703913776549054) -->
+    <skip />
+    <!-- no translation found for user_dict_settings_empty_text (6209268025109242806) -->
+    <skip />
+    <string name="testing">"Test etme"</string>
+    <string name="testing_phone_info">"Telefon bilgileri"</string>
+    <string name="testing_battery_info">"Pil bilgileri"</string>
+    <!-- no translation found for testing_battery_history (3043329445810695647) -->
+    <skip />
+    <string name="quick_launch_title">"Hızlı başlat"</string>
+    <string name="quick_launch_summary">"Uygulamaları başlatan tuş takımı kısayollarını ayarla"</string>
+    <string name="quick_launch_assign_application">"Uygulama ata"</string>
+    <string name="quick_launch_no_shortcut">"Kısayol yok"</string>
+    <string name="quick_launch_shortcut">"Ara + <xliff:g id="SHORTCUT_LETTER">%1$s</xliff:g>"</string>
+    <string name="quick_launch_clear_dialog_title">"Temizle"</string>
+    <string name="quick_launch_clear_dialog_message">"<xliff:g id="SHORTCUT_LETTER">%1$s</xliff:g> (<xliff:g id="APPLICATION_NAME">%2$s</xliff:g>) kısayolunuz silinecek."</string>
+    <string name="quick_launch_clear_ok_button">"Tamam"</string>
+    <string name="quick_launch_clear_cancel_button">"İptal"</string>
+    <string name="quick_launch_display_mode_applications">"Uygulamalar"</string>
+    <string name="quick_launch_display_mode_shortcuts">"Kısayollar"</string>
+    <string name="input_methods_settings_title">"Metin girişi"</string>
+    <string name="input_methods_settings_summary">"Metin girişi seçeneklerini yönet"</string>
+    <!-- no translation found for input_methods_settings_label_format (6002887604815693322) -->
+    <skip />
+    <!-- no translation found for onscreen_keyboard_settings_summary (4919680715154885028) -->
+    <skip />
+    <!-- no translation found for builtin_keyboard_settings_title (8169889453770863227) -->
+    <skip />
+    <!-- no translation found for builtin_keyboard_settings_summary (6404687907454621637) -->
+    <skip />
+    <string name="development_settings_title">"Geliştirme"</string>
+    <string name="development_settings_summary">"Uygulama geliştirme seçeneklerini ayarla"</string>
+    <string name="enable_adb">"USB hata ayıklama"</string>
+    <string name="enable_adb_summary">"USB bağlıyken hata ayıklama modu"</string>
+    <string name="keep_screen_on">"Uyanık kal"</string>
+    <string name="keep_screen_on_summary">"Şarj olurken ekran asla uyku moduna geçmeyecek"</string>
+    <string name="allow_mock_location">"Taklit konumlara izin ver"</string>
+    <string name="allow_mock_location_summary">"Taklit konumlara izin ver"</string>
+    <!-- no translation found for gadget_picker_title (98374951396755811) -->
+    <skip />
+    <!-- no translation found for widget_picker_title (9130684134213467557) -->
+    <skip />
+    <!-- no translation found for battery_history_details_for (5189636461798594740) -->
+    <skip />
+    <!-- no translation found for battery_history_uid (1016606150528436298) -->
+    <skip />
+    <!-- no translation found for battery_history_network_usage (8010852371665217020) -->
+    <skip />
+    <!-- no translation found for battery_history_bytes_received (980307569180518302) -->
+    <skip />
+    <!-- no translation found for battery_history_bytes_sent (2501748768602119159) -->
+    <skip />
+    <!-- no translation found for battery_history_bytes_total (4444807574361642753) -->
+    <skip />
+    <!-- no translation found for battery_history_cpu_usage (2597353713014790877) -->
+    <skip />
+    <!-- no translation found for battery_history_user_time (6227507614894791359) -->
+    <skip />
+    <!-- no translation found for battery_history_system_time (2015862072724507547) -->
+    <skip />
+    <!-- no translation found for battery_history_total_time (3618703970098556104) -->
+    <skip />
+    <!-- no translation found for battery_history_starts (9137453931978571696) -->
+    <skip />
+    <!-- no translation found for battery_history_days (6387593985264923377) -->
+    <skip />
+    <!-- no translation found for battery_history_hours (2593055276272350197) -->
+    <skip />
+    <!-- no translation found for battery_history_minutes (5608990219891318138) -->
+    <skip />
+    <!-- no translation found for battery_history_seconds (7397664460929461350) -->
+    <skip />
+    <!-- no translation found for battery_history_packages_sharing_this_uid (4101596071379250050) -->
+    <skip />
+    <!-- no translation found for battery_history_no_data (1177238743237067617) -->
+    <skip />
+    <!-- no translation found for battery_history_sensor (2333488996028993982) -->
+    <skip />
+    <!-- no translation found for battery_history_wakelock (608683447522396293) -->
+    <skip />
+    <!-- no translation found for battery_history_used_by_packages (3000711380023436470) -->
+    <skip />
+    <!-- no translation found for battery_history_sensor_usage (3593133338613209024) -->
+    <skip />
+    <!-- no translation found for battery_history_sensor_usage_multi (4536084375991014508) -->
+    <skip />
+    <!-- no translation found for battery_history_awake_label (8449792868990080882) -->
+    <skip />
+    <!-- no translation found for battery_history_screen_on_label (1848936521786339362) -->
+    <skip />
+    <!-- no translation found for battery_history_phone_on_label (700191958853142297) -->
+    <skip />
+    <!-- no translation found for battery_history_awake (4350886665719031057) -->
+    <skip />
+    <!-- no translation found for battery_history_screen_on (1377240025275657277) -->
+    <skip />
+    <!-- no translation found for battery_history_phone_on (4891504401623839532) -->
+    <skip />
+    <!-- no translation found for battery_history_screen_on_battery (536058210445081888) -->
+    <skip />
+    <!-- no translation found for battery_history_screen_on_plugged (5019127390021871260) -->
+    <skip />
+    <!-- no translation found for usage_stats_label (5890846333487083609) -->
+    <skip />
+    <!-- no translation found for testing_usage_stats (7823048598893937339) -->
+    <skip />
+    <!-- no translation found for display_order_text (8592776965827565271) -->
+    <skip />
+    <!-- no translation found for app_name_label (2000949925256858308) -->
+    <skip />
+    <!-- no translation found for launch_count_label (4019444833263957024) -->
+    <skip />
+    <!-- no translation found for usage_time_label (295954901452833058) -->
+    <skip />
+</resources>
