@@ -36,14 +36,14 @@
     <item>"自动"</item>
     <item>"无"</item>
     <item>"WEP"</item>
-    <item>"WPA（个人）"</item>
-    <item>"WPA2（个人）"</item>
+    <item>"WPA Personal"</item>
+    <item>"WPA2 Personal"</item>
   </string-array>
   <string-array name="wifi_security_without_auto_entries">
     <item>"无"</item>
     <item>"WEP"</item>
-    <item>"WPA（个人）"</item>
-    <item>"WPA2（个人）"</item>
+    <item>"WPA Personal"</item>
+    <item>"WPA2 Personal"</item>
   </string-array>
   <string-array name="wifi_wep_type">
     <item>"自动"</item>
