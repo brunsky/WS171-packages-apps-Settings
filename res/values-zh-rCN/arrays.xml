@@ -51,9 +51,9 @@
     <item>"WEP 十六进制"</item>
   </string-array>
   <string-array name="wifi_sleep_policy_entries">
-    <item>"当屏幕关闭时"</item>
-    <item>"插入后从不进入休眠状态"</item>
-    <item>"从不"</item>
+    <item>"屏幕关闭时休眠"</item>
+    <item>"充电时永不休眠"</item>
+    <item>"永不休眠"</item>
   </string-array>
   <string-array name="battery_history_type_spinner">
     <item>"CPU 使用率"</item>

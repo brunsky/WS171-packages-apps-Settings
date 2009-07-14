@@ -139,7 +139,7 @@
     <string name="radio_info_call_redirect_label">"Çağrı yeniden yönlendir:"</string>
     <string name="radio_info_ppp_resets_label">"Açılıştan bu yana PPP sıfırlaması sayısı:"</string>
     <string name="radio_info_gsm_disconnects_label">"GSM bağlantı kesmeleri:"</string>
-    <string name="radio_info_current_network_label">"Geçerli şebeke:"</string>
+    <string name="radio_info_current_network_label">"Geçerli ağ:"</string>
     <string name="radio_info_data_successes_label">"Veri başarıları:"</string>
     <string name="radio_info_ppp_received_label">"Alınan PPP:"</string>
     <string name="radio_info_gsm_service_label">"GSM hizmeti:"</string>
@@ -150,7 +150,7 @@
     <string name="radio_info_message_waiting_label">"Mesaj bekliyor:"</string>
     <string name="radio_info_phone_number_label">"Telefon numarası:"</string>
     <string name="radio_info_band_mode_label">"Radyo bandını seç"</string>
-    <string name="radio_info_network_type_label">"Şebeke türü:"</string>
+    <string name="radio_info_network_type_label">"Ağ türü:"</string>
     <string name="radio_info_set_perferred_label">"Tercih edilen şebeke türünü ayarla:"</string>
     <string name="radio_info_ping_ipaddr">"Ping IpAddr:"</string>
     <string name="radio_info_ping_hostname">"Ping Ana Makine Adı (www.google.com.tr):"</string>
@@ -195,12 +195,12 @@
     <string name="airplane_mode_turning_on">"Kablosuz bağlantılar devre dışı bırakılıyor…"</string>
     <string name="airplane_mode_turning_off">"Kablosuz bağlantılar etkinleştiriliyor…"</string>
     <string name="radio_controls_title">"Kablosuz denetimler"</string>
-    <string name="radio_controls_summary">"Kablosuzu, Bluetooth\'u, uçak modunu ve mobil şebekeleri yönet"</string>
+    <string name="radio_controls_summary">"Kablosuzu, Bluetooth\'u, uçak modunu ve mobil ağları yönet"</string>
     <string name="date_and_time_settings_title">"Tarih ve saat"</string>
     <string name="date_and_time_settings_summary">"Tarihi, saati, saat dilimini ve biçimleri ayarla"</string>
     <string name="date_time_auto">"Otomatik"</string>
-    <string name="date_time_auto_summaryOn">"Şebekenin sağladığı değerleri kullan"</string>
-    <string name="date_time_auto_summaryOff">"Şebekenin sağladığı değerleri kullan"</string>
+    <string name="date_time_auto_summaryOn">"Ağın sağladığı değerleri kullan"</string>
+    <string name="date_time_auto_summaryOff">"Ağın sağladığı değerleri kullan"</string>
     <string name="date_time_24hour">"24 saat biçimini kullan"</string>
     <string name="date_time_set_time">"Saati ayarla"</string>
     <string name="date_time_set_timezone">"Saat dilimini seç"</string>
@@ -274,11 +274,11 @@
     <string name="wifi_error">"Hata"</string>
     <string name="error_starting">"Kablosuz başlatılamıyor"</string>
     <string name="error_stopping">"Kablosuz durdurulamıyor"</string>
-    <string name="error_scanning">"Şebeke aranamıyor"</string>
-    <string name="error_connecting">"Şebekeye bağlanılamıyor"</string>
-    <string name="error_saving">"Şebeke kaydedilemiyor"</string>
+    <string name="error_scanning">"Ağ aranamıyor"</string>
+    <string name="error_connecting">"Ağa bağlanılamıyor"</string>
+    <string name="error_saving">"Ağ kaydedilemiyor"</string>
     <string name="connect">"Bağlan"</string>
-    <string name="connect_to_blank">"<xliff:g id="NETWORK_NAME">%1$s</xliff:g> şebekesine bağlan"</string>
+    <string name="connect_to_blank">"<xliff:g id="NETWORK_NAME">%1$s</xliff:g> ağına bağlan"</string>
     <string name="please_type_passphrase">"Kablosuz şifresi"</string>
     <string name="please_type_hex_key">"Onaltılık WEP anahtarı (0-9, A-F)"</string>
     <string name="wifi_show_password">"Şifreyi göster."</string>
@@ -286,16 +286,16 @@
     <string name="summary_not_in_range">"Menzil dışında"</string>
     <string name="summary_remembered">"Anımsandı"</string>
     <string name="summary_connection_failed">"Bağlantı kurulamadı, yeniden denemek için seçin"</string>
-    <string name="wifi_access_points">"Kablosuz şebekeler"</string>
-    <string name="wifi_type_ssid">"Şebeke SSID\'si"</string>
+    <string name="wifi_access_points">"Kablosuz ağlar"</string>
+    <string name="wifi_type_ssid">"Ağ SSID\'si"</string>
     <string name="wifi_security">"Güvenlik"</string>
     <string name="wifi_save_config">"Kaydet"</string>
     <string name="wifi_password_unchanged">"(değişmedi)"</string>
-    <string name="wifi_add_other_network">"Kablosuz şebeke ekle"</string>
-    <string name="wifi_notify_open_networks">"Şebeke bildirimi"</string>
+    <string name="wifi_add_other_network">"Kablosuz ağ ekle"</string>
+    <string name="wifi_notify_open_networks">"Ağ bildirimi"</string>
     <string name="wifi_notify_open_networks_summary">"Açık bir ağ kullanılabilir olduğunda bana bildir"</string>
-    <string name="wifi_password_incorrect_error">"Yazdığınız şebeke şifresi doğru değil. Lütfen yeniden deneyin."</string>
-    <string name="wifi_generic_connection_error">"Şebekeye bağlanırken bir sorun oluştu. Lütfen yeniden deneyin."</string>
+    <string name="wifi_password_incorrect_error">"Yazdığınız ağ şifresi doğru değil. Lütfen yeniden deneyin."</string>
+    <string name="wifi_generic_connection_error">"Ağa bağlanırken bir sorun oluştu. Lütfen yeniden deneyin."</string>
     <string name="wifi_menu_advanced">"Gelişmiş"</string>
     <string name="wifi_ip_settings_titlebar">"IP ayarları"</string>
     <string name="wifi_ip_settings_menu_save">"Kaydet"</string>
@@ -308,7 +308,7 @@
     <string name="wifi_gateway">"Geçit"</string>
     <string name="wifi_netmask">"Ağ maskesi"</string>
     <string name="wifi_context_menu_connect">"Şebekeye bağlan"</string>
-    <string name="wifi_context_menu_forget">"Şebekeyi unut"</string>
+    <string name="wifi_context_menu_forget">"Ağı unut"</string>
     <string name="wifi_context_menu_change_password">"Şifreyi değiştir"</string>
     <string name="wifi_advanced_titlebar">"Gelişmiş"</string>
     <string name="wifi_setting_num_channels_title">"Denetleme alan adı"</string>
@@ -320,10 +320,10 @@
     <string name="wifi_setting_sleep_policy_error">"Uyku politikası ayarlanırken bir sorun oluştu."</string>
     <string name="wifi_advanced_mac_address_title">"MAC adresi"</string>
     <string name="fragment_status_scanning">"Taranıyor…"</string>
-    <string name="fragment_status_connecting">"<xliff:g id="NETWORK_NAME">%1$s</xliff:g> şebekesine bağlanılıyor…"</string>
+    <string name="fragment_status_connecting">"<xliff:g id="NETWORK_NAME">%1$s</xliff:g> ağına bağlanılıyor…"</string>
     <string name="fragment_status_authenticating">"<xliff:g id="NETWORK_NAME">%1$s</xliff:g> üzerinde kimlik doğrulanıyor…"</string>
     <string name="fragment_status_obtaining_ip">"<xliff:g id="NETWORK_NAME">%1$s</xliff:g> ağından IP adresi alınıyor…"</string>
-    <string name="fragment_status_connected">"<xliff:g id="NETWORK_NAME">%1$s</xliff:g> şebekesine bağlandı"</string>
+    <string name="fragment_status_connected">"<xliff:g id="NETWORK_NAME">%1$s</xliff:g> ağına bağlandı"</string>
     <string name="fragment_status_disconnecting">"<xliff:g id="NETWORK_NAME">%1$s</xliff:g> bağlantısı kesiliyor…"</string>
     <string name="fragment_status_disconnected">"Bağlantı kesildi"</string>
     <string name="fragment_status_failed">"Başarısız"</string>
@@ -413,12 +413,12 @@
     <string name="storage_settings_title">"SD kart ve telefon depolama alanı"</string>
     <string name="storage_settings_summary">"SD kartın bağlantısını kes, kullanılabilir depolama alanını görüntüle"</string>
     <string name="status_number">"Telefon numarası"</string>
-    <string name="status_network_type">"Mobil şebeke türü"</string>
-    <string name="status_data_state">"Mobil şebeke durumu"</string>
+    <string name="status_network_type">"Mobil ağ türü"</string>
+    <string name="status_data_state">"Mobil ağ durumu"</string>
     <string name="status_service_state">"Hizmet durumu"</string>
     <string name="status_signal_strength">"Sinyal gücü"</string>
     <string name="status_roaming">"Dolaşım"</string>
-    <string name="status_operator">"Şebeke"</string>
+    <string name="status_operator">"Ağ"</string>
     <string name="status_wifi_mac_address">"Kablosuz MAC adresi"</string>
     <string name="status_bt_address">"Bluetooth adresi"</string>
     <string name="status_unavailable">"Kullanılamıyor"</string>
@@ -483,15 +483,15 @@
     <string name="media_format_gesture_explanation">"Bir SD kart biçimini onaylamak için kilit açma deseninizi çizmelisiniz."</string>
     <string name="call_settings_title">"Çağrı ayarları"</string>
     <string name="call_settings_summary">"Sesli mesajları, çağrı yönlendirmeyi, çağrı bekletmeyi, arayan kimliğini ayarla"</string>
-    <string name="network_settings_title">"Mobil şebekeler"</string>
+    <string name="network_settings_title">"Mobil ağlar"</string>
     <string name="network_settings_summary">"Dolaşım, şebeke, APN seçeneklerini ayarla"</string>
     <string name="location_title">"Konumum kaynakları"</string>
     <string name="location_network_based">"Kablosuz ağ kullan"</string>
-    <string name="location_networks_disabled">"Konumu, kablosuz şebekeler kullanan (Google Haritalar gibi) uygulamalarda gör"</string>
-    <string name="location_neighborhood_level">"Konum kablosuz ve/veya cep telefonu şebekeleri tarafından belirlenir"</string>
+    <string name="location_networks_disabled">"Konumu, kablosuz ağlar kullanan (Google Haritalar gibi) uygulamalarda gör"</string>
+    <string name="location_neighborhood_level">"Konum kablosuz ve/veya cep telefonu ağları tarafından belirlenir"</string>
     <string name="location_gps">"GPS uydularını etkinleştir"</string>
     <string name="location_street_level">"Yer bulunurken sokak düzeyinde kesinlik (pilden tasarruf etmek için seçimi kaldırın)"</string>
-    <string name="location_gps_disabled">"Sokak düzeyinde yer bul (daha fazla pil, artı gökyüzü görünümü gerektirir)"</string>
+    <string name="location_gps_disabled">"Sokak düzeyinde yer bul (daha fazla pil ve gökyüzü görünümü gerektirir)"</string>
     <string name="location_warning_title">"Konum onayı"</string>
     <string name="location_warning_message">"Google\'ın konum hizmetinin anonim ve toplu konum verilerini toplamasına izin ver. Veri toplama, herhangi bir uygulamanın etkin olmasından bağımsız olarak gerçekleşir."</string>
     <string name="agree">"Kabul ediyorum"</string>
@@ -546,7 +546,7 @@
     <string name="applications_settings_header">"Uygulama ayarları"</string>
     <string name="install_applications">"Bilinmeyen kaynaklar"</string>
     <string name="install_unknown_applications">"Market dışı uygulamaların yüklenmesine izin ver"</string>
-    <string name="install_all_warning">"Telefonunuz ve kişisel verileriniz, bilinmeyen kaynaklardan gelen uygulamaların saldırılarına karşı daha savunmasız durumdadır. Bu uygulamaları kullanmanız sonucunda telefonunuzun başına gelebilecek her tür hasardan ve veri kaybından tarafınızın sorumlu olduğunu kabul edersiniz."</string>
+    <string name="install_all_warning">"Telefonunuz ve kişisel verileriniz, bilinmeyen kaynaklardan gelen uygulamaların saldırılarına karşı daha savunmasızdır. Bu uygulamaları kullanmanız sonucunda telefonunuzun başına gelebilecek her tür hasardan ve veri kaybından tarafınızın sorumlu olduğunu kabul edersiniz."</string>
     <string name="application_info_label">"Uygulama bilgileri"</string>
     <string name="storage_label">"Depolama"</string>
     <string name="auto_launch_label">"Varsayılan olarak başlat"</string>
@@ -598,7 +598,7 @@
     <string name="auto_caps_summary">"Cümlelerin ilk harfini büyük yap"</string>
     <string name="auto_punctuate">"Otomatik noktalama"</string>
     <string name="hardkeyboard_category">"Fiziksel klavye ayarları"</string>
-    <string name="auto_punctuate_summary">"\".\" karakterini girmek için Space tuşuna iki kez basın"</string>
+    <string name="auto_punctuate_summary">"“.” karakterini girmek için Boşluk tuşuna iki kez basın"</string>
     <string name="show_password">"Görünür şifreler"</string>
     <string name="show_password_summary">"Yazarken şifreyi göster"</string>
     <string name="ime_security_warning">"Bu giriş yöntemi, şifre ve kredi kartı numarası gibi kişisel veriler dahil olmak üzere yazdığınız tüm metni toplayabilir. <xliff:g id="IME_APPLICATION_NAME">%1$s</xliff:g> uygulamasından gelir. Bu giriş yöntemi etkinleştirilsin mi?"</string>
@@ -615,7 +615,7 @@
     <string name="testing_phone_info">"Telefon bilgileri"</string>
     <string name="testing_battery_info">"Pil bilgileri"</string>
     <string name="testing_battery_history">"Pil geçmişi"</string>
-    <string name="quick_launch_title">"Hızlı başlatma"</string>
+    <string name="quick_launch_title">"Hızlı başlat"</string>
     <string name="quick_launch_summary">"Uygulama başlatma klavye kısayollarını ayarla"</string>
     <string name="quick_launch_assign_application">"Uygulama ata"</string>
     <string name="quick_launch_no_shortcut">"Kısayol yok"</string>

@@ -105,7 +105,7 @@
     <string name="bluetooth_notif_title">"Vinculando solicitud"</string>
     <string name="bluetooth_notif_message">"Seleccionar para vincularse con "</string>
     <string name="date_and_time">"Configuración de fecha y hora"</string>
-    <string name="date_time_12_hour_sample">"1:00 p.m."</string>
+    <string name="date_time_12_hour_sample">"1:00 p. m."</string>
     <string name="date_time_24_hour_sample">"13:00"</string>
     <string name="date_time_changeTime_text">"Cambiar hora"</string>
     <string name="date_time_changeDate_text">"Fecha"</string>
@@ -346,7 +346,7 @@
     <string name="ring_volume_title">"Volumen del timbre"</string>
     <string name="ring_volume_summary">"Establecer el volumen para las llamadas entrantes y notificaciones"</string>
     <string name="vibrate_title">"Vibración del teléfono"</string>
-    <string name="vibrate_summary">"Hacer vibrar al teléfono para las llamadas entrantes"</string>
+    <string name="vibrate_summary">"Hacer vibrar el teléfono para las llamadas entrantes"</string>
     <string name="notification_sound_title">"Tono de llamada de notificación"</string>
     <string name="notification_sound_summary">"Establecer tono predeterminado de llamada de notificación"</string>
     <string name="incoming_call_volume_title">"Volumen de llamada entrante"</string>
@@ -600,7 +600,7 @@
     <string name="hardkeyboard_category">"Configuración de teclado físico"</string>
     <string name="auto_punctuate_summary">"Presionar la tecla de espacio dos veces para insertar \".\""</string>
     <string name="show_password">"Contraseñas visibles"</string>
-    <string name="show_password_summary">"Mostrar contraseña cuando escribas"</string>
+    <string name="show_password_summary">"Mostrar contraseña mientras escribe"</string>
     <string name="ime_security_warning">"El método de entrada puede recopilar todo el texto que escribas, incluidos los datos personales como contraseñas y números de tarjetas de crédito. Proviene de la aplicación <xliff:g id="IME_APPLICATION_NAME">%1$s</xliff:g>. ¿Deseas activar este método de entrada?"</string>
     <string name="user_dict_settings_titlebar">"Diccionario del usuario"</string>
     <string name="user_dict_settings_title">"Diccionario del usuario"</string>

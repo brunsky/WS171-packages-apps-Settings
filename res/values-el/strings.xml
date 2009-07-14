@@ -543,7 +543,7 @@
     <string name="manageapplications_settings_summary">"Διαχείριση και κατάργηση εγκατεστημένων εφαρμογών"</string>
     <string name="applications_settings">"Εφαρμογές"</string>
     <string name="applications_settings_summary">"Διαχείριση εφαρμογών, ορισμός συντομεύσεων γρήγορης εκκίνησης"</string>
-    <string name="applications_settings_header">"Ρυθμίσεις εφαρμογής"</string>
+    <string name="applications_settings_header">"Ρυθμίσεις εφαρμογών"</string>
     <string name="install_applications">"Άγνωστες πηγές"</string>
     <string name="install_unknown_applications">"Επιτρέπει την εγκατάσταση εφαρμογών που δεν βρίσκονται στο Android Market"</string>
     <string name="install_all_warning">"Το τηλέφωνό σας και τα προσωπικά δεδομένα σας είναι ευάλωτα σε επιθέσεις από εφαρμογές που προέρχονται από άγνωστες πηγές. Συμφωνείτε ότι είστε οι μοναδικοί υπεύθυνοι για κάθε ζημιά στο τηλέφωνο ή για απώλεια δεδομένων που ενδέχεται να προκύψουν από τη χρήση τέτοιων εφαρμογών."</string>

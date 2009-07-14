@@ -190,12 +190,12 @@
     <string name="proxy_settings_label">"프록시 설정"</string>
     <string name="cancel">"취소"</string>
     <string name="settings_label">"설정"</string>
-    <string name="airplane_mode">"비행기 모드"</string>
+    <string name="airplane_mode">"비행 모드"</string>
     <string name="airplane_mode_summary">"모든 무선 연결 사용 안함"</string>
     <string name="airplane_mode_turning_on">"무선 연결을 끊는 중..."</string>
     <string name="airplane_mode_turning_off">"무선 연결 사용 중..."</string>
     <string name="radio_controls_title">"무선 제어"</string>
-    <string name="radio_controls_summary">"Wi-Fi, Bluetooth, 비행기 모드 및 모바일 네트워크 관리"</string>
+    <string name="radio_controls_summary">"Wi-Fi, Bluetooth, 비행 모드 및 모바일 네트워크 관리"</string>
     <string name="date_and_time_settings_title">"날짜 및 시간"</string>
     <string name="date_and_time_settings_summary">"날짜, 시간, 표준시간대 및 형식 설정"</string>
     <string name="date_time_auto">"자동"</string>
@@ -527,7 +527,7 @@
     <string name="lockpattern_settings_enable_title">"패턴 필요"</string>
     <string name="lockpattern_settings_enable_summary">"화면 잠금을 해제하려면 패턴을 그려야 함"</string>
     <string name="lockpattern_settings_enable_visible_pattern_title">"패턴 표시"</string>
-    <string name="lockpattern_settings_enable_tactile_feedback_title">"느낌에 관한 의견 수집"</string>
+    <string name="lockpattern_settings_enable_tactile_feedback_title">"의견 수집"</string>
     <string name="lockpattern_settings_choose_lock_pattern">"잠금해제 패턴 설정"</string>
     <string name="lockpattern_settings_change_lock_pattern">"잠금해제 패턴 변경"</string>
     <string name="lockpattern_settings_help_how_to_record">"잠금해제 패턴을 그리는 방법"</string>

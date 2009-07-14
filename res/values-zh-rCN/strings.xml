@@ -28,7 +28,7 @@
     <string name="radioInfo_menu_disableData">"停用数据连接"</string>
     <string name="radioInfo_menu_enableDataOnBoot">"启动时启用数据"</string>
     <string name="radioInfo_menu_disableDataOnBoot">"启动时停用数据"</string>
-    <string name="radioInfo_service_in">"在使用中"</string>
+    <string name="radioInfo_service_in">"正在使用中"</string>
     <string name="radioInfo_service_out">"不在服务区"</string>
     <string name="radioInfo_service_emergency">"仅限于紧急电话"</string>
     <string name="radioInfo_service_off">"关闭收音机"</string>
@@ -126,10 +126,10 @@
     <string name="proxy_hostname_label">"主机名"</string>
     <string name="proxy_error">"注意"</string>
     <string name="proxy_error_dismiss">"确定"</string>
-    <string name="proxy_error_invalid_host">"您键入的主机名无效。"</string>
+    <string name="proxy_error_invalid_host">"您输入的主机名无效。"</string>
     <string name="proxy_error_empty_port">"您必须填写端口字段。"</string>
     <string name="proxy_error_empty_host_set_port">"如果主机字段为空，则端口字段必须为空。"</string>
-    <string name="proxy_error_invalid_port">"您键入的端口无效。"</string>
+    <string name="proxy_error_invalid_port">"您输入的端口无效。"</string>
     <string name="radio_info_signal_location_label">"位置："</string>
     <string name="radio_info_neighboring_location_label">"相邻的 CID："</string>
     <string name="radio_info_data_attempts_label">"数据尝试次数："</string>
@@ -218,10 +218,10 @@
     <string name="bluetooth_settings_summary">"管理连接，设置设备名称和可检测性"</string>
     <string name="bluetooth_pin_entry">"蓝牙配对请求"</string>
     <string name="bluetooth_device_info">"蓝牙设备信息"</string>
-    <string name="bluetooth_enter_pin_msg">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>"\n\n"键入 PIN 进行配对。"\n"（尝试一下 0000 或 1234。）"</string>
+    <string name="bluetooth_enter_pin_msg">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>"\n\n"输入 PIN 进行配对。"\n"（尝试一下 0000 或 1234。）"</string>
     <string name="bluetooth_error_title">"注意"</string>
     <string name="bluetooth_pairing_error_message">"与<xliff:g id="DEVICE_NAME">%1$s</xliff:g>配对时出现问题。"</string>
-    <string name="bluetooth_pairing_pin_error_message">"与<xliff:g id="DEVICE_NAME">%1$s</xliff:g>配对时出现问题，因为键入的 PIN 不正确。"</string>
+    <string name="bluetooth_pairing_pin_error_message">"与<xliff:g id="DEVICE_NAME">%1$s</xliff:g>配对时出现问题，因为输入的 PIN 不正确。"</string>
     <string name="bluetooth_connecting_error_message">"连接到<xliff:g id="DEVICE_NAME">%1$s</xliff:g>时出现问题。"</string>
     <string name="bluetooth_preference_scan_title">"扫描查找设备"</string>
     <string name="bluetooth_device_context_connect">"连接"</string>
@@ -294,26 +294,26 @@
     <string name="wifi_add_other_network">"添加 Wi-Fi 网络"</string>
     <string name="wifi_notify_open_networks">"网络通知"</string>
     <string name="wifi_notify_open_networks_summary">"开放网络可用时通知我"</string>
-    <string name="wifi_password_incorrect_error">"您键入的网络密码不正确，请重试。"</string>
+    <string name="wifi_password_incorrect_error">"您输入的网络密码不正确，请重试。"</string>
     <string name="wifi_generic_connection_error">"连接网络时出现问题，请重试。"</string>
     <string name="wifi_menu_advanced">"高级"</string>
     <string name="wifi_ip_settings_titlebar">"IP 设置"</string>
     <string name="wifi_ip_settings_menu_save">"保存"</string>
     <string name="wifi_ip_settings_menu_cancel">"取消"</string>
-    <string name="wifi_ip_settings_invalid_ip">"请键入有效的 IP 地址。"</string>
+    <string name="wifi_ip_settings_invalid_ip">"请输入有效的 IP 地址。"</string>
     <string name="wifi_use_static_ip">"使用静态 IP"</string>
     <string name="wifi_ip_address">"IP 地址"</string>
-    <string name="wifi_dns1">"DNS 1"</string>
-    <string name="wifi_dns2">"DNS 2"</string>
+    <string name="wifi_dns1">"域名 1"</string>
+    <string name="wifi_dns2">"域名 2"</string>
     <string name="wifi_gateway">"网关"</string>
     <string name="wifi_netmask">"网络掩码"</string>
     <string name="wifi_context_menu_connect">"连接到网络"</string>
     <string name="wifi_context_menu_forget">"忘记网络"</string>
     <string name="wifi_context_menu_change_password">"更改密码"</string>
     <string name="wifi_advanced_titlebar">"高级"</string>
-    <string name="wifi_setting_num_channels_title">"调节域"</string>
-    <string name="wifi_setting_num_channels_summary">"设置要使用的频道数"</string>
-    <string name="wifi_setting_num_channels_error">"设置调节域时出现问题。"</string>
+    <string name="wifi_setting_num_channels_title">"调整域"</string>
+    <string name="wifi_setting_num_channels_summary">"设置要使用的频道个数"</string>
+    <string name="wifi_setting_num_channels_error">"设置调整域时出现问题。"</string>
     <string name="wifi_setting_num_channels_channel_phrase">"<xliff:g id="NUM_CHANNELS">%1$d</xliff:g> 个频道"</string>
     <string name="wifi_setting_sleep_policy_title">"Wi-Fi 休眠策略"</string>
     <string name="wifi_setting_sleep_policy_summary">"指定何时从 Wi-Fi 切换到手机数据"</string>
@@ -371,7 +371,7 @@
     <string name="animations_summary_on">"打开和关闭窗口时显示动画"</string>
     <string name="animations_summary_off">"打开和关闭窗口时显示动画"</string>
     <string name="accelerometer_title">"方向"</string>
-    <string name="accelerometer_summary_on">"旋转手机时自动改变方向"</string>
+    <string name="accelerometer_summary_on">"旋转手机时自动改变显示方向"</string>
     <string name="accelerometer_summary_off">"旋转手机时自动改变方向"</string>
     <string name="brightness">"亮度"</string>
     <string name="brightness_summary">"调整屏幕亮度"</string>
@@ -389,7 +389,7 @@
     <string name="sim_disable_sim_lock">"解锁 SIM 卡"</string>
     <string name="sim_enter_old">"旧的 SIM 卡 PIN"</string>
     <string name="sim_enter_new">"新的 SIM 卡 PIN"</string>
-    <string name="sim_reenter_new">"重新键入新的 PIN"</string>
+    <string name="sim_reenter_new">"重新输入新的 PIN"</string>
     <string name="sim_change_pin">"SIM 卡 PIN"</string>
     <string name="sim_bad_pin">"PIN 不正确！"</string>
     <string name="sim_pins_dont_match">"PIN 不匹配！"</string>
@@ -427,7 +427,7 @@
     <string name="internal_memory">"手机内部存储"</string>
     <string name="sd_memory">"SD 卡"</string>
     <string name="memory_available">"可用空间"</string>
-    <string name="memory_size">"空间总量"</string>
+    <string name="memory_size">"总存储量"</string>
     <string name="sd_eject">"卸下 SD 卡"</string>
     <string name="sd_eject_summary">"卸下 SD 卡以安全移除"</string>
     <string name="sd_format">"格式化 SD 卡"</string>
@@ -471,7 +471,7 @@
     <string name="master_clear_final_desc">"是否重置手机，以清除您的所有数据和应用程序？此操作无法撤消！"</string>
     <string name="master_clear_final_button_text">"清除全部内容"</string>
     <string name="master_clear_gesture_prompt">"绘制您的解锁图案"</string>
-    <string name="master_clear_gesture_explanation">"您必须绘制解锁图案才能确认手机重置。"</string>
+    <string name="master_clear_gesture_explanation">"您必须绘制解锁图案才能确认重置手机。"</string>
     <string name="master_clear_failed">"未执行重置，因为系统清除服务不可用。"</string>
     <string name="media_format_title">"格式化 SD 卡。"</string>
     <string name="media_format_summary">"清除 SD 卡上的所有数据"</string>
@@ -487,11 +487,11 @@
     <string name="network_settings_summary">"设置漫游、网络、APN 的选项"</string>
     <string name="location_title">"我的位置源"</string>
     <string name="location_network_based">"使用无线网络"</string>
-    <string name="location_networks_disabled">"使用无线网络查看应用程序（例如地图）中的位置"</string>
-    <string name="location_neighborhood_level">"位置通过 Wi-Fi 和/或移动网络确定"</string>
+    <string name="location_networks_disabled">"使用无线网络在应用程序（例如 Google 地图）中查看位置"</string>
+    <string name="location_neighborhood_level">"通过 Wi-Fi 和/或移动网络确定 位置"</string>
     <string name="location_gps">"启用 GPS 卫星"</string>
-    <string name="location_street_level">"定位时，精确到街道级别（取消选中可节约电量）"</string>
-    <string name="location_gps_disabled">"定位至街道级别（需要更多电池电量以及天空视图）"</string>
+    <string name="location_street_level">"定位时可精确到街道级别（取消选中可节约电量）"</string>
+    <string name="location_gps_disabled">"定位到街道级别（需要消耗更多电量并且需要显示天空视图）"</string>
     <string name="location_warning_title">"同意记录位置信息"</string>
     <string name="location_warning_message">"允许 Google 的位置服务收集匿名的位置汇总数据。无论是否有应用程序处于激活状态，都会进行收集。"</string>
     <string name="agree">"同意"</string>
@@ -499,7 +499,7 @@
     <string name="about_settings">"关于手机"</string>
     <string name="about_settings_summary">"查看法律信息、手机状态和软件版本"</string>
     <string name="legal_information">"法律信息"</string>
-    <string name="contributors_title">"贡献者"</string>
+    <string name="contributors_title">"活动提供商"</string>
     <string name="copyright_title">"版权"</string>
     <string name="license_title">"许可"</string>
     <string name="terms_title">"条款"</string>
@@ -513,7 +513,7 @@
     <string name="lockpattern_need_to_unlock">"确认已保存的图案"</string>
     <string name="lockpattern_need_to_unlock_wrong">"很抱歉，请重试："</string>
     <string name="lockpattern_recording_intro_header">"绘制解锁图案"</string>
-    <string name="lockpattern_recording_intro_footer">"按“菜单”获得帮助。"</string>
+    <string name="lockpattern_recording_intro_footer">"按 MENU 获得帮助。"</string>
     <string name="lockpattern_recording_inprogress">"完成后松开手指。"</string>
     <string name="lockpattern_recording_incorrect_too_short">"至少连接 <xliff:g id="NUMBER">%d</xliff:g> 个点，请重试："</string>
     <string name="lockpattern_pattern_entered_header">"图案已记录！"</string>
@@ -538,7 +538,7 @@
     <string name="lock_title">"保护您的手机"</string>
     <string name="lock_intro_message"><font size="17">"通过创建个人屏幕解锁图案，来保护您的手机不受未经授权的使用。"\n<font height="17">\n</font><b>"1"</b>"  在下一屏幕上，观看示例图案的绘制过程。"\n<font height="17">\n</font><b>"2"</b>"  准备就绪后，绘制您自己的个人解锁图案。可尝试不同的图案，但至少要连接四个点。"\n<font height="17">\n</font><b>"3"</b>"  重新绘制您的图案进行确认。"\n<font height="17">\n</font><b>"可以开始了吗？选择“下一步”"</b>"。"\n<font height="3">\n</font>"要让手机处于不受保护的状态，请选择“取消”。"</font></string>
     <string name="lock_example_title">"示例图案"</string>
-    <string name="lock_example_message">"至少连接四个点。"\n\n"准备好绘制自己的图案后选择“下一步”。"</string>
+    <string name="lock_example_message">"至少连接四个点。"\n\n"准备好后选择“下一步”绘制自己的图案。"</string>
     <string name="manageapplications_settings_title">"管理应用程序"</string>
     <string name="manageapplications_settings_summary">"管理和删除安装的应用程序"</string>
     <string name="applications_settings">"应用程序"</string>
@@ -576,31 +576,31 @@
     <string name="loading">"正在载入..."</string>
     <string name="recompute_size">"正在重新计算大小..."</string>
     <string name="clear_data_dlg_title">"删除"</string>
-    <string name="clear_data_dlg_text">"您保存在此应用程序中的所有信息都会永久删除。"</string>
+    <string name="clear_data_dlg_text">"您保存在此应用程序中的所有信息将会永久删除。"</string>
     <string name="dlg_ok">"确定"</string>
     <string name="dlg_cancel">"取消"</string>
     <string name="app_not_found_dlg_title">"找不到应用程序"</string>
     <string name="app_not_found_dlg_text">"在已安装应用程序的列表中找不到该应用程序。"</string>
     <string name="clear_data_failed">"无法清除应用程序数据。"</string>
-    <string name="security_settings_desc">"此应用程序可访问您手机上的以下内容："</string>
+    <string name="security_settings_desc">"此应用程序有权访问手机上的以下内容："</string>
     <string name="computing_size">"正在计算..."</string>
     <string name="invalid_size_value">"无法计算包大小"</string>
     <string name="empty_list_msg">"您没有安装任何第三方企业应用套件。"</string>
     <string name="language_settings">"语言区域和文字"</string>
     <string name="language_settings_summary">"设置语言区域（语言和区域）、文字输入和自动更正选项"</string>
     <string name="language_category">"语言区域设置"</string>
-    <string name="text_category">"文本设置"</string>
+    <string name="text_category">"文字设置"</string>
     <string name="phone_language">"选择语言区域"</string>
     <string name="phone_language_summary">"选择语言和地区"</string>
     <string name="auto_replace">"自动替换"</string>
-    <string name="auto_replace_summary">"更正错误键入的字词"</string>
+    <string name="auto_replace_summary">"更正错误输入的字词"</string>
     <string name="auto_caps">"自动大写"</string>
-    <string name="auto_caps_summary">"将句子中的首字母大写"</string>
+    <string name="auto_caps_summary">"将句首字母大写"</string>
     <string name="auto_punctuate">"自动加标点"</string>
     <string name="hardkeyboard_category">"物理键盘设置"</string>
-    <string name="auto_punctuate_summary">"按两次空格键以插入“。”"</string>
-    <string name="show_password">"可见的密码"</string>
-    <string name="show_password_summary">"键入时显示密码"</string>
+    <string name="auto_punctuate_summary">"按两次空格键可以插入句号"</string>
+    <string name="show_password">"密码可见"</string>
+    <string name="show_password_summary">"输入时密码可见"</string>
     <string name="ime_security_warning">"该输入法可能会收集您输入的所有文字，包括密码和信用卡号码等个人数据。它源自 <xliff:g id="IME_APPLICATION_NAME">%1$s</xliff:g> 应用程序。是否要启用该输入法？"</string>
     <string name="user_dict_settings_titlebar">"用户词典"</string>
     <string name="user_dict_settings_title">"用户词典"</string>
@@ -610,7 +610,7 @@
     <string name="user_dict_settings_edit_dialog_title">"编辑字词"</string>
     <string name="user_dict_settings_context_menu_edit_title">"编辑"</string>
     <string name="user_dict_settings_context_menu_delete_title">"删除"</string>
-    <string name="user_dict_settings_empty_text">"用户词典中没有您定义的字词。您可以通过菜单添加字词。"</string>
+    <string name="user_dict_settings_empty_text">"用户词典中没有您定义的字词。您可以按 MENU 添加字词。"</string>
     <string name="testing">"测试"</string>
     <string name="testing_phone_info">"手机信息"</string>
     <string name="testing_battery_info">"电池信息"</string>

@@ -109,7 +109,7 @@
     <string name="date_time_24_hour_sample">"13:00"</string>
     <string name="date_time_changeTime_text">"Byt tid"</string>
     <string name="date_time_changeDate_text">"Datum"</string>
-    <string name="choose_timezone">"Välja tidszon"</string>
+    <string name="choose_timezone">"Välj tidszon"</string>
     <string name="display_preview_label">"Förhandsgranska:"</string>
     <string name="display_font_size_label">"Teckenstorlek:"</string>
     <!-- no translation found for intent_sender_data_label (6332324780477289261) -->
@@ -205,7 +205,7 @@
     <string name="date_time_set_time">"Ange tid"</string>
     <string name="date_time_set_timezone">"Välja tidszon"</string>
     <string name="date_time_set_date">"Ange datum"</string>
-    <string name="date_time_date_format">"Välja datumformat"</string>
+    <string name="date_time_date_format">"Välj datumformat"</string>
     <string name="zone_list_menu_sort_alphabetically">"Sortera i bokstavsordning"</string>
     <string name="zone_list_menu_sort_by_timezone">"Sortera efter tidszon"</string>
     <string name="security_settings_title">"Säkerhet och plats"</string>
@@ -365,7 +365,7 @@
     <string name="play_media_notification_sounds_enable_summary_on">"Inaktivera aviseringsljud för SD-kort"</string>
     <string name="play_media_notification_sounds_enable_summary_off">"Aktivera aviseringsljud för SD-kort"</string>
     <string name="sync_settings">"Datasynkronisering"</string>
-    <string name="sync_settings_summary">"Välj vilka program som har synkroniserats"</string>
+    <string name="sync_settings_summary">"Välj vilka program som ska synkroniserats"</string>
     <string name="display_settings">"Visa inställningar"</string>
     <string name="animations_title">"Animering"</string>
     <string name="animations_summary_on">"Visa animering när fönster öppnas och stängs"</string>
@@ -410,12 +410,12 @@
     <string name="device_status_activity_title">"Status"</string>
     <string name="device_status">"Status"</string>
     <string name="device_status_summary">"IMEI, telefonnummer, signal, osv."</string>
-    <string name="storage_settings_title">"SD-kort och telefonlagring"</string>
+    <string name="storage_settings_title">"SD-kort och telefonlagr."</string>
     <string name="storage_settings_summary">"Montera bort SD-kort, visa tillgängligt lagringsutrymme"</string>
     <string name="status_number">"Telefonnummer"</string>
     <string name="status_network_type">"Mobil nätverkstyp"</string>
     <string name="status_data_state">"Status för mobilt nätverk"</string>
-    <string name="status_service_state">"Tjänstestatus"</string>
+    <string name="status_service_state">"Tjänststatus"</string>
     <string name="status_signal_strength">"Signalstyrka"</string>
     <string name="status_roaming">"Roaming"</string>
     <string name="status_operator">"Nätverk"</string>
@@ -462,12 +462,12 @@
     <string name="error_mcc_not3">"MCC-fältet måste bestå av 3 siffror."</string>
     <string name="error_mnc_not23">"MNC-fältet måste vara 2 eller 3 siffror"</string>
     <string name="restore_default_apn">"Återställer standardinställning för APN"</string>
-    <string name="menu_restore">"Återställ standardinställningar"</string>
+    <string name="menu_restore">"Återställ standardinst."</string>
     <string name="restore_default_apn_completed">"Återställning av standardinställningar för APN har slutförts"</string>
     <string name="master_clear_title">"Återställ standardinställningar"</string>
     <string name="master_clear_summary">"Raderar alla data på telefonen"</string>
     <string name="master_clear_desc">"Den här åtgärden återställer telefonen till fabriksinställningen och raderar alla data och hämtade program!"</string>
-    <string name="master_clear_button_text">"Återställa telefonen"</string>
+    <string name="master_clear_button_text">"Återställ telefonen"</string>
     <string name="master_clear_final_desc">"Vill du återställa telefonen? Alla data och program raderas. Åtgärden kan inte ångras!"</string>
     <string name="master_clear_final_button_text">"Radera allt"</string>
     <string name="master_clear_gesture_prompt">"Rita ditt grafiska lösenord"</string>
@@ -482,7 +482,7 @@
     <string name="media_format_gesture_prompt">"Rita ditt grafiska lösenord"</string>
     <string name="media_format_gesture_explanation">"Du måste rita ditt grafiska lösenord för att bekräfta formateringen av SD-kortet."</string>
     <string name="call_settings_title">"Samtalsinställningar"</string>
-    <string name="call_settings_summary">"Ställ in röstbrevlåda, vidarebefordra samtal, samtal väntar, nummerpresentatör"</string>
+    <string name="call_settings_summary">"Ställ in röstbrevlåda, vidarebefordra samtal, samtal väntar, nummerpres."</string>
     <string name="network_settings_title">"Mobila nätverk"</string>
     <string name="network_settings_summary">"Ställ in alternativ för roaming, nätverk, APN:er"</string>
     <string name="location_title">"Mina platskällor"</string>
@@ -503,9 +503,9 @@
     <string name="copyright_title">"Upphovsrätt"</string>
     <string name="license_title">"Licens"</string>
     <string name="terms_title">"Användarvillkor"</string>
-    <string name="system_tutorial_list_item_title">"Systemets självstudiekurs"</string>
+    <string name="system_tutorial_list_item_title">"Systemets självstudie"</string>
     <string name="system_tutorial_list_item_summary">"Lär dig hur du använder din telefon"</string>
-    <string name="settings_license_activity_title">"Öppen källicens"</string>
+    <string name="settings_license_activity_title">"Öppen källkodslicens"</string>
     <string name="settings_license_activity_unavailable">"Ett problem inträffade när licenserna lästes in."</string>
     <string name="settings_license_activity_loading">"Läser in…"</string>
     <string name="lock_settings_title">"Skärmens grafiska lösenord"</string>
@@ -526,7 +526,7 @@
     <string name="lockpattern_settings_title">"Grafiskt lösenord"</string>
     <string name="lockpattern_settings_enable_title">"Begär grafiskt lösenord"</string>
     <string name="lockpattern_settings_enable_summary">"Måste rita grafiskt lösenord för att låsa upp skärmen"</string>
-    <string name="lockpattern_settings_enable_visible_pattern_title">"Använda synligt grafiskt lösenord"</string>
+    <string name="lockpattern_settings_enable_visible_pattern_title">"Anv. synligt graf. lös."</string>
     <string name="lockpattern_settings_enable_tactile_feedback_title">"Använd känslig feedback"</string>
     <string name="lockpattern_settings_choose_lock_pattern">"Ange grafiskt lösenord"</string>
     <string name="lockpattern_settings_change_lock_pattern">"Byt grafiskt lösenord"</string>
@@ -542,7 +542,7 @@
     <string name="manageapplications_settings_title">"Hantera program"</string>
     <string name="manageapplications_settings_summary">"Hantera och ta bort installerade program"</string>
     <string name="applications_settings">"Program"</string>
-    <string name="applications_settings_summary">"Hantera program, ställa in genvägar för snabbstart"</string>
+    <string name="applications_settings_summary">"Hantera program, ställ in genvägar för snabbstart"</string>
     <string name="applications_settings_header">"Programinställningar"</string>
     <string name="install_applications">"Okända källor"</string>
     <string name="install_unknown_applications">"Tillåt installation av program som inte finns i butiken"</string>
@@ -563,7 +563,7 @@
     <string name="clear_user_data_text">"Rensa data"</string>
     <string name="auto_launch_enable_text">"Du har valt att starta detta program som standard för vissa åtgärder."</string>
     <string name="auto_launch_disable_text">"Inga standardinställningar har angetts."</string>
-    <string name="clear_activities">"Rensa standardinställningar"</string>
+    <string name="clear_activities">"Rensa standardinställn."</string>
     <string name="unknown">"Okänd"</string>
     <string name="sort_order_alpha">"Sortera"</string>
     <string name="sort_order_size">"Sortera efter storlek"</string>
@@ -594,9 +594,9 @@
     <string name="phone_language_summary">"Välj språk och område"</string>
     <string name="auto_replace">"Ersätt automatiskt"</string>
     <string name="auto_replace_summary">"Rätta felskrivna ord"</string>
-    <string name="auto_caps">"Inled automatiskt med versal"</string>
+    <string name="auto_caps">"Inled med versal"</string>
     <string name="auto_caps_summary">"Första bokstaven i meningar ska inledas med versal"</string>
-    <string name="auto_punctuate">"Automatisk interpunktion"</string>
+    <string name="auto_punctuate">"Automatisk punkt"</string>
     <string name="hardkeyboard_category">"Inställningar för fysiskt tangentbord"</string>
     <string name="auto_punctuate_summary">"Tryck på blanksteg två gånger om du vill infoga \".\""</string>
     <string name="show_password">"Synliga lösenord"</string>
@@ -604,7 +604,7 @@
     <string name="ime_security_warning">"Den här inmatningsmetoden kan samla all text som du anger, inklusive personliga uppgifter som lösenord och kreditkortsnummer. Den kommer från programmet <xliff:g id="IME_APPLICATION_NAME">%1$s</xliff:g>. Ska inmatningsmetoden aktiveras?"</string>
     <string name="user_dict_settings_titlebar">"Användarens ordlista"</string>
     <string name="user_dict_settings_title">"Användarens ordlista"</string>
-    <string name="user_dict_settings_summary">"Lägga till och ta bort ord från användarens ordlista"</string>
+    <string name="user_dict_settings_summary">"Lägg till och ta bort ord från användarens ordlista"</string>
     <string name="user_dict_settings_add_menu_title">"Lägga till"</string>
     <string name="user_dict_settings_add_dialog_title">"Lägga till i ordlista"</string>
     <string name="user_dict_settings_edit_dialog_title">"Redigera ord"</string>

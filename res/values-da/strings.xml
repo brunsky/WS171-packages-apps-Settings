@@ -375,7 +375,7 @@
     <string name="accelerometer_summary_off">"Skift automatisk retning, når telefonen drejes"</string>
     <string name="brightness">"Lysstyrke"</string>
     <string name="brightness_summary">"Juster skærmens lysstyrke"</string>
-    <string name="screen_timeout">"Der opstod timeout for skærmen"</string>
+    <string name="screen_timeout">"Timeout for skærmen"</string>
     <string name="screen_timeout_summary">"Juster forsinkelsen, inden skærmen slukkes automatisk"</string>
     <string name="sim_lock_settings">"Indstillinger for lås af SIM-kort"</string>
     <string name="sim_lock_settings_category">"Opsæt SIM-kortlås"</string>
@@ -617,7 +617,7 @@
     <string name="testing_battery_history">"Batterioversigt"</string>
     <string name="quick_launch_title">"Hurtig start"</string>
     <string name="quick_launch_summary">"Indstil tastaturgenveje til at starte programmer"</string>
-    <string name="quick_launch_assign_application">"Overdrag program"</string>
+    <string name="quick_launch_assign_application">"Tildel program"</string>
     <string name="quick_launch_no_shortcut">"Ingen genvej"</string>
     <string name="quick_launch_shortcut">"Søg + <xliff:g id="SHORTCUT_LETTER">%1$s</xliff:g>"</string>
     <string name="quick_launch_clear_dialog_title">"Ryd"</string>

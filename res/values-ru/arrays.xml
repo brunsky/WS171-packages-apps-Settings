@@ -30,7 +30,7 @@
     <item>"1 минута"</item>
     <item>"2 минуты"</item>
     <item>"10 минут"</item>
-    <item>"Без тайм-аута"</item>
+    <item>"Не отключать"</item>
   </string-array>
   <string-array name="wifi_security_entries">
     <item>"Авто"</item>

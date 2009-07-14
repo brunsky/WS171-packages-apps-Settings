@@ -57,7 +57,7 @@
   </string-array>
   <string-array name="battery_history_type_spinner">
     <item>"CPU kullanımı"</item>
-    <item>"Şebeke kullanımı"</item>
+    <item>"Ağ kullanımı"</item>
     <item>"GPS kullanımı"</item>
     <item>"Algılayıcı kullanımı"</item>
     <item>"Kısmi uyandırma kullanımı"</item>

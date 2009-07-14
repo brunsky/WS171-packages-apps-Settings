@@ -339,7 +339,7 @@
     <string name="sound_settings">"Configurações de som"</string>
     <string name="sound_and_display_settings_summary">"Definir toques, notificações, brilho da tela"</string>
     <string name="silent_mode_title">"Modo silencioso"</string>
-    <string name="silent_mode_summary">"Todos os sons, exceto de mídia e alarmes, estão silenciados."</string>
+    <string name="silent_mode_summary">"Todos os sons, exceto de mídia e alarmes, são silenciados."</string>
     <string name="silent_mode_incl_alarm_summary">"Todos os sons, exceto de mídia, estão silenciados"</string>
     <string name="ringtone_title">"Toque do telefone"</string>
     <string name="ringtone_summary">"Definir o seu toque padrão para chamada recebida"</string>
@@ -355,9 +355,9 @@
     <string name="notification_sound_dialog_title">"Selecionar toque de notificação"</string>
     <string name="media_volume_title">"Volume da mídia"</string>
     <string name="media_volume_summary">"Definir o volume para música e vídeos"</string>
-    <string name="dtmf_tone_enable_title">"Tons de toque audíveis"</string>
-    <string name="dtmf_tone_enable_summary_on">"Reproduzir tons ao usar o teclado"</string>
-    <string name="dtmf_tone_enable_summary_off">"Reproduzir tons ao usar o teclado"</string>
+    <string name="dtmf_tone_enable_title">"Sons de toque audíveis"</string>
+    <string name="dtmf_tone_enable_summary_on">"Reproduzir sons ao usar o teclado"</string>
+    <string name="dtmf_tone_enable_summary_off">"Reproduzir sons ao usar o teclado"</string>
     <string name="sound_effects_enable_title">"Seleção audível"</string>
     <string name="sound_effects_enable_summary_on">"Reproduzir som ao fazer uma seleção de tela"</string>
     <string name="sound_effects_enable_summary_off">"Reproduzir som ao fazer uma seleção de tela"</string>
@@ -365,7 +365,7 @@
     <string name="play_media_notification_sounds_enable_summary_on">"Desativar os sons de notificação do cartão SD"</string>
     <string name="play_media_notification_sounds_enable_summary_off">"Ativar os sons de notificação do cartão SD"</string>
     <string name="sync_settings">"Sincronização de dados"</string>
-    <string name="sync_settings_summary">"Seleciona os aplicativos que estão sincronizados"</string>
+    <string name="sync_settings_summary">"Selecionar os aplicativos que serão sincronizados"</string>
     <string name="display_settings">"Configurações da tela"</string>
     <string name="animations_title">"Animação"</string>
     <string name="animations_summary_on">"Mostrar animação ao abrir e fechar janelas"</string>
@@ -375,8 +375,8 @@
     <string name="accelerometer_summary_off">"Alternar orientação automaticamente ao girar o telefone"</string>
     <string name="brightness">"Brilho"</string>
     <string name="brightness_summary">"Ajustar o brilho da tela"</string>
-    <string name="screen_timeout">"Tempo limite da tela esgotado"</string>
-    <string name="screen_timeout_summary">"Ajuste o atraso antes de a tela desativar automaticamente"</string>
+    <string name="screen_timeout">"Tempo limite da tela"</string>
+    <string name="screen_timeout_summary">"Ajuste depois de quanto tempo a tela será desligada automaticamente"</string>
     <string name="sim_lock_settings">"Configurações de bloqueio do cartão SIM"</string>
     <string name="sim_lock_settings_category">"Configurar bloqueio do cartão SIM"</string>
     <string name="sim_lock_settings_title">"Bloqueio do cartão SIM"</string>
