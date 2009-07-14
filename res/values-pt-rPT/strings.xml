@@ -175,7 +175,7 @@
     <string name="sdcard_settings_unmounted_status">"Agora é seguro retirar o cartão SD"</string>
     <string name="sdcard_settings_bad_removal_status">"O cartão SD foi removido quando ainda estava em uso!"</string>
     <string name="sdcard_settings_used_bytes_label">"Bytes utilizados:"</string>
-    <string name="sdcard_settings_scanning_status">"A·procurar·ficheiros·multimédia·no·cartão·SD..."</string>
+    <string name="sdcard_settings_scanning_status">"A procurar ficheiros multimédia no cartão SD..."</string>
     <string name="sdcard_settings_read_only_status">"Cartão SD montado como só de leitura"</string>
     <string name="next_label">"Seguinte"</string>
     <string name="language_picker_title">"Região"</string>
@@ -274,7 +274,7 @@
     <string name="wifi_error">"Erro"</string>
     <string name="error_starting">"Impossível iniciar Wi-Fi"</string>
     <string name="error_stopping">"Impossível parar Wi-Fi"</string>
-    <string name="error_scanning">"Não·é·possível·procurar·redes"</string>
+    <string name="error_scanning">"Não é possível procurar redes"</string>
     <string name="error_connecting">"Impossível ligar à rede"</string>
     <string name="error_saving">"Impossível guardar a rede"</string>
     <string name="connect">"Ligar"</string>
@@ -285,7 +285,7 @@
     <string name="scan_wifi">"Procurar"</string>
     <string name="summary_not_in_range">"Fora do alcance"</string>
     <string name="summary_remembered">"Memorizado"</string>
-    <string name="summary_connection_failed">"A·ligação·falhou.·Seleccione·para·tentar·novamente"</string>
+    <string name="summary_connection_failed">"A ligação falhou. Seleccione para tentar novamente"</string>
     <string name="wifi_access_points">"Redes Wi-Fi"</string>
     <string name="wifi_type_ssid">"SSID da rede"</string>
     <string name="wifi_security">"Segurança"</string>
@@ -361,7 +361,7 @@
     <string name="sound_effects_enable_title">"Selecção audível"</string>
     <string name="sound_effects_enable_summary_on">"Reproduzir som ao efectuar selecção no ecrã"</string>
     <string name="sound_effects_enable_summary_off">"Reproduzir som ao efectuar selecção no ecrã"</string>
-    <string name="play_media_notification_sounds_enable_title">"Notificações do cartão SIM"</string>
+    <string name="play_media_notification_sounds_enable_title">"Notificações do cartão SD"</string>
     <string name="play_media_notification_sounds_enable_summary_on">"Desactivar sons de notificação do cartão SD"</string>
     <string name="play_media_notification_sounds_enable_summary_off">"Activar sons de notificação do cartão SD"</string>
     <string name="sync_settings">"Sincronização de dados"</string>
@@ -395,14 +395,14 @@
     <string name="sim_pins_dont_match">"Os PINs não correspondem!"</string>
     <string name="sim_change_failed">"Impossível mudar PIN."\n"PIN possivelmente incorrecto."</string>
     <string name="sim_change_succeeded">"PIN do SIM mudado com sucesso"</string>
-    <string name="sim_lock_failed">"Impossível mudar estado de bloqueio do cartão SIM."\n"PIN possivelmente incorrecto."</string>
+    <string name="sim_lock_failed">"Impossível alterar estado de bloqueio do cartão SIM."\n"PIN possivelmente incorrecto."</string>
     <string name="sim_enter_ok">"OK"</string>
     <string name="sim_enter_cancel">"Cancelar"</string>
     <string name="device_info_settings">"Estado do telefone"</string>
     <string name="system_update_settings_list_item_title">"Actualizações do sistema"</string>
     <string name="system_update_settings_list_item_summary">"Verificar actualizações do sistema"</string>
     <string name="firmware_version">"Versão de firmware"</string>
-    <string name="model_number">"Número de modelo"</string>
+    <string name="model_number">"Modelo"</string>
     <string name="baseband_version">"Versão de banda base"</string>
     <string name="kernel_version">"Versão do kernel"</string>
     <string name="build_number">"Número de compilação"</string>
@@ -487,13 +487,13 @@
     <string name="network_settings_summary">"Definir opções de roaming, redes, APNs"</string>
     <string name="location_title">"Origens de O meu local"</string>
     <string name="location_network_based">"Utilizar redes sem fios"</string>
-    <string name="location_networks_disabled">"Ver localização em aplicações (tais como Mapas) utilizando redes sem fios"</string>
-    <string name="location_neighborhood_level">"Localização determinada por redes Wi-Fi e/ou móvel"</string>
+    <string name="location_networks_disabled">"Ver localização em aplicações (como o Google Maps) utilizando redes sem fios"</string>
+    <string name="location_neighborhood_level">"Localização determinada por redes Wi-Fi e/ou móveis"</string>
     <string name="location_gps">"Activar satélites de GPS"</string>
     <string name="location_street_level">"Ao localizar, determinar a localização exacta ao nível da rua (anular selecção para preservar a bateria)"</string>
-    <string name="location_gps_disabled">"Localizar ao nível da rua (requer mais bateria e vista do céu)"</string>
-    <string name="location_warning_title">"Consentimento de local"</string>
-    <string name="location_warning_message">"Permitir que o serviço de localização da Google recolha dados de local anónimos e agregados. A recolha é efectuada independentemente de haver ou não aplicações activadas."</string>
+    <string name="location_gps_disabled">"Localizar ao nível da rua (exige mais bateria e vista do céu)"</string>
+    <string name="location_warning_title">"Consentimento de localização"</string>
+    <string name="location_warning_message">"Permitir que o serviço de localização da Google recolha dados de localização anónimos e agregados. A recolha é efectuada independentemente de haver ou não aplicações activadas."</string>
     <string name="agree">"Concordo"</string>
     <string name="disagree">"Discordar"</string>
     <string name="about_settings">"Acerca do telefone"</string>
@@ -535,8 +535,8 @@
     <string name="lockpattern_too_many_failed_confirmation_attempts_footer">"Tente novamente dentro de <xliff:g id="NUMBER">%d</xliff:g> segundos."</string>
     <string name="skip_button_label">"Cancelar"</string>
     <string name="next_button_label">"Seguinte"</string>
-    <string name="lock_title">"Manter segurança do telefone"</string>
-    <string name="lock_intro_message"><font size="17">"Proteja o seu telefone de utilização não autorizada criando um padrão pessoal de desbloqueio do ecrã. "\n<font height="17">\n</font><b>"1"</b>"  No ecrã seguinte, observe enquanto é desenhado um padrão exemplificativo. "\n<font height="17">\n</font><b>"2"</b>"  Quando estiver pronto, desenhe o seu padrão pessoal de desbloqueio. Experimente diferentes padrões, mas ligue pelo menos quatro pontos. "\n<font height="17">\n</font><b>"3"</b>"  Redesenhe o seu padrão para confirmar. "\n<font height="17">\n</font><b>"Pronto para começar? Seleccione “Seguinte”"</b>". "\n<font height="3">\n</font>"Para deixar o seu telefone sem protecção, seleccione “Cancelar”."</font></string>
+    <string name="lock_title">"Manter o telefone seguro"</string>
+    <string name="lock_intro_message"><font size="17">"Proteja o seu telefone contra utilização não autorizada criando um padrão pessoal de desbloqueio do ecrã. "\n<font height="17">\n</font><b>"1"</b>"  No ecrã seguinte, observe enquanto é desenhado um padrão exemplificativo. "\n<font height="17">\n</font><b>"2"</b>"  Quando estiver pronto, desenhe o seu padrão pessoal de desbloqueio. Experimente diferentes padrões, mas ligue pelo menos quatro pontos. "\n<font height="17">\n</font><b>"3"</b>"  Redesenhe o seu padrão para confirmar. "\n<font height="17">\n</font><b>"Pronto para começar? Seleccione “Seguinte”"</b>". "\n<font height="3">\n</font>"Para deixar o seu telefone desprotegido, seleccione “Cancelar”."</font></string>
     <string name="lock_example_title">"Padrão exemplificativo"</string>
     <string name="lock_example_message">"Ligue pelo menos quatro pontos."\n" "\n"Seleccione “Seguinte” quando estiver pronto para desenhar o seu próprio padrão."</string>
     <string name="manageapplications_settings_title">"Gerir aplicações"</string>
@@ -546,7 +546,7 @@
     <string name="applications_settings_header">"Definições da aplicação"</string>
     <string name="install_applications">"Fontes desconhecidas"</string>
     <string name="install_unknown_applications">"Permitir instalação de aplicações não Market"</string>
-    <string name="install_all_warning">"O seu telefone e os seus dados pessoais estão mais vulneráveis a ataques por aplicações de fontes desconhecidas. O utilizador reconhece ser o único responsável por quais danos ao telefone ou por perda de dados que possam resultar da utilização destas aplicações."</string>
+    <string name="install_all_warning">"O seu telefone e dados pessoais estão mais vulneráveis a ataques por aplicações de fontes desconhecidas. O utilizador reconhece ser o único responsável por danos no telefone ou perda de dados que possam resultar da utilização destas aplicações."</string>
     <string name="application_info_label">"Informações da aplicação"</string>
     <string name="storage_label">"Armazenamento"</string>
     <string name="auto_launch_label">"Iniciar por predefinição"</string>
@@ -595,10 +595,10 @@
     <string name="auto_replace">"Substituir automaticamente"</string>
     <string name="auto_replace_summary">"Corrigir erros ortográficos"</string>
     <string name="auto_caps">"Maiúsculas automáticas"</string>
-    <string name="auto_caps_summary">"Colocar em maiúscula a primeira letra de frases"</string>
+    <string name="auto_caps_summary">"Colocar em maiúscula a primeira letra da frase"</string>
     <string name="auto_punctuate">"Pontuação automática"</string>
     <string name="hardkeyboard_category">"Definições do teclado físico"</string>
-    <string name="auto_punctuate_summary">"Prima duas vezes a tecla Espaço para inserir \".\""</string>
+    <string name="auto_punctuate_summary">"Premir duas vezes a tecla Espaço para inserir \".\""</string>
     <string name="show_password">"Palavras-passe visíveis"</string>
     <string name="show_password_summary">"Mostrar palavra-passe ao escrever"</string>
     <string name="ime_security_warning">"Este método de entrada pode permitir recolher todo o texto que introduzir, incluindo dados pessoais como, por exemplo, palavras-passe e números de cartão de crédito. Decorre da aplicação <xliff:g id="IME_APPLICATION_NAME">%1$s</xliff:g>. Activar este método de entrada?"</string>
@@ -610,7 +610,7 @@
     <string name="user_dict_settings_edit_dialog_title">"Editar palavra"</string>
     <string name="user_dict_settings_context_menu_edit_title">"Editar"</string>
     <string name="user_dict_settings_context_menu_delete_title">"Eliminar"</string>
-    <string name="user_dict_settings_empty_text">"Não tem qualquer palavra no dicionário do utilizador. Pode adicionar uma palavra através do menu."</string>
+    <string name="user_dict_settings_empty_text">"Não tem qualquer palavra no dicionário do utilizador. Pode adicionar palavras através do menu."</string>
     <string name="testing">"Testes"</string>
     <string name="testing_phone_info">"Informações do telefone"</string>
     <string name="testing_battery_info">"Informação da bateria"</string>
