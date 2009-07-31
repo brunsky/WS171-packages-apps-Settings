@@ -84,11 +84,11 @@
     <string name="bluetooth">"Bluetooth"</string>
     <string name="bluetooth_visibility">"Detectável"</string>
     <string name="bluetooth_is_discoverable">"Detectável por <xliff:g id="DISCOVERABLE_TIME_PERIOD">%1$s</xliff:g> segundos…"</string>
-    <string name="bluetooth_not_discoverable">"Tornar dispositivo detectável"</string>
+    <string name="bluetooth_not_discoverable">"Tornar o dispositivo detectável"</string>
     <string name="bluetooth_devices">"Dispositivos Bluetooth"</string>
     <string name="bluetooth_device_name">"Nome do dispositivo"</string>
     <string name="bluetooth_name_not_set">"Não há nenhum nome definido. Usando o nome da conta."</string>
-    <string name="bluetooth_scan_for_devices">"Verificar a existência de dispositivos"</string>
+    <string name="bluetooth_scan_for_devices">"Procurar dispositivos"</string>
     <string name="bluetooth_disconnect_blank">"O <xliff:g id="DEVICE_NAME">%1$s</xliff:g> será desconectado."</string>
     <string name="bluetooth_connected">"Conectado"</string>
     <string name="bluetooth_disconnected">"Desconectado"</string>
@@ -175,10 +175,10 @@
     <string name="sdcard_settings_unmounted_status">"O cartão SD já pode ser removido com segurança."</string>
     <string name="sdcard_settings_bad_removal_status">"O cartão SD foi removido enquanto ainda estava em uso!"</string>
     <string name="sdcard_settings_used_bytes_label">"Bytes usados:"</string>
-    <string name="sdcard_settings_scanning_status">"Verificando a existência de mídia no cartão SD…"</string>
+    <string name="sdcard_settings_scanning_status">"Procurando mídia no cartão SD…"</string>
     <string name="sdcard_settings_read_only_status">"Cartão SD montado como somente leitura"</string>
     <string name="next_label">"Próximo"</string>
-    <string name="language_picker_title">"Localidade"</string>
+    <string name="language_picker_title">"Local"</string>
     <string name="select_your_language">"Selecionar o seu idioma"</string>
     <string name="activity_picker_label">"Selecionar atividade"</string>
     <string name="device_info_label">"Informações do dispositivo"</string>
@@ -223,7 +223,7 @@
     <string name="bluetooth_pairing_error_message">"Houve um problema no pareamento com <xliff:g id="DEVICE_NAME">%1$s</xliff:g>."</string>
     <string name="bluetooth_pairing_pin_error_message">"Houve um problema ao parear com o <xliff:g id="DEVICE_NAME">%1$s</xliff:g>, porque o PIN digitado está incorreto."</string>
     <string name="bluetooth_connecting_error_message">"Houve um problema na conexão com <xliff:g id="DEVICE_NAME">%1$s</xliff:g>."</string>
-    <string name="bluetooth_preference_scan_title">"Verificar a existência de dispositivos"</string>
+    <string name="bluetooth_preference_scan_title">"Procurar dispositivos"</string>
     <string name="bluetooth_device_context_connect">"Conectar"</string>
     <string name="bluetooth_device_context_disconnect">"Desconectar"</string>
     <string name="bluetooth_device_context_pair_connect">"Parear e conectar"</string>
@@ -400,7 +400,7 @@
     <string name="sim_enter_cancel">"Cancelar"</string>
     <string name="device_info_settings">"Status do telefone"</string>
     <string name="system_update_settings_list_item_title">"Atualizações do sistema"</string>
-    <string name="system_update_settings_list_item_summary">"Verificar a existência de atualizações do sistema"</string>
+    <string name="system_update_settings_list_item_summary">"Procurar atualizações do sistema"</string>
     <string name="firmware_version">"Versão do firmware"</string>
     <string name="model_number">"Número do modelo"</string>
     <string name="baseband_version">"Versão da banda de base"</string>
@@ -482,7 +482,7 @@
     <string name="media_format_gesture_prompt">"Desenhe o seu padrão de desbloqueio"</string>
     <string name="media_format_gesture_explanation">"Você deve desenhar o seu padrão de desbloqueio para confirmar a formatação de um cartão SD."</string>
     <string name="call_settings_title">"Configurações de chamada"</string>
-    <string name="call_settings_summary">"Configurar o correio de voz, o encaminhamento de chamada, a chamada em espera, o ID do chamador"</string>
+    <string name="call_settings_summary">"Configurar correio voz, encaminhamento, espera etc."</string>
     <string name="network_settings_title">"Redes móveis"</string>
     <string name="network_settings_summary">"Definir opções para roaming, redes, APNs"</string>
     <string name="location_title">"Fontes de Meu local"</string>
@@ -586,11 +586,11 @@
     <string name="computing_size">"Calculando…"</string>
     <string name="invalid_size_value">"Não é possível calcular o tamanho do pacote"</string>
     <string name="empty_list_msg">"Você não tem aplicativos de terceiros instalados."</string>
-    <string name="language_settings">"Localidade e texto"</string>
-    <string name="language_settings_summary">"Definir as opções de localidade (idioma e região), de entrada texto e de correção automática"</string>
-    <string name="language_category">"Configuração de localidade"</string>
+    <string name="language_settings">"Local e texto"</string>
+    <string name="language_settings_summary">"Definir opções de local (idioma e região), entrada de texto e correção automática"</string>
+    <string name="language_category">"Configuração de local"</string>
     <string name="text_category">"Configurações de texto"</string>
-    <string name="phone_language">"Selecionar a localidade"</string>
+    <string name="phone_language">"Selecionar local"</string>
     <string name="phone_language_summary">"Selecionar o idioma e a região"</string>
     <string name="auto_replace">"Substituição automática"</string>
     <string name="auto_replace_summary">"Corrigir palavras digitadas incorretamente"</string>
@@ -637,7 +637,7 @@
     <string name="enable_adb">"Depuração USB"</string>
     <string name="enable_adb_summary">"Modo de depuração quando o USB estiver conectado"</string>
     <string name="keep_screen_on">"Permanecer ativo"</string>
-    <string name="keep_screen_on_summary">"A tela nunca entrará no modo de inatividade enquanto estiver carregando."</string>
+    <string name="keep_screen_on_summary">"A tela nunca entrará em inatividade enquanto estiver carregando."</string>
     <string name="allow_mock_location">"Permitir locais fictícios"</string>
     <string name="allow_mock_location_summary">"Permitir locais fictícios"</string>
     <string name="gadget_picker_title">"Escolher o gadget"</string>

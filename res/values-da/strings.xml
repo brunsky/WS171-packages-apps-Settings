@@ -194,7 +194,7 @@
     <string name="airplane_mode_summary">"Deaktiver alle trådløse forbindelser"</string>
     <string name="airplane_mode_turning_on">"Deaktiverer trådløse forbindelser ..."</string>
     <string name="airplane_mode_turning_off">"Aktiverer trådløse forbindelser ..."</string>
-    <string name="radio_controls_title">"Trådløse kontrolelementer"</string>
+    <string name="radio_controls_title">"Trådl. kontrolelementer"</string>
     <string name="radio_controls_summary">"Administrer Wi-Fi, Bluetooth, flytilstand og mobile netværk"</string>
     <string name="date_and_time_settings_title">"Dato og tid"</string>
     <string name="date_and_time_settings_summary">"Indstil dato, tid, tidszone og formater"</string>
@@ -410,7 +410,7 @@
     <string name="device_status_activity_title">"Status"</string>
     <string name="device_status">"Status"</string>
     <string name="device_status_summary">"IMEI, telefonnummer, signal osv."</string>
-    <string name="storage_settings_title">"SD-kort og telefonlagerplads"</string>
+    <string name="storage_settings_title">"SD-kort og tlf.lag.plads"</string>
     <string name="storage_settings_summary">"Demonter SD-kort, vis ledig lagerplads"</string>
     <string name="status_number">"Telefonnummer"</string>
     <string name="status_network_type">"Mobil netværkstype"</string>
@@ -509,7 +509,7 @@
     <string name="settings_license_activity_unavailable">"Der er problemer med at indlæse licenserne."</string>
     <string name="settings_license_activity_loading">"Indlæser ..."</string>
     <string name="lock_settings_title">"Mønster til at låse skærmen op"</string>
-    <string name="lockpattern_change_lock_pattern_label">"Skift mønster til at låse op"</string>
+    <string name="lockpattern_change_lock_pattern_label">"Skift oplåsningsmønster"</string>
     <string name="lockpattern_need_to_unlock">"Bekræft gemt mønster"</string>
     <string name="lockpattern_need_to_unlock_wrong">"Beklager! Prøv igen:"</string>
     <string name="lockpattern_recording_intro_header">"Tegn et mønster til at låse op"</string>
@@ -528,8 +528,8 @@
     <string name="lockpattern_settings_enable_summary">"Du skal tegne mønster for at låse skærmen op"</string>
     <string name="lockpattern_settings_enable_visible_pattern_title">"Brug synligt mønster"</string>
     <string name="lockpattern_settings_enable_tactile_feedback_title">"Brug taktil feedback"</string>
-    <string name="lockpattern_settings_choose_lock_pattern">"Indstil mønster til at låse op"</string>
-    <string name="lockpattern_settings_change_lock_pattern">"Skift mønster til at låse op"</string>
+    <string name="lockpattern_settings_choose_lock_pattern">"Mønster til at låse op"</string>
+    <string name="lockpattern_settings_change_lock_pattern">"Skift oplåsningsmønster"</string>
     <string name="lockpattern_settings_help_how_to_record">"Sådan tegnes et mønster til at låse op"</string>
     <string name="lockpattern_too_many_failed_confirmation_attempts_header">"For mange forkerte forsøg!"</string>
     <string name="lockpattern_too_many_failed_confirmation_attempts_footer">"Prøv igen om <xliff:g id="NUMBER">%d</xliff:g> sekunder."</string>
@@ -539,10 +539,10 @@
     <string name="lock_intro_message"><font size="17">"Beskyt din telefon mod uautoriseret brug ved at oprette et personligt mønster til at låse skærmen op. "\n<font height="17">\n</font><b>"1"</b>"  På den næste skærm kan du se et eksempel på, hvordan mønsteret tegnes. "\n<font height="17">\n</font><b>"2"</b>"  Når du er klar, kan du tegne dit eget personlige mønster til at låse op. Eksperimenter med forskellige mønstre, men forbind mindst fire punkter. "\n<font height="17">\n</font><b>"3"</b>"  Tegn dit mønster igen for at bekræfte. "\n<font height="17">\n</font><b>"Er du klar? Vælg \"Næste\""</b>". "\n<font height="3">\n</font>"Du kan efterlade din telefon ubeskyttet ved at vælge \"Annuller\"."</font></string>
     <string name="lock_example_title">"Eksempelmønster"</string>
     <string name="lock_example_message">"Forbind mindst fire punkter."\n" "\n"Vælg \"Næste\", når du er klar til at tegne dit eget mønster."</string>
-    <string name="manageapplications_settings_title">"Administrer programmer"</string>
+    <string name="manageapplications_settings_title">"Administ. programmer"</string>
     <string name="manageapplications_settings_summary">"Administrer og fjern installerede programmer"</string>
     <string name="applications_settings">"Programmer"</string>
-    <string name="applications_settings_summary">"Administrer programmer, opstil genveje til hurtig start"</string>
+    <string name="applications_settings_summary">"Administ. programmer, opstil genveje til hurtig start"</string>
     <string name="applications_settings_header">"Programindstillinger"</string>
     <string name="install_applications">"Ukendte kilder"</string>
     <string name="install_unknown_applications">"Tillad installation af programmer, der ikke stammer fra Marked"</string>
@@ -587,14 +587,14 @@
     <string name="invalid_size_value">"Pakkestørrelse kunne ikke beregnes"</string>
     <string name="empty_list_msg">"Du har ikke installeret nogen tredjepartsprogrammer."</string>
     <string name="language_settings">"Landestandard og tekst"</string>
-    <string name="language_settings_summary">"Indstil landestandard (land og område), tekstinput og valgmuligheder for automatisk retning"</string>
+    <string name="language_settings_summary">"Indstil landestandard (land og område), tekstinput…"</string>
     <string name="language_category">"Landestandardindstilling"</string>
     <string name="text_category">"Tekstindstillinger"</string>
     <string name="phone_language">"Vælg landestandard"</string>
     <string name="phone_language_summary">"Vælg sprog og område"</string>
     <string name="auto_replace">"Automatisk erstatning"</string>
     <string name="auto_replace_summary">"Ret ord, der er stavet forkert"</string>
-    <string name="auto_caps">"Skriv automatisk med stort"</string>
+    <string name="auto_caps">"Skriv aut. med stort"</string>
     <string name="auto_caps_summary">"Skriv første bogstav i sætninger med stort"</string>
     <string name="auto_punctuate">"Automatisk tegnsætning"</string>
     <string name="hardkeyboard_category">"Indstillinger for fysisk tastatur"</string>
@@ -638,8 +638,8 @@
     <string name="enable_adb_summary">"Fejlretningstilstand, når USB er forbundet"</string>
     <string name="keep_screen_on">"Forbliv vågen"</string>
     <string name="keep_screen_on_summary">"Skærmen går aldrig i dvale, når der lades op"</string>
-    <string name="allow_mock_location">"Tillad imiterede placeringer"</string>
-    <string name="allow_mock_location_summary">"Tillad imiterede placeringer"</string>
+    <string name="allow_mock_location">"Tillad imiterede placer."</string>
+    <string name="allow_mock_location_summary">"Tillad imiterede placer."</string>
     <string name="gadget_picker_title">"Vælg gadget"</string>
     <string name="widget_picker_title">"Vælg widget"</string>
     <string name="battery_history_details_for">"Detaljer for UID %d"</string>

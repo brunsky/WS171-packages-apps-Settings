@@ -292,8 +292,8 @@
     <string name="wifi_save_config">"Сохранить"</string>
     <string name="wifi_password_unchanged">"(не изменялось)"</string>
     <string name="wifi_add_other_network">"Добавить сеть Wi-Fi"</string>
-    <string name="wifi_notify_open_networks">"Сетевое уведомление"</string>
-    <string name="wifi_notify_open_networks_summary">"Уведомить о доступности открытой сети"</string>
+    <string name="wifi_notify_open_networks">"Уведомления о сетях"</string>
+    <string name="wifi_notify_open_networks_summary">"Сообщать при обнаружении открытой сети"</string>
     <string name="wifi_password_incorrect_error">"Введен неверный сетевой пароль. Повторите попытку."</string>
     <string name="wifi_generic_connection_error">"При подключении к сети возникла неполадка. Повторите попытку."</string>
     <string name="wifi_menu_advanced">"Дополнительные функции"</string>
@@ -301,7 +301,7 @@
     <string name="wifi_ip_settings_menu_save">"Сохранить"</string>
     <string name="wifi_ip_settings_menu_cancel">"Отмена"</string>
     <string name="wifi_ip_settings_invalid_ip">"Введите действительный IP-адрес."</string>
-    <string name="wifi_use_static_ip">"Использовать статический IP-адрес"</string>
+    <string name="wifi_use_static_ip">"Статический IP-адрес"</string>
     <string name="wifi_ip_address">"IP-адрес"</string>
     <string name="wifi_dns1">"DNS 1"</string>
     <string name="wifi_dns2">"DNS 2"</string>
@@ -315,8 +315,8 @@
     <string name="wifi_setting_num_channels_summary">"Настроить количество используемых каналов"</string>
     <string name="wifi_setting_num_channels_error">"При установке управляющего домена возникла неполадка."</string>
     <string name="wifi_setting_num_channels_channel_phrase">"каналов: <xliff:g id="NUM_CHANNELS">%1$d</xliff:g>"</string>
-    <string name="wifi_setting_sleep_policy_title">"Правила перехода Wi-Fi в спящий режим"</string>
-    <string name="wifi_setting_sleep_policy_summary">"Укажите, когда следует переходить от Wi-Fi к мобильным данным"</string>
+    <string name="wifi_setting_sleep_policy_title">"Переход Wi-Fi в спящий режим"</string>
+    <string name="wifi_setting_sleep_policy_summary">"Укажите, когда следует переключаться с Wi-Fi на передачу по сотовой сети"</string>
     <string name="wifi_setting_sleep_policy_error">"При установке правила перехода в спящий режим возникла неполадка."</string>
     <string name="wifi_advanced_mac_address_title">"MAC-адрес"</string>
     <string name="fragment_status_scanning">"Поиск..."</string>
@@ -338,7 +338,7 @@
     <string name="sound_and_display_settings">"Звук и изображение"</string>
     <string name="sound_settings">"Настройки звука"</string>
     <string name="sound_and_display_settings_summary">"Настроить мелодии, уведомления, яркость экрана"</string>
-    <string name="silent_mode_title">"Беззвучный режим"</string>
+    <string name="silent_mode_title">"Тихий режим"</string>
     <string name="silent_mode_summary">"Все звуки, кроме мультимедиа и сигналов, отключены"</string>
     <string name="silent_mode_incl_alarm_summary">"Все звуки, кроме аудио и видео, отключены"</string>
     <string name="ringtone_title">"Мелодия телефона"</string>
@@ -414,7 +414,7 @@
     <string name="storage_settings_summary">"Демонтировать SD-карту, показать доступную память"</string>
     <string name="status_number">"Номер телефона"</string>
     <string name="status_network_type">"Тип мобильной сети"</string>
-    <string name="status_data_state">"Состояние мобильной сети"</string>
+    <string name="status_data_state">"Состояние сотовой сети"</string>
     <string name="status_service_state">"Состояние службы"</string>
     <string name="status_signal_strength">"Громкость сигнала"</string>
     <string name="status_roaming">"Роуминг"</string>
@@ -436,7 +436,7 @@
     <string name="read_only">" (только для чтения)"</string>
     <string name="battery_status_title">"Состояние батареи"</string>
     <string name="battery_level_title">"Уровень заряда батареи"</string>
-    <string name="apn_settings">"Номера APN"</string>
+    <string name="apn_settings">"Точки доступа (APN)"</string>
     <string name="apn_edit">"Изменить точку доступа"</string>
     <string name="apn_not_set">"&lt;Не настроено&gt;"</string>
     <string name="apn_name">"Имя"</string>
@@ -482,16 +482,16 @@
     <string name="media_format_gesture_prompt">"Начертить графический ключ разблокировки"</string>
     <string name="media_format_gesture_explanation">"Для подтверждения форматирования карты SD нужно начертить графический ключ разблокировки."</string>
     <string name="call_settings_title">"Настройки вызовов"</string>
-    <string name="call_settings_summary">"Настроить голосовую почту, АОН, переадресацию, параллельный вызов"</string>
+    <string name="call_settings_summary">"Настроить голосовую почту, АОН, переадресацию, паралл. вызов"</string>
     <string name="network_settings_title">"Мобильная сеть"</string>
-    <string name="network_settings_summary">"Настроить параметры роуминга, сетей, APN"</string>
+    <string name="network_settings_summary">"Настроить параметры роуминга, сетей, точек доступа (APN)"</string>
     <string name="location_title">"Источники моего местоположения"</string>
     <string name="location_network_based">"Беспроводные сети"</string>
     <string name="location_networks_disabled">"Просматривайте местоположение в приложениях (например, в Картах), используя беспроводную сеть"</string>
     <string name="location_neighborhood_level">"Местоположение определяется сотовой сетью и/или Wi-Fi"</string>
     <string name="location_gps">"Спутники GPS"</string>
     <string name="location_street_level">"При определении местоположения с точностью до улицы (отмените выделения для экономии энергии батареи)"</string>
-    <string name="location_gps_disabled">"Точное позиционирование (требуется открытое небо и больше энергии)"</string>
+    <string name="location_gps_disabled">"Точные координаты (требуется открытое небо и больше энергии)"</string>
     <string name="location_warning_title">"Разрешение на отслеживание местоположения"</string>
     <string name="location_warning_message">"Разрешить Google собирать данные о местоположении без идентификации личной информации. Данные будут собираться, даже если не будет запущено ни одного приложения."</string>
     <string name="agree">"Принимаю"</string>
@@ -510,7 +510,7 @@
     <string name="settings_license_activity_loading">"Идет загрузка…"</string>
     <string name="lock_settings_title">"Графический ключ разблокировки экрана"</string>
     <string name="lockpattern_change_lock_pattern_label">"Изменить графический ключ"</string>
-    <string name="lockpattern_need_to_unlock">"Подтвердить сохраненный графический ключ"</string>
+    <string name="lockpattern_need_to_unlock">"Начертите существующий ключ"</string>
     <string name="lockpattern_need_to_unlock_wrong">"Повторите попытку:"</string>
     <string name="lockpattern_recording_intro_header">"Начертить графический ключ разблокировки"</string>
     <string name="lockpattern_recording_intro_footer">"Для справки нажмите \"Меню\"."</string>
@@ -519,7 +519,7 @@
     <string name="lockpattern_pattern_entered_header">"Графический ключ разблокировки записан!"</string>
     <string name="lockpattern_need_to_confirm">"Для подтверждения начертите графический ключ повторно:"</string>
     <string name="lockpattern_pattern_confirmed_header">"Новый графический ключ разблокировки:"</string>
-    <string name="lockpattern_confirm_button_text">"Подтвердите"</string>
+    <string name="lockpattern_confirm_button_text">"Подтвердить"</string>
     <string name="lockpattern_restart_button_text">"Воспроизвести повторно"</string>
     <string name="lockpattern_retry_button_text">"Повторить попытку"</string>
     <string name="lockpattern_continue_button_text">"Продолжить"</string>
@@ -539,7 +539,7 @@
     <string name="lock_intro_message"><font size="17">"Защитите телефон от несанкционированного использования, создав собственный графический ключ разблокировки экрана. "\n<font height="17">\n</font><b>"1"</b>"  На следующем экране показан пример вычерчивания ключа. "\n<font height="17">\n</font><b>"3"</b>"  Подготовьтесь и создайте собственный графический ключ разблокировки. Можно экспериментировать с ключами, но в них должны быть соединены как минимум четыре точки. "\n<font height="17">\n</font><b>"3"</b>"  Для подтверждения начертите графический ключ повторно. "\n<font height="17">\n</font><b>" Готовы? Нажмите \"Далее\""</b>". "\n<font height="3">\n</font>"Если вы не хотите устанавливать защиту телефона, выберите \"Отмена\"."</font></string>
     <string name="lock_example_title">"Пример графического ключа"</string>
     <string name="lock_example_message">"Соедините как минимум четыре точки."\n" "\n"Выберите \"Далее\", когда будете готовы начертить собственный графический ключ разблокировки."</string>
-    <string name="manageapplications_settings_title">"Управлять приложениями"</string>
+    <string name="manageapplications_settings_title">"Управление приложениями"</string>
     <string name="manageapplications_settings_summary">"Управлять установленными приложениями и удалять их"</string>
     <string name="applications_settings">"Приложения"</string>
     <string name="applications_settings_summary">"Управление приложениями, настройка клавиш быстрого запуска"</string>
@@ -572,7 +572,7 @@
     <string name="filter_dlg_title">"Выбрать параметры фильтра"</string>
     <string name="filter_apps_all">"Все"</string>
     <string name="filter_apps_third_party">"Независимые производители"</string>
-    <string name="filter_apps_running">"Режим работы"</string>
+    <string name="filter_apps_running">"Выполняемые сейчас"</string>
     <string name="loading">"Идет загрузка…"</string>
     <string name="recompute_size">"Повторное вычисление размера..."</string>
     <string name="clear_data_dlg_title">"Удалить"</string>
@@ -582,7 +582,7 @@
     <string name="app_not_found_dlg_title">"Приложение не найдено"</string>
     <string name="app_not_found_dlg_text">"Приложение не было найдено в списке установленных приложений."</string>
     <string name="clear_data_failed">"Не удалось очистить данные приложения."</string>
-    <string name="security_settings_desc">"Данное приложение обладает правами доступа к следующей информации на телефоне:"</string>
+    <string name="security_settings_desc">"Это приложение имеет доступ к следующей информации и следующие права:"</string>
     <string name="computing_size">"Вычисление..."</string>
     <string name="invalid_size_value">"Не удалось вычислить размер пакета"</string>
     <string name="empty_list_msg">"Не обнаружено установленных приложений от независимых поставщиков."</string>

@@ -365,7 +365,7 @@
     <string name="play_media_notification_sounds_enable_summary_on">"Inaktivera aviseringsljud för SD-kort"</string>
     <string name="play_media_notification_sounds_enable_summary_off">"Aktivera aviseringsljud för SD-kort"</string>
     <string name="sync_settings">"Datasynkronisering"</string>
-    <string name="sync_settings_summary">"Välj vilka program som ska synkroniserats"</string>
+    <string name="sync_settings_summary">"Välj vilka program som ska synkroniseras"</string>
     <string name="display_settings">"Visa inställningar"</string>
     <string name="animations_title">"Animering"</string>
     <string name="animations_summary_on">"Visa animering när fönster öppnas och stängs"</string>
@@ -464,7 +464,7 @@
     <string name="restore_default_apn">"Återställer standardinställning för APN"</string>
     <string name="menu_restore">"Återställ standardinst."</string>
     <string name="restore_default_apn_completed">"Återställning av standardinställningar för APN har slutförts"</string>
-    <string name="master_clear_title">"Återställ standardinställningar"</string>
+    <string name="master_clear_title">"Återställ standardinställn."</string>
     <string name="master_clear_summary">"Raderar alla data på telefonen"</string>
     <string name="master_clear_desc">"Den här åtgärden återställer telefonen till fabriksinställningen och raderar alla data och hämtade program!"</string>
     <string name="master_clear_button_text">"Återställ telefonen"</string>

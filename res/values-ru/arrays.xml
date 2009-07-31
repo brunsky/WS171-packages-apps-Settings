@@ -52,7 +52,7 @@
   </string-array>
   <string-array name="wifi_sleep_policy_entries">
     <item>"При выключении экрана"</item>
-    <item>"Никогда, если устройство подключено к сети питания"</item>
+    <item>"Никогда, если есть питание от сети"</item>
     <item>"Никогда"</item>
   </string-array>
   <string-array name="battery_history_type_spinner">

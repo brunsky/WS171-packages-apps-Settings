@@ -21,8 +21,8 @@
     <string name="turn_on_qxdm">"启用 QXDM SD 日志"</string>
     <string name="turn_off_qxdm">"停用 QXDM SD 日志"</string>
     <string name="radioInfo_menu_viewADN">"查看 SIM 卡地址簿"</string>
-    <string name="radioInfo_menu_viewFDN">"查看固定拨号号码"</string>
-    <string name="radioInfo_menu_viewSDN">"查看服务拨号号码"</string>
+    <string name="radioInfo_menu_viewFDN">"查看固定拨号"</string>
+    <string name="radioInfo_menu_viewSDN">"查看服务拨号"</string>
     <string name="radioInfo_menu_getPDP">"获取 PDP 列表"</string>
     <string name="radioInfo_menu_enableData">"启用数据连接"</string>
     <string name="radioInfo_menu_disableData">"停用数据连接"</string>
@@ -82,9 +82,9 @@
     <string name="battery_info_health_over_voltage">"过电压"</string>
     <string name="battery_info_health_unspecified_failure">"未知错误"</string>
     <string name="bluetooth">"蓝牙"</string>
-    <string name="bluetooth_visibility">"可检测到"</string>
+    <string name="bluetooth_visibility">"可检测"</string>
     <string name="bluetooth_is_discoverable">"<xliff:g id="DISCOVERABLE_TIME_PERIOD">%1$s</xliff:g> 秒内可检测到..."</string>
-    <string name="bluetooth_not_discoverable">"使设备可检测到"</string>
+    <string name="bluetooth_not_discoverable">"可以检测到设备"</string>
     <string name="bluetooth_devices">"蓝牙设备"</string>
     <string name="bluetooth_device_name">"设备名称"</string>
     <string name="bluetooth_name_not_set">"无名称集，使用帐户名"</string>
@@ -293,7 +293,7 @@
     <string name="wifi_password_unchanged">"（未更改）"</string>
     <string name="wifi_add_other_network">"添加 Wi-Fi 网络"</string>
     <string name="wifi_notify_open_networks">"网络通知"</string>
-    <string name="wifi_notify_open_networks_summary">"开放网络可用时通知我"</string>
+    <string name="wifi_notify_open_networks_summary">"附近有开放网络时通知我"</string>
     <string name="wifi_password_incorrect_error">"您输入的网络密码不正确，请重试。"</string>
     <string name="wifi_generic_connection_error">"连接网络时出现问题，请重试。"</string>
     <string name="wifi_menu_advanced">"高级"</string>
@@ -365,7 +365,7 @@
     <string name="play_media_notification_sounds_enable_summary_on">"禁用 SD 卡通知声音"</string>
     <string name="play_media_notification_sounds_enable_summary_off">"启用 SD 卡通知声音"</string>
     <string name="sync_settings">"数据同步"</string>
-    <string name="sync_settings_summary">"选择同步哪些应用程序"</string>
+    <string name="sync_settings_summary">"选择要同步的应用程序"</string>
     <string name="display_settings">"显示设置"</string>
     <string name="animations_title">"动画"</string>
     <string name="animations_summary_on">"打开和关闭窗口时显示动画"</string>
@@ -381,20 +381,20 @@
     <string name="sim_lock_settings_category">"设置 SIM 卡锁定"</string>
     <string name="sim_lock_settings_title">"SIM 卡锁定"</string>
     <string name="sim_pin_toggle">"锁定 SIM 卡"</string>
-    <string name="sim_lock_on">"需要 PIN 才能使用手机"</string>
-    <string name="sim_lock_off">"需要 PIN 才能使用手机"</string>
+    <string name="sim_lock_on">"需要输入 PIN 才能使用手机"</string>
+    <string name="sim_lock_off">"需要输入 PIN 才能使用手机"</string>
     <string name="sim_pin_change">"更改 SIM 卡 PIN"</string>
     <string name="sim_enter_pin">"SIM 卡 PIN"</string>
     <string name="sim_enable_sim_lock">"锁定 SIM 卡"</string>
     <string name="sim_disable_sim_lock">"解锁 SIM 卡"</string>
-    <string name="sim_enter_old">"旧的 SIM 卡 PIN"</string>
-    <string name="sim_enter_new">"新的 SIM 卡 PIN"</string>
-    <string name="sim_reenter_new">"重新输入新的 PIN"</string>
+    <string name="sim_enter_old">"旧 SIM 卡 PIN"</string>
+    <string name="sim_enter_new">"新 SIM 卡 PIN"</string>
+    <string name="sim_reenter_new">"重新输入新 PIN"</string>
     <string name="sim_change_pin">"SIM 卡 PIN"</string>
     <string name="sim_bad_pin">"PIN 不正确！"</string>
     <string name="sim_pins_dont_match">"PIN 不匹配！"</string>
     <string name="sim_change_failed">"无法更改 PIN。"\n"PIN 可能不正确。"</string>
-    <string name="sim_change_succeeded">"SIM 卡 PIN 更改成功"</string>
+    <string name="sim_change_succeeded">"已成功更改 SIM 卡 PIN"</string>
     <string name="sim_lock_failed">"无法更改 SIM 卡锁定状态。"\n"PIN 可能不正确。"</string>
     <string name="sim_enter_ok">"确定"</string>
     <string name="sim_enter_cancel">"取消"</string>
@@ -422,7 +422,7 @@
     <string name="status_wifi_mac_address">"Wi-Fi MAC 地址"</string>
     <string name="status_bt_address">"蓝牙地址"</string>
     <string name="status_unavailable">"不可用"</string>
-    <string name="status_up_time">"正常使用时间"</string>
+    <string name="status_up_time">"开机时间"</string>
     <string name="status_awake_time">"唤醒时间"</string>
     <string name="internal_memory">"手机内部存储"</string>
     <string name="sd_memory">"SD 卡"</string>
@@ -484,14 +484,14 @@
     <string name="call_settings_title">"通话设置"</string>
     <string name="call_settings_summary">"设置语音信箱、呼叫转接、呼叫等待和来电显示"</string>
     <string name="network_settings_title">"移动网络"</string>
-    <string name="network_settings_summary">"设置漫游、网络、APN 的选项"</string>
+    <string name="network_settings_summary">"设置漫游、网络、APN 选项"</string>
     <string name="location_title">"我的位置源"</string>
     <string name="location_network_based">"使用无线网络"</string>
     <string name="location_networks_disabled">"使用无线网络在应用程序（例如 Google 地图）中查看位置"</string>
-    <string name="location_neighborhood_level">"通过 Wi-Fi 和/或移动网络确定 位置"</string>
+    <string name="location_neighborhood_level">"通过 Wi-Fi 和/或移动网络确定位置"</string>
     <string name="location_gps">"启用 GPS 卫星"</string>
     <string name="location_street_level">"定位时可精确到街道级别（取消选中可节约电量）"</string>
-    <string name="location_gps_disabled">"定位到街道级别（需要消耗更多电量并且需要显示天空视图）"</string>
+    <string name="location_gps_disabled">"定位到街道级别（需要消耗更多电量以及天气允许）"</string>
     <string name="location_warning_title">"同意记录位置信息"</string>
     <string name="location_warning_message">"允许 Google 的位置服务收集匿名的位置汇总数据。无论是否有应用程序处于激活状态，都会进行收集。"</string>
     <string name="agree">"同意"</string>
@@ -542,7 +542,7 @@
     <string name="manageapplications_settings_title">"管理应用程序"</string>
     <string name="manageapplications_settings_summary">"管理和删除安装的应用程序"</string>
     <string name="applications_settings">"应用程序"</string>
-    <string name="applications_settings_summary">"管理应用程序，设置快速启动快捷键"</string>
+    <string name="applications_settings_summary">"管理应用程序，设置快速启动键"</string>
     <string name="applications_settings_header">"应用程序设置"</string>
     <string name="install_applications">"未知来源"</string>
     <string name="install_unknown_applications">"允许安装非电子市场提供的应用程序"</string>
@@ -601,7 +601,7 @@
     <string name="auto_punctuate_summary">"按两次空格键可以插入句号"</string>
     <string name="show_password">"密码可见"</string>
     <string name="show_password_summary">"输入时密码可见"</string>
-    <string name="ime_security_warning">"该输入法可能会收集您输入的所有文字，包括密码和信用卡号码等个人数据。它源自 <xliff:g id="IME_APPLICATION_NAME">%1$s</xliff:g> 应用程序。是否要启用该输入法？"</string>
+    <string name="ime_security_warning">"该输入法可能会收集您输入的所有文字，包括密码和信用卡号码等个人数据。它源自<xliff:g id="IME_APPLICATION_NAME">%1$s</xliff:g>应用程序。是否要启用该输入法？"</string>
     <string name="user_dict_settings_titlebar">"用户词典"</string>
     <string name="user_dict_settings_title">"用户词典"</string>
     <string name="user_dict_settings_summary">"向用户词典中添加字词以及从用户词典中删除字词"</string>
@@ -628,12 +628,12 @@
     <string name="quick_launch_display_mode_shortcuts">"快捷键"</string>
     <string name="input_methods_settings_title">"文字输入"</string>
     <string name="input_methods_settings_summary">"管理文字输入选项"</string>
-    <string name="input_methods_settings_label_format">"<xliff:g id="IME_NAME">%1$s</xliff:g> 设置"</string>
+    <string name="input_methods_settings_label_format">"<xliff:g id="IME_NAME">%1$s</xliff:g>设置"</string>
     <string name="onscreen_keyboard_settings_summary">"屏幕键盘设置"</string>
     <string name="builtin_keyboard_settings_title">"设备键盘"</string>
     <string name="builtin_keyboard_settings_summary">"内置键盘设置"</string>
     <string name="development_settings_title">"开发"</string>
-    <string name="development_settings_summary">"设置用于应用程序开发的选项"</string>
+    <string name="development_settings_summary">"设置应用程序开发选项"</string>
     <string name="enable_adb">"USB 调试"</string>
     <string name="enable_adb_summary">"连接 USB 后启用调试模式"</string>
     <string name="keep_screen_on">"保持唤醒状态"</string>

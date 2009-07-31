@@ -96,7 +96,7 @@
     <string name="bluetooth_connecting">"연결 중..."</string>
     <!-- no translation found for bluetooth_unknown (644716244548801421) -->
     <skip />
-    <string name="bluetooth_not_connected">"이 장치와 페어링"</string>
+    <string name="bluetooth_not_connected">"장치와 페어링"</string>
     <string name="bluetooth_pairing">"페어링 중..."</string>
     <string name="bluetooth_paired">"페어링된 상태이지만 연결되지 않음"</string>
     <string name="bluetooth_device">"핸즈프리/헤드셋"</string>

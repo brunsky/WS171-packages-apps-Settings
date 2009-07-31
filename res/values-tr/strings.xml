@@ -411,7 +411,7 @@
     <string name="device_status">"Durum"</string>
     <string name="device_status_summary">"IMEI, telefon numarası, sinyal vb."</string>
     <string name="storage_settings_title">"SD kart ve telefon depolama alanı"</string>
-    <string name="storage_settings_summary">"SD kartın bağlantısını kes, kullanılabilir depolama alanını görüntüle"</string>
+    <string name="storage_settings_summary">"SD kartın bağlantısını kes, kull. Depolama alanını görüntüle"</string>
     <string name="status_number">"Telefon numarası"</string>
     <string name="status_network_type">"Mobil ağ türü"</string>
     <string name="status_data_state">"Mobil ağ durumu"</string>
@@ -482,7 +482,7 @@
     <string name="media_format_gesture_prompt">"Kilit açma deseninizi çizin"</string>
     <string name="media_format_gesture_explanation">"Bir SD kart biçimini onaylamak için kilit açma deseninizi çizmelisiniz."</string>
     <string name="call_settings_title">"Çağrı ayarları"</string>
-    <string name="call_settings_summary">"Sesli mesajları, çağrı yönlendirmeyi, çağrı bekletmeyi, arayan kimliğini ayarla"</string>
+    <string name="call_settings_summary">"Sesli mesaj, çağrı yönlendirme ve bekletme, arayan kimliğini ayarla"</string>
     <string name="network_settings_title">"Mobil ağlar"</string>
     <string name="network_settings_summary">"Dolaşım, şebeke, APN seçeneklerini ayarla"</string>
     <string name="location_title">"Konumum kaynakları"</string>
@@ -587,12 +587,12 @@
     <string name="invalid_size_value">"Paket boyutu hesaplanamıyor"</string>
     <string name="empty_list_msg">"Yüklü üçüncü taraf uygulamanız yok."</string>
     <string name="language_settings">"Yerel ayar ve metin"</string>
-    <string name="language_settings_summary">"Yer (dil ve bölge), metin girişi ve otomatik düzeltme seçeneklerini ayarla"</string>
+    <string name="language_settings_summary">"Yer (dil ve bölge), metin girişi ve ot. düzeltme seçeneklerini ayarla"</string>
     <string name="language_category">"Yerel ayar"</string>
     <string name="text_category">"Metin ayarları"</string>
     <string name="phone_language">"Yerel ayarı seç"</string>
     <string name="phone_language_summary">"Dil ve bölge seç"</string>
-    <string name="auto_replace">"Otomatik değiştirme"</string>
+    <string name="auto_replace">"Otomatik değiştir"</string>
     <string name="auto_replace_summary">"Yanlış yazılmış kelimeleri düzelt"</string>
     <string name="auto_caps">"Otomatik büyük harf"</string>
     <string name="auto_caps_summary">"Cümlelerin ilk harfini büyük yap"</string>
