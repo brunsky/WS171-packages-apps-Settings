@@ -16,11 +16,6 @@
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="@string/date_and_time">
-    <CheckBoxPreference android:key="auto_time" 
-        android:title="@string/date_time_auto"
-        android:summaryOn="@string/date_time_auto_summaryOn"
-        android:summaryOff="@string/date_time_auto_summaryOff"
-        />
     <Preference android:key="date" 
         android:title="@string/date_time_set_date" 
         android:summary="03/10/2008"

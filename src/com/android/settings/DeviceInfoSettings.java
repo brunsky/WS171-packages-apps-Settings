@@ -46,6 +46,7 @@ public class DeviceInfoSettings extends PreferenceActivity {
     private static final String KEY_CONTRIBUTORS = "contributors";
     private static final String KEY_TERMS = "terms";
     private static final String KEY_LICENSE = "license";
+    private static final String KEY_SW_LICENSE = "sw_license";
     private static final String KEY_COPYRIGHT = "copyright";
     private static final String KEY_SYSTEM_UPDATE_SETTINGS = "system_update_settings";
     
@@ -56,7 +57,7 @@ public class DeviceInfoSettings extends PreferenceActivity {
         addPreferencesFromResource(R.xml.device_info_settings);
        
         setStringSummary("firmware_version", Build.VERSION.RELEASE);
-        setValueSummary("baseband_version", "gsm.version.baseband");
+        //setValueSummary("baseband_version", "gsm.version.baseband");
         setStringSummary("device_model", Build.MODEL);
         setStringSummary("build_number", Build.DISPLAY);
         findPreference("kernel_version").setSummary(getFormattedKernelVersion());
@@ -71,6 +72,8 @@ public class DeviceInfoSettings extends PreferenceActivity {
         Utils.updatePreferenceToSpecificActivityOrRemove(this, parentPreference, KEY_TERMS,
                 Utils.UPDATE_PREFERENCE_FLAG_SET_TITLE_TO_MATCHING_ACTIVITY);
         Utils.updatePreferenceToSpecificActivityOrRemove(this, parentPreference, KEY_LICENSE,
+                Utils.UPDATE_PREFERENCE_FLAG_SET_TITLE_TO_MATCHING_ACTIVITY);
+	Utils.updatePreferenceToSpecificActivityOrRemove(this, parentPreference, KEY_SW_LICENSE,
                 Utils.UPDATE_PREFERENCE_FLAG_SET_TITLE_TO_MATCHING_ACTIVITY);
         Utils.updatePreferenceToSpecificActivityOrRemove(this, parentPreference, KEY_COPYRIGHT,
                 Utils.UPDATE_PREFERENCE_FLAG_SET_TITLE_TO_MATCHING_ACTIVITY);

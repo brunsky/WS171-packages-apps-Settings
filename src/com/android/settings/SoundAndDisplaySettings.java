@@ -66,8 +66,8 @@ public class SoundAndDisplaySettings extends PreferenceActivity implements
      * Otherwise, it will adjust the normal ringer mode's ring or ring+vibrate
      * setting.
      */
-    private CheckBoxPreference mVibrate;
-    private CheckBoxPreference mDtmfTone;
+    //private CheckBoxPreference mVibrate;
+    //private CheckBoxPreference mDtmfTone;
     private CheckBoxPreference mSoundEffects;
     private CheckBoxPreference mAnimations;
     private CheckBoxPreference mAccelerometer;
@@ -99,11 +99,11 @@ public class SoundAndDisplaySettings extends PreferenceActivity implements
         mSilent = (CheckBoxPreference) findPreference(KEY_SILENT);
         mPlayMediaNotificationSounds = (CheckBoxPreference) findPreference(KEY_PLAY_MEDIA_NOTIFICATION_SOUNDS);
 
-        mVibrate = (CheckBoxPreference) findPreference(KEY_VIBRATE);
-        mDtmfTone = (CheckBoxPreference) findPreference(KEY_DTMF_TONE);
-        mDtmfTone.setPersistent(false);
-        mDtmfTone.setChecked(Settings.System.getInt(resolver,
-                Settings.System.DTMF_TONE_WHEN_DIALING, 1) != 0);
+        //mVibrate = (CheckBoxPreference) findPreference(KEY_VIBRATE);
+        //mDtmfTone = (CheckBoxPreference) findPreference(KEY_DTMF_TONE);
+        //mDtmfTone.setPersistent(false);
+        //mDtmfTone.setChecked(Settings.System.getInt(resolver,
+        //        Settings.System.DTMF_TONE_WHEN_DIALING, 1) != 0);
         mSoundEffects = (CheckBoxPreference) findPreference(KEY_SOUND_EFFECTS);
         mSoundEffects.setPersistent(false);
         mSoundEffects.setChecked(Settings.System.getInt(resolver,
@@ -158,9 +158,9 @@ public class SoundAndDisplaySettings extends PreferenceActivity implements
             vibrateSetting = mAudioManager.getVibrateSetting(AudioManager.VIBRATE_TYPE_RINGER)
                     == AudioManager.VIBRATE_SETTING_ON;            
         }
-        if (vibrateSetting != mVibrate.isChecked() || force) {
-            mVibrate.setChecked(vibrateSetting);
-        }
+        //if (vibrateSetting != mVibrate.isChecked() || force) {
+        //    mVibrate.setChecked(vibrateSetting);
+        //}
         
         int silentModeStreams = Settings.System.getInt(getContentResolver(),
                 Settings.System.MODE_RINGER_STREAMS_AFFECTED, 0);
@@ -206,7 +206,7 @@ public class SoundAndDisplaySettings extends PreferenceActivity implements
                 mMountService.setPlayNotificationSounds(mPlayMediaNotificationSounds.isChecked());
             } catch (RemoteException e) {
             }
-        } else if (preference == mVibrate) {
+        } /*else if (preference == mVibrate) {
             final boolean vibrate = mVibrate.isChecked();
             final boolean silent = mSilent.isChecked();
             
@@ -219,11 +219,11 @@ public class SoundAndDisplaySettings extends PreferenceActivity implements
                                 : AudioManager.VIBRATE_SETTING_OFF);
             }
             
-        } else if (preference == mDtmfTone) {
+        }*/ /*else if (preference == mDtmfTone) {
             Settings.System.putInt(getContentResolver(), Settings.System.DTMF_TONE_WHEN_DIALING,
                     mDtmfTone.isChecked() ? 1 : 0);
             
-        } else if (preference == mSoundEffects) {
+        }*/ else if (preference == mSoundEffects) {
             if (mSoundEffects.isChecked()) {
                 mAudioManager.loadSoundEffects();
             } else {

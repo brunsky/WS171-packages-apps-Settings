@@ -197,7 +197,7 @@
     <string name="airplane_mode_turning_on">"ワイヤレス接続を無効にしています..."</string>
     <string name="airplane_mode_turning_off">"ワイヤレス接続を有効にしています..."</string>
     <string name="radio_controls_title">"ワイヤレス設定"</string>
-    <string name="radio_controls_summary">"Wi-Fi、Bluetooth、機内モード、モバイルネットワークの管理"</string>
+    <string name="radio_controls_summary">"Wi-Fi、機内モードの管理"</string>
     <string name="date_and_time_settings_title">"日付と時刻"</string>
     <string name="date_and_time_settings_summary">"日付、時刻、タイムゾーンの設定"</string>
     <string name="date_time_auto">"自動"</string>
@@ -211,7 +211,7 @@
     <string name="zone_list_menu_sort_alphabetically">"アルファベット順"</string>
     <string name="zone_list_menu_sort_by_timezone">"タイムゾーン順"</string>
     <string name="security_settings_title">"セキュリティ &amp; 位置情報"</string>
-    <string name="security_settings_summary">"現在地情報、画面ロック、SIMカードロック"</string>
+    <string name="security_settings_summary">"現在地情報、画面ロック"</string>
     <string name="security_passwords_title">"パスワード"</string>
     <string name="bluetooth_quick_toggle_title">"Bluetooth"</string>
     <string name="bluetooth_quick_toggle_summary">"BluetoothをONにする"</string>
@@ -345,7 +345,7 @@
     <string name="silent_mode_incl_alarm_summary">"音楽と動画メディア以外は消音"</string>
     <string name="ringtone_title">"着信音"</string>
     <string name="ringtone_summary">"端末の基本着信音を選択"</string>
-    <string name="ring_volume_title">"着信音量"</string>
+    <string name="ring_volume_title">"端末ボリューム"</string>
     <string name="ring_volume_summary">"着信音と通知音の音量"</string>
     <string name="vibrate_title">"バイブレーション"</string>
     <string name="vibrate_summary">"着信時バイブレーションをONにする"</string>
@@ -353,7 +353,7 @@
     <string name="notification_sound_summary">"端末の基本通知音を選択"</string>
     <string name="incoming_call_volume_title">"着信音量"</string>
     <string name="notification_volume_title">"通知音量"</string>
-    <string name="checkbox_notification_same_as_incoming_call">"通知音にも着信音量を適用"</string>
+    <string name="checkbox_notification_same_as_incoming_call">"通知音にも端末音量を適用"</string>
     <string name="notification_sound_dialog_title">"通知音を選択"</string>
     <string name="media_volume_title">"メディア再生音量"</string>
     <string name="media_volume_summary">"音楽や動画の再生音量"</string>
@@ -373,8 +373,8 @@
     <string name="animations_summary_on">"ウィンドウの開閉をアニメーション表示"</string>
     <string name="animations_summary_off">"ウィンドウの開閉をアニメーション表示"</string>
     <string name="accelerometer_title">"画面の向き"</string>
-    <string name="accelerometer_summary_on">"画面の向きに合わせて縦横表示を切り替える"</string>
-    <string name="accelerometer_summary_off">"画面の向きに合わせて縦横表示を切り替える"</string>
+    <string name="accelerometer_summary_on">"デバイスの向きに合わせて表示画面の方向を変化します"</string>
+    <string name="accelerometer_summary_off">"デバイスの向きに合わせて表示画面の方向を変化します"</string>
     <string name="brightness">"画面の明るさ"</string>
     <string name="brightness_summary">"画面の明るさを調整する"</string>
     <string name="screen_timeout">"バックライト消灯"</string>
@@ -411,8 +411,8 @@
     <string name="device_info_not_available">"該当なし"</string>
     <string name="device_status_activity_title">"端末の状態"</string>
     <string name="device_status">"端末の状態"</string>
-    <string name="device_status_summary">"電池残量、電話番号、ネットワークなど"</string>
-    <string name="storage_settings_title">"SDカード &amp; 端末容量"</string>
+    <string name="device_status_summary">""</string>
+    <string name="storage_settings_title">"SDカードとデバイスストレージ"</string>
     <string name="storage_settings_summary">"SDカードの取り外し、空き容量の表示"</string>
     <string name="status_number">"電話番号"</string>
     <string name="status_network_type">"モバイルネットワークの種類"</string>
@@ -426,7 +426,7 @@
     <string name="status_unavailable">"不明"</string>
     <string name="status_up_time">"稼働時間"</string>
     <string name="status_awake_time">"端末使用時間"</string>
-    <string name="internal_memory">"端末内部メモリ"</string>
+    <string name="internal_memory">"内蔵メモリ"</string>
     <string name="sd_memory">"SDカード"</string>
     <string name="memory_available">"空き容量"</string>
     <string name="memory_size">"合計容量"</string>
@@ -467,13 +467,13 @@
     <string name="menu_restore">"初期設定にリセット"</string>
     <string name="restore_default_apn_completed">"APN設定をリセットしました"</string>
     <string name="master_clear_title">"データの初期化"</string>
-    <string name="master_clear_summary">"携帯電話内のすべてのデータを消去"</string>
-    <string name="master_clear_desc">"この操作は携帯電話を出荷時の初期状態にリセットし、データとダウンロードしたアプリケーションをすべて消去します。"</string>
-    <string name="master_clear_button_text">"携帯電話をリセット"</string>
-    <string name="master_clear_final_desc">"データやアプリケーションをすべて消去して携帯電話をリセットしますか？この操作は元に戻せません。"</string>
+    <string name="master_clear_summary">"デバイスの全てのデータを消去します"</string>
+    <string name="master_clear_desc">"この操作はデバイスを出荷時の初期状態にリセットし、データとダウンロードしたアプリケーションをすべて消去します。"</string>
+    <string name="master_clear_button_text">"デバイスをリセット"</string>
+    <string name="master_clear_final_desc">"データやアプリケーションをすべて消去してデバイスをリセットしますか？この操作は元に戻せません。"</string>
     <string name="master_clear_final_button_text">"すべて消去"</string>
     <string name="master_clear_gesture_prompt">"ロック解除パターンを入力してください"</string>
-    <string name="master_clear_gesture_explanation">"携帯電話をリセットするには、ロック解除パターンを入力する必要があります。"</string>
+    <string name="master_clear_gesture_explanation">"デバイスをリセットするには、ロック解除パターンを入力する必要があります。"</string>
     <string name="master_clear_failed">"System Clearサービスが利用できないため、リセットされませんでした。"</string>
     <string name="media_format_title">"SDカードをフォーマットします。"</string>
     <string name="media_format_summary">"SDカードのすべてのデータを消去します"</string>
@@ -498,7 +498,7 @@
     <string name="location_warning_message">"Googleの位置情報サービスによる匿名化された位置データの収集および集計を許可します。データ収集はアプリケーション起動の有無にかかわらず行われます。"</string>
     <string name="agree">"同意する"</string>
     <string name="disagree">"同意しない"</string>
-    <string name="about_settings">"端末情報"</string>
+    <string name="about_settings">"ウェブステーションについて"</string>
     <string name="about_settings_summary">"端末情報、規約、バージョン情報"</string>
     <string name="legal_information">"法的情報"</string>
     <string name="contributors_title">"アライアンスパートナー"</string>
@@ -537,18 +537,18 @@
     <string name="lockpattern_too_many_failed_confirmation_attempts_footer">"<xliff:g id="NUMBER">%d</xliff:g>秒後にやり直してください。"</string>
     <string name="skip_button_label">"キャンセル"</string>
     <string name="next_button_label">"次へ"</string>
-    <string name="lock_title">"携帯電話の保護"</string>
-    <string name="lock_intro_message"><font size="17">"画面ロックの解除パターンを作成して携帯電話の不正使用を防ぐことができます。"\n<font height="17">\n</font><b>"1"</b>"  次の画面でパターン作成の例を参考にしてください。"\n<font height="17">\n</font><b>"2"</b>"  ロック解除パターンを決めたら、そのパターンを指でなぞって描きます。さまざまなパターンを作成できますが、最低4つの点を結んでください。"\n<font height="17">\n</font><b>"3"</b>"  確認のためもう一度そのパターンを入力します。"\n<font height="17">\n</font><b>"[次へ]を押すと次に進みます"</b>"。"\n<font height="3">\n</font>"パターンロックを設定しない場合は[キャンセル]を選択してください。"</font></string>
+    <string name="lock_title">"デバイスの保護"</string>
+    <string name="lock_intro_message"><font size="17">"画面ロックの解除パターンを作成してデバイスの不正使用を防ぐことができます。"\n<font height="17">\n</font><b>"1"</b>"  次の画面でパターン作成の例を参考にしてください。"\n<font height="17">\n</font><b>"2"</b>"  ロック解除パターンを決めたら、そのパターンを指でなぞって描きます。さまざまなパターンを作成できますが、最低4つの点を結んでください。"\n<font height="17">\n</font><b>"3"</b>"  確認のためもう一度そのパターンを入力します。"\n<font height="17">\n</font><b>"[次へ]を押すと次に進みます"</b>"。"\n<font height="3">\n</font>"保護モードを解除します[キャンセル]を選択してください。"</font></string>
     <string name="lock_example_title">"パターン例"</string>
     <string name="lock_example_message">"少なくとも4つの点を結んで下さい。"\n" "\n"パターンを決めたら[次へ]を選択して進みます。"</string>
     <string name="manageapplications_settings_title">"アプリケーションの管理"</string>
     <string name="manageapplications_settings_summary">"インストール済みアプリケーションを管理/削除します"</string>
     <string name="applications_settings">"アプリケーション"</string>
-    <string name="applications_settings_summary">"アプリケーションの管理やクイック起動ショートカットの設定"</string>
+    <string name="applications_settings_summary">"アプリケーションを管理します"</string>
     <string name="applications_settings_header">"アプリケーション設定"</string>
-    <string name="install_applications">"提供元不明のアプリ"</string>
-    <string name="install_unknown_applications">"サードパーティアプリケーションのインストールを許可する"</string>
-    <string name="install_all_warning">"提供元不明のアプリケーションから携帯電話や個人情報データが攻撃を受ける可能性が高くなります。このようなアプリケーションの使用により生じうる携帯電話への損害やデータの損失について、お客様がすべての責任を負うことに同意するものとします。"</string>
+    <string name="install_applications">"サードパーティーアプリケーション"</string>
+    <string name="install_unknown_applications">"あなたのWebStationにサードパーティ製アプリケーションのインストールを許可する"</string>
+    <string name="install_all_warning">"インストールしようとしているアプリケーションが安全であることを確認して下さい。発行者が不明なアプリケーションはあなたのデバイス及び個人情報を損ねる場合があります。これに関してはユーザーご本人の責任となります。"</string>
     <string name="application_info_label">"アプリケーション情報"</string>
     <string name="storage_label">"メモリ"</string>
     <string name="auto_launch_label">"いつもこのアプリケーションを選択する操作"</string>
@@ -680,4 +680,5 @@
     <string name="app_name_label">"アプリケーション"</string>
     <string name="launch_count_label">"回数"</string>
     <string name="usage_time_label">"使用時間"</string>
+    <string name="notice">"注意"</string>
 </resources>

@@ -33,7 +33,7 @@
         <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/incoming_call_volume_title"
+                android:text="@string/ring_volume_title"
                 android:paddingTop="20dip"
                 android:paddingLeft="20dip" 
                 android:paddingRight="20dip" />

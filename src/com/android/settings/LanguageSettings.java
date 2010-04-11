@@ -73,8 +73,8 @@ public class LanguageSettings extends PreferenceActivity {
 
         Configuration config = getResources().getConfiguration();
         if (config.keyboard != Configuration.KEYBOARD_QWERTY) {
-            getPreferenceScreen().removePreference(
-                    getPreferenceScreen().findPreference("hardkeyboard_category"));
+            //getPreferenceScreen().removePreference(
+            //        getPreferenceScreen().findPreference("hardkeyboard_category"));
         } else {
             mHaveHardKeyboard = true;
         }

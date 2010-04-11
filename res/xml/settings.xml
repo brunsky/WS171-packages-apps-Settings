@@ -28,16 +28,6 @@
                 android:targetClass="com.android.settings.WirelessSettings" />
         </PreferenceScreen>
 
-        <PreferenceScreen
-            android:key="call_settings"
-            android:title="@string/call_settings_title"
-            android:summary="@string/call_settings_summary">
-            <intent
-                android:action="android.intent.action.MAIN"
-                android:targetPackage="com.android.phone"
-                android:targetClass="com.android.phone.CallFeaturesSetting" />
-        </PreferenceScreen>
-
         <!-- Sound and Display -->
         
         <PreferenceScreen

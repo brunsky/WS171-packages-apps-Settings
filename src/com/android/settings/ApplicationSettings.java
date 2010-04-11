@@ -47,8 +47,8 @@ public class ApplicationSettings extends PreferenceActivity implements
 
         if (getResources().getConfiguration().keyboard == Configuration.KEYBOARD_NOKEYS) {
             // No hard keyboard, remove the setting for quick launch
-            Preference quickLaunchSetting = findPreference(KEY_QUICK_LAUNCH);
-            getPreferenceScreen().removePreference(quickLaunchSetting);
+            //Preference quickLaunchSetting = findPreference(KEY_QUICK_LAUNCH);
+            //getPreferenceScreen().removePreference(quickLaunchSetting);
         }
     }
 
@@ -86,11 +86,14 @@ public class ApplicationSettings extends PreferenceActivity implements
 
     private void warnAppInstallation() {
         mWarnInstallApps = new AlertDialog.Builder(this)
-                .setTitle(getString(R.string.error_title))
+                //.setTitle(getString(R.string.error_title))
+		.setTitle(getString(R.string.notice))
                 .setIcon(com.android.internal.R.drawable.ic_dialog_alert)
                 .setMessage(getResources().getString(R.string.install_all_warning))
-                .setPositiveButton(android.R.string.yes, this)
-                .setNegativeButton(android.R.string.no, null)
+                //.setPositiveButton(android.R.string.yes, this)
+		//.setNegativeButton(android.R.string.no, null)
+		.setPositiveButton(R.string.agree, this)
+		.setNegativeButton(R.string.disagree, null)
                 .show();
     }
     

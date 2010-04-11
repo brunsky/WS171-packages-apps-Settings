@@ -60,6 +60,13 @@
                 <intent android:action="android.settings.LICENSE" />
             </PreferenceScreen>
 
+            <!-- SW_License information -->
+            <PreferenceScreen
+                    android:key="sw_license"
+                    android:title="@string/license_title">
+                <intent android:action="android.settings.SW_LICENSE" />
+            </PreferenceScreen>
+
             <!-- Terms and conditions -->
             <PreferenceScreen
                     android:key="terms"
@@ -76,13 +83,6 @@
             <intent android:action="android.settings.TEAM" />
         </PreferenceScreen>
         
-        <!-- System Tutorial - launches activity -->
-        <PreferenceScreen android:key="system_tutorial"
-                android:title="@string/system_tutorial_list_item_title" 
-                android:summary="@string/system_tutorial_list_item_summary">
-            <intent android:action="android.intent.action.SYSTEM_TUTORIAL" />
-        </PreferenceScreen>
-        
         <!-- Device hardware model -->
         <Preference android:key="device_model" 
                 style="?android:preferenceInformationStyle"
@@ -93,12 +93,6 @@
         <Preference android:key="firmware_version" 
                 style="?android:preferenceInformationStyle"
                 android:title="@string/firmware_version"
-                android:summary="@string/device_info_default"/>
-                
-        <!-- Device Baseband version -->
-        <Preference android:key="baseband_version" 
-                style="?android:preferenceInformationStyle"
-                android:title="@string/baseband_version"
                 android:summary="@string/device_info_default"/>
         
         <!-- Device Kernel version -->

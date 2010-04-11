@@ -32,7 +32,7 @@ public class WirelessSettings extends PreferenceActivity {
 
     private WifiEnabler mWifiEnabler;
     private AirplaneModeEnabler mAirplaneModeEnabler;
-    private BluetoothEnabler mBtEnabler;
+    //private BluetoothEnabler mBtEnabler;
     
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,7 +49,7 @@ public class WirelessSettings extends PreferenceActivity {
         
         mWifiEnabler.resume();
         mAirplaneModeEnabler.resume();
-        mBtEnabler.resume();
+        //mBtEnabler.resume();
     }
     
     @Override
@@ -58,7 +58,7 @@ public class WirelessSettings extends PreferenceActivity {
         
         mWifiEnabler.pause();
         mAirplaneModeEnabler.pause();
-        mBtEnabler.pause();
+        //mBtEnabler.pause();
     }
     
     private void initToggles() {
@@ -72,9 +72,9 @@ public class WirelessSettings extends PreferenceActivity {
                 this,
                 (CheckBoxPreference) findPreference(KEY_TOGGLE_AIRPLANE));
         
-        mBtEnabler = new BluetoothEnabler(
-                this,
-                (CheckBoxPreference) findPreference(KEY_TOGGLE_BLUETOOTH));
+        //mBtEnabler = new BluetoothEnabler(
+        //        this,
+        //        (CheckBoxPreference) findPreference(KEY_TOGGLE_BLUETOOTH));
     }
     
 }

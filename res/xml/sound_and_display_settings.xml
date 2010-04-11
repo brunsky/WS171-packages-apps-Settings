@@ -45,21 +45,6 @@
                 android:streamType="music" />
     
         <com.android.settings.DefaultRingtonePreference
-                android:key="ringtone"
-                android:title="@string/ringtone_title"
-                android:summary="@string/ringtone_summary"
-                android:dialogTitle="@string/ringtone_title"
-                android:persistent="false"
-                android:dependency="silent"
-                android:ringtoneType="ringtone" />
-    
-        <CheckBoxPreference
-                android:key="vibrate"
-                android:title="@string/vibrate_title"
-                android:summary="@string/vibrate_summary"
-                android:persistent="false" />
-    
-        <com.android.settings.DefaultRingtonePreference
                 android:key="notification_sound"
                 android:title="@string/notification_sound_title"
                 android:summary="@string/notification_sound_summary"
@@ -67,14 +52,6 @@
                 android:dependency="silent"
                 android:persistent="false"
                 android:ringtoneType="notification" />
-                
-        <CheckBoxPreference
-                android:key="dtmf_tone"
-                android:title="@string/dtmf_tone_enable_title"
-                android:summaryOn="@string/dtmf_tone_enable_summary_on"
-                android:summaryOff="@string/dtmf_tone_enable_summary_off"
-                android:dependency="silent"
-                android:defaultValue="true" />
 
         <CheckBoxPreference
                 android:key="sound_effects"

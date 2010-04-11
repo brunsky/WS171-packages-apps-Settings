@@ -195,7 +195,7 @@
     <string name="airplane_mode_turning_on">"Wireless-Verbindungen werden deaktiviert..."</string>
     <string name="airplane_mode_turning_off">"Wireless-Verbindungen werden aktiviert..."</string>
     <string name="radio_controls_title">"Wireless"</string>
-    <string name="radio_controls_summary">"WLAN, Bluetooth, Flugmodus und mobile Netzwerke verwalten"</string>
+    <string name="radio_controls_summary">"WLAN, Flugmodus verwalten"</string>
     <string name="date_and_time_settings_title">"Datum und Uhrzeit"</string>
     <string name="date_and_time_settings_summary">"Datum, Uhrzeit, Zeitzone und Formate festlegen"</string>
     <string name="date_time_auto">"Automatisch"</string>
@@ -209,7 +209,7 @@
     <string name="zone_list_menu_sort_alphabetically">"Alphabetisch sortieren"</string>
     <string name="zone_list_menu_sort_by_timezone">"Nach Zeitzone sortieren"</string>
     <string name="security_settings_title">"Sicherheit und Standort"</string>
-    <string name="security_settings_summary">"Meinen Standort, Display-Entsperrung und SIM-Kartensperrung festlegen"</string>
+    <string name="security_settings_summary">"Meinen Standort und Display-Entsperrung einstellen"</string>
     <string name="security_passwords_title">"Passwörter"</string>
     <string name="bluetooth_quick_toggle_title">"Bluetooth"</string>
     <string name="bluetooth_quick_toggle_summary">"Bluetooth aktivieren"</string>
@@ -343,15 +343,15 @@
     <string name="silent_mode_incl_alarm_summary">"Alle Sounds außer Medien sind stumm geschaltet"</string>
     <string name="ringtone_title">"Klingelton"</string>
     <string name="ringtone_summary">"Standardklingelton für eingehende Anrufe festlegen"</string>
-    <string name="ring_volume_title">"Klingeltonlautstärke"</string>
-    <string name="ring_volume_summary">"Lautstärke für eingehende Anrufe und Benachrichtigungen festlegen"</string>
+    <string name="ring_volume_title">"Lautstärke des Gerätes"</string>
+    <string name="ring_volume_summary">"Lautstärke für eingehende Anrufe einstellen"</string>
     <string name="vibrate_title">"Vibration"</string>
     <string name="vibrate_summary">"Vibration für eingehende Anrufe"</string>
     <string name="notification_sound_title">"Benachrichtigungston"</string>
     <string name="notification_sound_summary">"Standard-Benachrichtigungston festlegen"</string>
     <string name="incoming_call_volume_title">"Lautstärke für eingehende Anrufe"</string>
     <string name="notification_volume_title">"Benachrichtigungslautstärke"</string>
-    <string name="checkbox_notification_same_as_incoming_call">"Lautstärke für eingehende Anrufe für Benachrichtigungen verwenden"</string>
+    <string name="checkbox_notification_same_as_incoming_call">"Lautstärke für gerät für Benachrichtigungen verwenden"</string>
     <string name="notification_sound_dialog_title">"Benachrichtigungston auswählen"</string>
     <string name="media_volume_title">"Medienlautstärke"</string>
     <string name="media_volume_summary">"Lautstärke für Musik und Videos festlegen"</string>
@@ -371,8 +371,8 @@
     <string name="animations_summary_on">"Animation beim Öffnen und Schließen von Fenstern anzeigen"</string>
     <string name="animations_summary_off">"Animation beim Öffnen und Schließen von Fenstern anzeigen"</string>
     <string name="accelerometer_title">"Ausrichtung"</string>
-    <string name="accelerometer_summary_on">"Ausrichtung beim Drehen des Telefons automatisch ändern"</string>
-    <string name="accelerometer_summary_off">"Ausrichtung beim Drehen des Telefons automatisch ändern"</string>
+    <string name="accelerometer_summary_on">"Die Orientierung automatisch umlenken, wenn Sie das Gerät drehen"</string>
+    <string name="accelerometer_summary_off">"Die Orientierung automatisch umlenken, wenn Sie das Gerät drehen"</string>
     <string name="brightness">"Helligkeit"</string>
     <string name="brightness_summary">"Helligkeit des Bildschirms anpassen"</string>
     <string name="screen_timeout">"Display-Timeout"</string>
@@ -409,8 +409,8 @@
     <string name="device_info_not_available">"Nicht verfügbar"</string>
     <string name="device_status_activity_title">"Status"</string>
     <string name="device_status">"Status"</string>
-    <string name="device_status_summary">"IMEI, Telefonnummer, Signal usw."</string>
-    <string name="storage_settings_title">"SD-Karte und Speicher"</string>
+    <string name="device_status_summary">""</string>
+    <string name="storage_settings_title">"SD-Karte und Speichergerät"</string>
     <string name="storage_settings_summary">"SD-Karte entnehmen, verfügbaren Speicher anzeigen"</string>
     <string name="status_number">"Telefonnummer"</string>
     <string name="status_network_type">"Mobiler Netzwerktyp"</string>
@@ -424,7 +424,7 @@
     <string name="status_unavailable">"Nicht verfügbar"</string>
     <string name="status_up_time">"Betriebszeit"</string>
     <string name="status_awake_time">"Aktivzeit"</string>
-    <string name="internal_memory">"Interner Telefonspeicher"</string>
+    <string name="internal_memory">"Internspeicher"</string>
     <string name="sd_memory">"SD-Karte"</string>
     <string name="memory_available">"Verfügbarer Speicher"</string>
     <string name="memory_size">"Gesamtspeicher"</string>
@@ -465,13 +465,13 @@
     <string name="menu_restore">"Auf Standardeinstellung zurücksetzen"</string>
     <string name="restore_default_apn_completed">"Zurücksetzen auf Standard-APN-Einstellungen abgeschlossen"</string>
     <string name="master_clear_title">"Auf Werkszustand zurück"</string>
-    <string name="master_clear_summary">"Löscht alle Daten auf dem Telefon"</string>
-    <string name="master_clear_desc">"Durch diese Aktion wird das Telefon auf den Werkszustand zurückgesetzt. Alle Daten und heruntergeladenen Anwendungen werden gelöscht!"</string>
-    <string name="master_clear_button_text">"Telefon zurücksetzen"</string>
-    <string name="master_clear_final_desc">"Telefon zurücksetzen und alle Ihre Daten und Anwendungen löschen? Die Aktion kann nicht rückgängig gemacht werden!"</string>
+    <string name="master_clear_summary">"Löschen aller Daten auf diesem Gerät"</string>
+    <string name="master_clear_desc">"Durch diese Aktion wird das Gerät auf die ursprüngliche Werkeinstellung zurückgesetzt. Sämtliche Daten und heruntergeladenen Anwendungen werden gelöscht!"</string>
+    <string name="master_clear_button_text">"Gerät zurücksetzen"</string>
+    <string name="master_clear_final_desc">"Gerät zurücksetzen und sämtliche Daten und Anwendungen löschen? Diese Aktion kann nicht rückgängig gemacht werden!"</string>
     <string name="master_clear_final_button_text">"Alles löschen"</string>
     <string name="master_clear_gesture_prompt">"Bitte zeichnen Sie Ihr Entsperrungsmuster."</string>
-    <string name="master_clear_gesture_explanation">"Sie müssen Ihr Entsperrungsmuster eingeben, um das Zurücksetzen des Telefons zu bestätigen."</string>
+    <string name="master_clear_gesture_explanation">"Sie müssen sich ziehen Sie Ihre entsperren Muster auf das Gerät zurücksetzen zu bestätigen."</string>
     <string name="master_clear_failed">"Die Zurücksetzung konnte nicht durchgeführt werden, da der Service zur Systembereinigung nicht verfügbar ist."</string>
     <string name="media_format_title">"SD-Karte formatieren."</string>
     <string name="media_format_summary">"Löscht alle Daten auf der SD-Karte"</string>
@@ -496,8 +496,8 @@
     <string name="location_warning_message">"Erlauben Sie dem Google-Standortservice, anonyme und aggregierte Standortdaten zu erfassen. Die Erfassung wird unabhängig davon durchgeführt, ob Anwendungen aktiv sind oder nicht."</string>
     <string name="agree">"Zustimmen"</string>
     <string name="disagree">"Ablehnen"</string>
-    <string name="about_settings">"Telefoninfo"</string>
-    <string name="about_settings_summary">"Rechtliche Hinweise, Telefonstatus und Softwareversion anzeigen"</string>
+    <string name="about_settings">"Über die Webstation"</string>
+    <string name="about_settings_summary">"Rechtliche Hinweise, Gerätstatus und Softwareversion anzeigen"</string>
     <string name="legal_information">"Rechtliche Hinweise"</string>
     <string name="contributors_title">"Mitwirkende"</string>
     <string name="copyright_title">"Urheberrecht"</string>
@@ -535,18 +535,18 @@
     <string name="lockpattern_too_many_failed_confirmation_attempts_footer">"In <xliff:g id="NUMBER">%d</xliff:g> Sekunden erneut versuchen."</string>
     <string name="skip_button_label">"Abbrechen"</string>
     <string name="next_button_label">"Weiter"</string>
-    <string name="lock_title">"Sichern Ihres Telefons"</string>
-    <string name="lock_intro_message"><font size="17">"Schützen Sie Ihr Telefon vor unerlaubter Verwendung, indem Sie ein persönliches Entsperrungsmuster erstellen. "\n<font height="17">\n</font><b>"1"</b>"  Auf dem nächsten Bildschirm sehen Sie, wie ein Beispielmuster gezeichnet wird. "\n<font height="17">\n</font><b>"2"</b>"  Anschließend können Sie Ihr eigenes Entsperrungsmuster aufzeichnen. Sie können verschiedene Muster ausprobieren, müssen jedoch immer mindestens vier Punkte miteinander verbinden. "\n<font height="17">\n</font><b>"3"</b>"  Zeichnen Sie Ihr Muster zur Bestätigung erneut. "\n<font height="17">\n</font><b>"Bereit? Wählen Sie “Weiter”"</b>". "\n<font height="3">\n</font>"Wählen Sie “Abbrechen”, wenn Sie Ihr Telefon nicht schützen möchten."</font></string>
+    <string name="lock_title">"Sichern von Ihrem Gerät"</string>
+    <string name="lock_intro_message"><font size="17">"Erstellen Sie einen persönlichen Entsperrungsmodus, um Ihr Gerät vor unbefugter Verwendung zu schützen. "\n<font height="17">\n</font><b>"1"</b>"  Auf dem nächsten Bildschirm sehen Sie, wie ein Beispielmuster gezeichnet wird. "\n<font height="17">\n</font><b>"2"</b>"  Anschließend können Sie Ihr eigenes Entsperrungsmuster aufzeichnen. Sie können verschiedene Muster ausprobieren, müssen jedoch immer mindestens vier Punkte miteinander verbinden. "\n<font height="17">\n</font><b>"3"</b>"  Zeichnen Sie Ihr Muster zur Bestätigung erneut. "\n<font height="17">\n</font><b>"Bereit? Wählen Sie “Weiter”"</b>". "\n<font height="3">\n</font>"Wählen Sie “Abbrechen”, Ihr Gerät ungeschützt lassen."</font></string>
     <string name="lock_example_title">"Beispielmuster"</string>
     <string name="lock_example_message">"Verbinden Sie mindestens vier Punkte."\n" "\n"Wählen Sie \"Weiter\", um ein eigenes Muster aufzuzeichnen."</string>
     <string name="manageapplications_settings_title">"Anwendungen verwalten"</string>
     <string name="manageapplications_settings_summary">"Installierte Anwendungen verwalten und entfernen"</string>
     <string name="applications_settings">"Anwendungen"</string>
-    <string name="applications_settings_summary">"Anwendungen verwalten, Tastenkombinationen für Schnellstart"</string>
+    <string name="applications_settings_summary">"Anwendungen verwalten"</string>
     <string name="applications_settings_header">"Anwendungen"</string>
-    <string name="install_applications">"Unbekannte Quellen"</string>
-    <string name="install_unknown_applications">"Installation von Nicht-Market-Anwendungen zulassen"</string>
-    <string name="install_all_warning">"Anwendungen aus unbekannten Quellen können gefährlich für Ihr Telefon und Ihre persönlichen Daten sein. Sie stimmen zu, dass Sie die Verantwortung für alle Schäden an Ihrem Telefon oder jegliche Datenverluste tragen, die aus der Verwendung dieser Anwendungen entstehen können."</string>
+    <string name="install_applications">"Anwendungen anderer Hersteller"</string>
+    <string name="install_unknown_applications">"Lassen Sie Installieren von Third Party-Anwendungen in Ihre WebStation"</string>
+    <string name="install_all_warning">"Seien Sie sicher, dass die Sicherheit der Anwendungen, die Sie auf diesem Gerät installieren, gewährleistet ist. Falls Sie Anwendungen aus einer unbekannten Quelle eines anderen Herstellers auf Ihr Gerät installieren, könnte dieses Gerät und Ihre persönliche Daten beschädigt werden. Sie sind damit einverstanden, dass Sie selbst für alle Beschädigungen dieses Gerätes verantwortlich sind, die durch die Ausführung dieser Anwendungen verursacht wurden."</string>
     <string name="application_info_label">"Anwendungsinfo"</string>
     <string name="storage_label">"Speicher"</string>
     <string name="auto_launch_label">"Standardmäßig starten"</string>
@@ -678,4 +678,5 @@
     <string name="app_name_label">"Anwendung"</string>
     <string name="launch_count_label">"Anzahl"</string>
     <string name="usage_time_label">"Nutzungszeit"</string>
+    <string name="notice">"Datenschutz"</string>
 </resources>

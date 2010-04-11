@@ -47,7 +47,7 @@
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.settings.SETTINGS" />
                 <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.LAUNCHER" />
+		<category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
 
@@ -195,6 +195,15 @@
                 android:theme="@*android:style/Theme.Dialog.Alert">
             <intent-filter>
                 <action android:name="android.settings.LICENSE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+	<activity android:name="SettingsSWLicenseActivity"
+                android:label="@string/settings_sw_license_activity_title"
+                android:theme="@*android:style/Theme.Dialog.Alert">
+            <intent-filter>
+                <action android:name="android.settings.SW_LICENSE" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>

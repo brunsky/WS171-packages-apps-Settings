@@ -79,8 +79,8 @@ public class DateTimeSettings
         mDummyDate = Calendar.getInstance();
         mDummyDate.set(mDummyDate.get(Calendar.YEAR), 11, 31, 13, 0, 0);
         
-        mAutoPref = (CheckBoxPreference) findPreference(KEY_AUTO_TIME);
-        mAutoPref.setChecked(autoEnabled);
+        //mAutoPref = (CheckBoxPreference) findPreference(KEY_AUTO_TIME);
+        //mAutoPref.setChecked(autoEnabled);
         mTimePref = findPreference("time");
         mTime24Pref = findPreference("24 hour");
         mTimeZone = findPreference("timezone");
@@ -304,12 +304,15 @@ public class DateTimeSettings
     }
     
     private boolean getAutoState() {
+	return false;
+	/*
         try {
             return Settings.System.getInt(getContentResolver(), 
                 Settings.System.AUTO_TIME) > 0;            
         } catch (SettingNotFoundException snfe) {
             return true;
         }
+	*/
     }
 
     private void setDateFormat(String format) {

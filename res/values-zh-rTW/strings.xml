@@ -197,7 +197,7 @@
     <string name="airplane_mode_turning_on">"停用無線網路連線中..."</string>
     <string name="airplane_mode_turning_off">"啟用無線網路連線中..."</string>
     <string name="radio_controls_title">"無線網路控制"</string>
-    <string name="radio_controls_summary">"管理 Wi-Fi、藍牙、飛航模式與行動網路"</string>
+    <string name="radio_controls_summary">"Wi-Fi與飛航模式管理"</string>
     <string name="date_and_time_settings_title">"日期與時間"</string>
     <string name="date_and_time_settings_summary">"設定日期、時間、時區與格式"</string>
     <string name="date_time_auto">"自動"</string>
@@ -211,7 +211,7 @@
     <string name="zone_list_menu_sort_alphabetically">"依照字母排序"</string>
     <string name="zone_list_menu_sort_by_timezone">"依時區排序"</string>
     <string name="security_settings_title">"安全性與位置"</string>
-    <string name="security_settings_summary">"設定我的位置、螢幕解鎖、SIM 卡鎖定"</string>
+    <string name="security_settings_summary">"設定我的位置及螢幕解鎖"</string>
     <string name="security_passwords_title">"密碼"</string>
     <string name="bluetooth_quick_toggle_title">"藍牙"</string>
     <string name="bluetooth_quick_toggle_summary">"開啟藍牙"</string>
@@ -345,15 +345,15 @@
     <string name="silent_mode_incl_alarm_summary">"將所有非媒體音效設為靜音"</string>
     <string name="ringtone_title">"電話鈴聲"</string>
     <string name="ringtone_summary">"設定預設來電鈴聲"</string>
-    <string name="ring_volume_title">"鈴聲音量"</string>
-    <string name="ring_volume_summary">"設定來電和通知的音量"</string>
+    <string name="ring_volume_title">"裝置音量"</string>
+    <string name="ring_volume_summary">"設定通知的音量"</string>
     <string name="vibrate_title">"手機震動"</string>
     <string name="vibrate_summary">"來電震動"</string>
     <string name="notification_sound_title">"通知鈴聲"</string>
     <string name="notification_sound_summary">"設定預設通知鈴聲"</string>
     <string name="incoming_call_volume_title">"來電音量"</string>
     <string name="notification_volume_title">"通知音量"</string>
-    <string name="checkbox_notification_same_as_incoming_call">"通知使用來電音量"</string>
+    <string name="checkbox_notification_same_as_incoming_call">"通知使用端末音量"</string>
     <string name="notification_sound_dialog_title">"選取通知鈴聲"</string>
     <string name="media_volume_title">"媒體音量"</string>
     <string name="media_volume_summary">"設定音樂與影片的音量"</string>
@@ -373,8 +373,8 @@
     <string name="animations_summary_on">"開啟和關閉視窗時顯示動畫"</string>
     <string name="animations_summary_off">"開啟和關閉視窗時顯示動畫"</string>
     <string name="accelerometer_title">"顯示方向"</string>
-    <string name="accelerometer_summary_on">"旋轉手機時自動改變顯示方向"</string>
-    <string name="accelerometer_summary_off">"旋轉手機時自動改變顯示方向"</string>
+    <string name="accelerometer_summary_on">"旋轉裝置時自動改變顯示方向"</string>
+    <string name="accelerometer_summary_off">"旋轉裝置時自動改變顯示方向"</string>
     <string name="brightness">"亮度"</string>
     <string name="brightness_summary">"調整螢幕亮度"</string>
     <string name="screen_timeout">"螢幕逾時"</string>
@@ -411,8 +411,8 @@
     <string name="device_info_not_available">"無法取得"</string>
     <string name="device_status_activity_title">"狀態"</string>
     <string name="device_status">"狀態"</string>
-    <string name="device_status_summary">"IMEI、電話號碼、訊號等。"</string>
-    <string name="storage_settings_title">"SD 卡與手機儲存"</string>
+    <string name="device_status_summary">""</string>
+    <string name="storage_settings_title">"SD 卡與裝置空間"</string>
     <string name="storage_settings_summary">"卸載 SD 卡，檢視可用儲存媒體。"</string>
     <string name="status_number">"電話號碼"</string>
     <string name="status_network_type">"行動網路類型"</string>
@@ -426,7 +426,7 @@
     <string name="status_unavailable">"無法取得"</string>
     <string name="status_up_time">"開機時間"</string>
     <string name="status_awake_time">"清醒時間"</string>
-    <string name="internal_memory">"手機內部記憶體"</string>
+    <string name="internal_memory">"裝置容量"</string>
     <string name="sd_memory">"SD 卡"</string>
     <string name="memory_available">"可用空間"</string>
     <string name="memory_size">"總空間"</string>
@@ -467,13 +467,13 @@
     <string name="menu_restore">"還原為預設狀態"</string>
     <string name="restore_default_apn_completed">"重設預設 APN 設定已完成"</string>
     <string name="master_clear_title">"重設為原廠設定"</string>
-    <string name="master_clear_summary">"清除手機上所有資料"</string>
-    <string name="master_clear_desc">"此項操作會將手機還原至出廠設定，並清除所有資料與下載的應用程式！"</string>
-    <string name="master_clear_button_text">"重設手機"</string>
-    <string name="master_clear_final_desc">"確定要重設手機，清除所有資料與應用程式嗎？此項操作將無法復原！"</string>
+    <string name="master_clear_summary">"清除裝置內所有資料"</string>
+    <string name="master_clear_desc">"此項操作將還原至出廠設定，並清除所有資料與下載的應用程式！"</string>
+    <string name="master_clear_button_text">"裝置重設"</string>
+    <string name="master_clear_final_desc">"確定要重設裝置，清除所有資料與應用程式嗎？此項操作將無法復原！"</string>
     <string name="master_clear_final_button_text">"清除全部"</string>
     <string name="master_clear_gesture_prompt">"畫出解鎖圖形"</string>
-    <string name="master_clear_gesture_explanation">"請畫出解鎖圖形，以確認重設手機。"</string>
+    <string name="master_clear_gesture_explanation">"請畫出解鎖圖形，以確認裝置重設。"</string>
     <string name="master_clear_failed">"因「系統清除」服務異常，未成功執行重設。"</string>
     <string name="media_format_title">"將 SD 卡格式化。"</string>
     <string name="media_format_summary">"清除 SD 卡上的所有資料"</string>
@@ -498,8 +498,8 @@
     <string name="location_warning_message">"允許 Google 的定位服務收集匿名綜合位置資料。無論是否有應用程式處於作用中，均會進行收集。"</string>
     <string name="agree">"同意"</string>
     <string name="disagree">"不同意"</string>
-    <string name="about_settings">"關於手機"</string>
-    <string name="about_settings_summary">"檢視法律資訊、手機狀態、軟體版本"</string>
+    <string name="about_settings">"關於WebStation"</string>
+    <string name="about_settings_summary">"檢視法律資訊、裝置狀態、軟體版本"</string>
     <string name="legal_information">"法律資訊"</string>
     <string name="contributors_title">"貢獻者"</string>
     <string name="copyright_title">"版權"</string>
@@ -537,18 +537,18 @@
     <string name="lockpattern_too_many_failed_confirmation_attempts_footer">"<xliff:g id="NUMBER">%d</xliff:g> 秒後再試一次。"</string>
     <string name="skip_button_label">"取消"</string>
     <string name="next_button_label">"下一頁"</string>
-    <string name="lock_title">"手機安全設定"</string>
-    <string name="lock_intro_message"><font size="17">" 建立個人螢幕解鎖圖形，避免您的手機在未授權狀態下遭人使用。 "\n<font height="17">\n</font><b>" 1 "</b>"  請在下一個畫面中，檢視範例圖形繪畫示範。"\n<font height="17">\n</font><b>" 2 "</b>"  準備好後，便可畫出個人解鎖圖形。您可以嘗試不同的圖形，但需要至少連接四點。 "\n<font height="17">\n</font><b>" 3 "</b>"  再次畫出圖形以確認。"\n<font height="17">\n</font><b>" 準備開始了嗎？選取 [下一步]"</b>"。"\n<font height="3">\n</font>" 如要維持未保護的狀態，請選取 [取消]。"</font></string>
+    <string name="lock_title">"安全設定"</string>
+    <string name="lock_intro_message"><font size="17">" 建立個人螢幕解鎖圖形，避免您的機器在未授權的狀態下遭人使用。 "\n<font height="17">\n</font><b>" 1 "</b>"  請在下一個畫面中，檢視範例圖形繪畫示範。"\n<font height="17">\n</font><b>" 2 "</b>"  準備好後，便可畫出個人解鎖圖形。您可以嘗試不同的圖形，但需要至少連接四點。 "\n<font height="17">\n</font><b>" 3 "</b>"  再次畫出圖形以確認。"\n<font height="17">\n</font><b>" 準備開始了嗎？選取 [下一步]"</b>"。"\n<font height="3">\n</font>" 如要維持未保護的狀態，請選取 [取消]。"</font></string>
     <string name="lock_example_title">"範例圖形"</string>
     <string name="lock_example_message">"畫出圖形時，需要至少連接四個點。"\n" "\n"準備好要畫出您的解鎖圖形時，請選取 [下一步]。"</string>
     <string name="manageapplications_settings_title">"管理應用程式"</string>
     <string name="manageapplications_settings_summary">"管理及移除已安裝的應用程式"</string>
     <string name="applications_settings">"應用程式"</string>
-    <string name="applications_settings_summary">"管理應用程式，設定快速啟動鍵"</string>
+    <string name="applications_settings_summary">"管理應用程式"</string>
     <string name="applications_settings_header">"應用程式設定"</string>
-    <string name="install_applications">"未知的來源"</string>
-    <string name="install_unknown_applications">"允許安裝非 Market 應用程式"</string>
-    <string name="install_all_warning">"未知來源的應用程式可能會損害您的手機及個人資訊。如使用這些應用程式而造成手機受損或資料遺失，您必須自行承擔責任。"</string>
+    <string name="install_applications">"第三方軟體"</string>
+    <string name="install_unknown_applications">"允許安裝第三方應用程式"</string>
+    <string name="install_all_warning">"請確認您即將安裝的第三方應用程式為具有安全性之應用程式。如果是未知來源的第三方應用程式，將比較可能造成您的裝置與個人資訊之損害，您必須為此完全負責。"</string>
     <string name="application_info_label">"應用程式資訊"</string>
     <string name="storage_label">"儲存空間"</string>
     <string name="auto_launch_label">"預設為啟動"</string>
@@ -680,4 +680,5 @@
     <string name="app_name_label">"應用程式"</string>
     <string name="launch_count_label">"計數"</string>
     <string name="usage_time_label">"使用時間"</string>
+    <string name="notice">"請留意"</string>
 </resources>

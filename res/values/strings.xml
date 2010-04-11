@@ -430,7 +430,7 @@
     <!-- Main Settings screen settings title for things like Wi-Fi, bluetooth, airplane mode.  This will take you to another screen with those settings. -->
     <string name="radio_controls_title">Wireless controls</string>
     <!-- Main Settings screen settings summary text for the "Wireless controls" setting -->
-    <string name="radio_controls_summary">Manage Wi-Fi, Bluetooth, airplane mode, &amp; mobile networks</string>
+    <string name="radio_controls_summary">Manage Wi-Fi and Airplane mode</string>
 
 
     <!-- Date and time settings -->
@@ -462,7 +462,7 @@
     <!-- Main Settings screen setting option title for the item to take you the security and location screen -->
     <string name="security_settings_title">Security &amp; location</string>
     <!-- Main Settings screen setting option summary text for the item tot ake you to the security and location screen -->
-    <string name="security_settings_summary">Set My Location, screen unlock, SIM card lock</string>
+    <string name="security_settings_summary">Set My Location and Screen Unlock</string>
     <!-- In the security screen, the header title for settings related to  Passwords-->
     <string name="security_passwords_title">Passwords</string>
 
@@ -760,9 +760,9 @@
     <!-- Sound settings screen, setting option summary text -->
     <string name="ringtone_summary">Set your default incoming call ringtone</string>
     <!-- Sound settings screen, setting option name -->
-    <string name="ring_volume_title">Ringer volume</string>
+    <string name="ring_volume_title">Device volume</string>
     <!-- Sound settings screen, setting option summary text -->
-    <string name="ring_volume_summary">Set volume for incoming calls and notifications</string>
+    <string name="ring_volume_summary">Set notification volume</string>
     <!-- Sound settings screen, setting option name checkbox -->
     <string name="vibrate_title">Phone vibrate</string>
     <!-- Sound settings screen, setting option summary text -->
@@ -777,7 +777,7 @@
     <string name="notification_volume_title">Notification volume</string>
     <!-- Sound settings screen, the caption of the checkbox for having the notification volume be
          the same as the incoming call volume. -->
-    <string name="checkbox_notification_same_as_incoming_call">Use incoming call volume for notifications</string>
+    <string name="checkbox_notification_same_as_incoming_call">Use device volume for notifications</string>
     <!-- Sound settings screen, setting option title-->
     <string name="notification_sound_dialog_title">Select notification ringtone</string>
     <!-- Sound settings screen, setting option name -->
@@ -820,9 +820,9 @@
     <!-- Sound & display settings screen, accelerometer-based rotation check box label -->
     <string name="accelerometer_title">Orientation</string>
     <!-- Sound & display settings screen, accelerometer-based rotation summary text when check box is selected -->
-    <string name="accelerometer_summary_on">Switch orientation automatically when rotating phone</string>
+    <string name="accelerometer_summary_on">Switch orientation automatically when rotating device</string>
     <!-- Sound & display settings screen, accelerometer-based rotation summary text when check box is clear -->
-    <string name="accelerometer_summary_off">Switch orientation automatically when rotating phone</string>
+    <string name="accelerometer_summary_off">Switch orientation automatically when rotating device</string>
     <!-- Sound & display settings screen, setting option name to change brightness -->
     <string name="brightness">Brightness</string>
     <!-- Sound & display settings screen, setting option summary to change brightness -->
@@ -900,9 +900,9 @@
     <!-- About phone screen, title of the item to go into the Phone status screen -->
     <string name="device_status">Status</string>
     <!-- About phone screen, summary of the item to go into the phone status screen -->
-    <string name="device_status_summary">IMEI, phone number, signal, etc.</string>
+    <string name="device_status_summary"></string>
     <!-- Main settings screen item's title to go into the SD card and storage settings screen-->
-    <string name="storage_settings_title">SD card &amp; phone storage</string>
+    <string name="storage_settings_title">SD card &amp; device storage</string>
     <!-- Main settings screen item's summary for the SD card and storage settings -->
     <string name="storage_settings_summary">Unmount SD card, view available storage</string>
     <!-- Do not translate. About phone, status item title -->
@@ -934,7 +934,7 @@
     <!-- About phone, status item title.  How much time the device has had its main CPU awake. -->
     <string name="status_awake_time">Awake time</string>
     <!-- SD card & phone storage settings screen heading. This is displayed above items that pertain to the phone's internal storage  -->
-    <string name="internal_memory">Internal phone storage</string>
+    <string name="internal_memory">Internal storage</string>
     <!-- SD card & phone storage settings screen heading. This is displayed above items that pertain to the SD card -->
     <string name="sd_memory">SD card</string>
     <!-- SD card & phone storage settings title. The amount of free space for some storage partition.  For example, this is listed under both the "Internal phone storage" section and the "SD card" section. -->
@@ -1020,19 +1020,19 @@
     <!-- SD card & phone storage settings screen, setting option name under Internal phone storage heading -->
     <string name="master_clear_title">Factory data reset</string>
     <!-- SD card & phone storage settings screen, setting option summary text under Internal phone storage heading -->
-    <string name="master_clear_summary">Erases all data on phone</string>
+    <string name="master_clear_summary">Erase all data on this device</string>
     <!-- SD card & phone storage settings screen, message on screen after user selects Factory data reset -->
-    <string name="master_clear_desc">This action will reset the phone to its initial factory state, erasing all data and downloaded applications!</string>
+    <string name="master_clear_desc">This action will reset the device to its initial factory state, erasing all data and downloaded applications!</string>
     <!-- SD card & phone storage settings screen, button on screen after user selects Factory data reset -->
-    <string name="master_clear_button_text">Reset phone</string>
+    <string name="master_clear_button_text">Reset device</string>
     <!-- SD card & phone storage settings screen, message on screen after user selects Reset phone button -->
-    <string name="master_clear_final_desc">Reset phone, erasing all your data and applications? Action cannot be reversed!</string>
+    <string name="master_clear_final_desc">Reset device, erasing all your data and applications? Action cannot be reversed!</string>
     <!-- SD card & phone storage settings screen, button on screen after user selects Reset phone button -->
     <string name="master_clear_final_button_text">Erase everything</string>
     <!-- Message to draw an unlock pattern before clearing the device -->
     <string name="master_clear_gesture_prompt">Draw your unlock pattern</string>
     <!-- Explanation of drawing unlockp attern to reset phone -->
-    <string name="master_clear_gesture_explanation">You must draw your unlock pattern to confirm a phone reset.</string>
+    <string name="master_clear_gesture_explanation">You must draw your unlock pattern to confirm the device reset.</string>
     <!-- Master clear failed message -->
     <string name="master_clear_failed">No reset was performed because the System Clear service is not available.</string>
 
@@ -1089,9 +1089,9 @@
 
     <!-- About -->
     <!-- Main settings screen, setting title for the user to go into the About phone screen -->
-    <string name="about_settings">About phone</string>
+    <string name="about_settings">About WebStation</string>
     <!-- Main settings screen, setting summary for the user to go into the About phone screen-->
-    <string name="about_settings_summary">View legal info, phone status, software version</string>
+    <string name="about_settings_summary">View legal information, device status, software version</string>
     <!-- About phone settings screen, setting option name to go to dialog that shows legal info -->
     <string name="legal_information">Legal information</string>
     <!-- About phone settings screen, setting option name to see a list of contributors -->
@@ -1113,6 +1113,7 @@
     <!-- Title for actual Settings license activity. --> <skip />
     <!-- About phone settings, Legal information setting option name and title of dialog box holding license info -->
     <string name="settings_license_activity_title">Open source licenses</string>
+    <string name="settings_sw_license_activity_title">Software license agreement</string>
     <!-- About phone settings screen, Open source license dialog message when licenses cannot be loaded -->
     <string name="settings_license_activity_unavailable">There is a problem loading the licenses.</string>
     <!-- About phone settings screen, Open source license dialog title until license is fully loaded -->
@@ -1179,14 +1180,14 @@
     <!-- ChooseLockPatternTutorial, button labels: Continue to the next page of the tutorial -->
     <string name="next_button_label">Next</string>
     <!-- ChooseLockPatternTutorial, tutorial screen title -->
-    <string name="lock_title">Securing your phone</string>
+    <string name="lock_title">Securing your device</string>
     <!-- ChooseLockPatternTutorial, tutorial screen text -->
-    <string name="lock_intro_message"><font size="17">Protect your phone from unauthorized use by creating a personal screen unlock pattern.
+    <string name="lock_intro_message"><font size="17">Protect your device from unauthorized use by creating a personal screen unlock pattern.
         \n<font height="17">\n</font><b>1</b>\u00A0 On the next screen, watch while an example pattern is drawn.
         \n<font height="17">\n</font><b>2</b>\u00A0 When ready, draw your own personal unlock pattern. Experiment with different patterns but connect at least four dots.
         \n<font height="17">\n</font><b>3</b>\u00A0 Redraw your pattern to confirm.
         \n<font height="17">\n</font><b>Ready to start? Select \u201CNext\u201D</b>.
-        \n<font height="3">\n</font>To leave your phone unprotected, select \u201CCancel\u201D.</font>
+        \n<font height="3">\n</font>To leave your device unprotected, select \u201CCancel\u201D.</font>
     </string>    
         
     <!-- ChooseLockPatternExample --> <skip />
@@ -1205,18 +1206,15 @@
     <!-- Applications settings title, on main settings screen. If clicked, the user is taken to a settings screen full of application settings-->
     <string name="applications_settings">Applications</string>
     <!-- Applications settings summary, on main settings screen. The summary for the "Applications" item on the main settings screen. Describes what settings are accessible from the "Applications" screen. -->
-    <string name="applications_settings_summary">Manage applications, set up quick launch shortcuts</string>
+    <string name="applications_settings_summary">Manage applications</string>
     <!-- Applications settings screen heading. The header for the Application settings screen. -->
     <string name="applications_settings_header">Application settings</string>
     <!-- Applications settings screen, setting check box title. If checked, the system allows installation of applications that are downloaded from random places, such as web sites.  -->
-    <string name="install_applications">Unknown sources</string>
+    <string name="install_applications">Third Party Applications</string>
     <!-- Applications settings screen, setting check box summary.  This is the summary for "Unknown sources" checkbox  -->
-    <string name="install_unknown_applications">Allow install of non-Market applications</string>
+    <string name="install_unknown_applications">Allow install Third Party applications into your WebStation</string>
     <!-- Applications settings screen, message text of alert that appears if user selects the "Unknown sources" check box -->
-    <string name="install_all_warning">Your phone and personal data are more vulnerable to attack by applications
- from unknown sources. You agree that you are solely responsible for any
- damage to your phone or loss of data that may result from using
- these applications.</string>
+    <string name="install_all_warning">Please make sure the security of the applications you install in this device. If your device install the third party applications from unknown sources, that might cause damage to your device and personal data. You agree that you are fully responsible for any damage to your device that may result from using these applications.</string>
     <!-- Manage applications, individual application info screen title. For example, if they click on "Browser" in "Manage applications", the title of the next screen will be this -->
     <string name="application_info_label">Application info</string>
     <!-- Manage applications, individual application info screen, section heading for stuff relating to an app's storage settings. -->
@@ -1531,4 +1529,7 @@ found in the list of installed applications.</string>
     <string name="launch_count_label">Count</string>
     <!-- label for usage time -->
     <string name="usage_time_label">Usage time</string>
+
+    <!-- Title for warnAppInstallation -->
+    <string name="notice">Notice</string>
 </resources>

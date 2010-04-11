@@ -52,7 +52,7 @@ public class SecuritySettings extends PreferenceActivity
     private LockPatternUtils mLockPatternUtils;
     private CheckBoxPreference mLockEnabled;
     private CheckBoxPreference mVisiblePattern;
-    private CheckBoxPreference mTactileFeedback;
+    //private CheckBoxPreference mTactileFeedback;
     private Preference mChoosePattern;
 
     private CheckBoxPreference mShowPassword;
@@ -110,10 +110,10 @@ public class SecuritySettings extends PreferenceActivity
         inlinePrefCat.addPreference(mVisiblePattern);
 
         // tactile feedback
-        mTactileFeedback = new CheckBoxPreference(this);
-        mTactileFeedback.setKey(KEY_TACTILE_FEEDBACK_ENABLED);
-        mTactileFeedback.setTitle(R.string.lockpattern_settings_enable_tactile_feedback_title);
-        inlinePrefCat.addPreference(mTactileFeedback);
+        //mTactileFeedback = new CheckBoxPreference(this);
+        //mTactileFeedback.setKey(KEY_TACTILE_FEEDBACK_ENABLED);
+        //mTactileFeedback.setTitle(R.string.lockpattern_settings_enable_tactile_feedback_title);
+        //inlinePrefCat.addPreference(mTactileFeedback);
 
         // change pattern lock
         Intent intent = new Intent();
@@ -123,6 +123,7 @@ public class SecuritySettings extends PreferenceActivity
         mChoosePattern.setIntent(intent);
         inlinePrefCat.addPreference(mChoosePattern);
         
+	/*
         PreferenceScreen simLockPreferences = getPreferenceManager()
                 .createPreferenceScreen(this);
         simLockPreferences.setTitle(R.string.sim_lock_settings_category);
@@ -135,6 +136,7 @@ public class SecuritySettings extends PreferenceActivity
         simLockCat.setTitle(R.string.sim_lock_settings_title);
         root.addPreference(simLockCat);
         simLockCat.addPreference(simLockPreferences);
+	*/
 
         // Passwords
         PreferenceCategory passwordsCat = new PreferenceCategory(this);
@@ -158,11 +160,11 @@ public class SecuritySettings extends PreferenceActivity
         boolean patternExists = mLockPatternUtils.savedPatternExists();
         mLockEnabled.setEnabled(patternExists);
         mVisiblePattern.setEnabled(patternExists);
-        mTactileFeedback.setEnabled(patternExists);
+        //mTactileFeedback.setEnabled(patternExists);
 
         mLockEnabled.setChecked(mLockPatternUtils.isLockPatternEnabled());
         mVisiblePattern.setChecked(mLockPatternUtils.isVisiblePatternEnabled());
-        mTactileFeedback.setChecked(mLockPatternUtils.isTactileFeedbackEnabled());
+        //mTactileFeedback.setChecked(mLockPatternUtils.isTactileFeedbackEnabled());
 
         int chooseStringRes = mLockPatternUtils.savedPatternExists() ?
                 R.string.lockpattern_settings_change_lock_pattern :

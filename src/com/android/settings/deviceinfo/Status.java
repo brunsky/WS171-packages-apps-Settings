@@ -72,7 +72,7 @@ public class Status extends PreferenceActivity {
     private Phone mPhone = null;
     private PhoneStateIntentReceiver mPhoneStateReceiver;
     private Resources mRes;
-    private Preference mSignalStrength;
+    //private Preference mSignalStrength;
     private Preference mUptime;
 
     private static String sUnknown;
@@ -178,14 +178,14 @@ public class Status extends PreferenceActivity {
         
         mPhone = PhoneFactory.getDefaultPhone();
         // Note - missing in zaku build, be careful later...
-        mSignalStrength = findPreference("signal_strength");			
+        //mSignalStrength = findPreference("signal_strength");			
         mUptime = findPreference("up_time");
         
-        setSummaryText("imei", mPhone.getDeviceId());
-        setSummaryText("imei_sv",
-                ((TelephonyManager) getSystemService(TELEPHONY_SERVICE))
-                        .getDeviceSoftwareVersion());
-        setSummaryText("number", mPhone.getLine1Number());
+        //setSummaryText("imei", mPhone.getDeviceId());
+        //setSummaryText("imei_sv",
+        //        ((TelephonyManager) getSystemService(TELEPHONY_SERVICE))
+        //                .getDeviceSoftwareVersion());
+        //setSummaryText("number", mPhone.getLine1Number());
 
         mPhoneStateReceiver = new PhoneStateIntentReceiver(this, mHandler);
         mPhoneStateReceiver.notifySignalStrength(EVENT_SIGNAL_STRENGTH_CHANGED);
@@ -248,7 +248,7 @@ public class Status extends PreferenceActivity {
     
     private void updateNetworkType() {
         // Whether EDGE, UMTS, etc...
-        setSummary("network_type", TelephonyProperties.PROPERTY_DATA_NETWORK_TYPE, sUnknown);
+        //setSummary("network_type", TelephonyProperties.PROPERTY_DATA_NETWORK_TYPE, sUnknown);
     }
     
     private void updateDataState() {
@@ -270,7 +270,7 @@ public class Status extends PreferenceActivity {
                 break;
         }
         
-        setSummaryText("data_state", display);
+        //setSummaryText("data_state", display);
     }
 
     private void updateServiceState(ServiceState serviceState) {
@@ -290,18 +290,20 @@ public class Status extends PreferenceActivity {
                 break;
         }
         
-        setSummaryText("service_state", display);
-        
+        //setSummaryText("service_state", display);
+	/*
         if (serviceState.getRoaming()) {
             setSummaryText("roaming_state", mRes.getString(R.string.radioInfo_roaming_in));
         } else {
             setSummaryText("roaming_state", mRes.getString(R.string.radioInfo_roaming_not));
         }
-        setSummaryText("operator_name", serviceState.getOperatorAlphaLong());
+	*/
+        //setSummaryText("operator_name", serviceState.getOperatorAlphaLong());
     }
     
     void updateSignalStrength() {
-        // not loaded in some versions of the code (e.g., zaku)
+        /*
+	// not loaded in some versions of the code (e.g., zaku)
         if (mSignalStrength != null) {
             int state =
                     mPhoneStateReceiver.getServiceState().getState();
@@ -325,6 +327,7 @@ public class Status extends PreferenceActivity {
                         + String.valueOf(signalAsu) + " "
                         + r.getString(R.string.radioInfo_display_asu));
         }
+	*/
     }
     
     private void setWifiStatus() {
@@ -339,8 +342,9 @@ public class Status extends PreferenceActivity {
 
     private void setBtStatus() {
         BluetoothDevice bluetooth = (BluetoothDevice) getSystemService(BLUETOOTH_SERVICE);
-        Preference btAddressPref = findPreference(KEY_BT_ADDRESS);
+        //Preference btAddressPref = findPreference(KEY_BT_ADDRESS);
 
+	/*
         if (bluetooth == null) {
             // device not BT capable
             getPreferenceScreen().removePreference(btAddressPref);
@@ -349,6 +353,7 @@ public class Status extends PreferenceActivity {
             btAddressPref.setSummary(!TextUtils.isEmpty(address) ? address
                     : getString(R.string.status_unavailable));
         }
+	*/
     }
 
     void updateTimes() {

@@ -24,7 +24,7 @@ import android.provider.Settings.System;
 public class Settings extends PreferenceActivity {
 
     private static final String KEY_PARENT = "parent";
-    private static final String KEY_CALL_SETTINGS = "call_settings";
+    //private static final String KEY_CALL_SETTINGS = "call_settings";
     private static final String KEY_SYNC_SETTINGS = "sync_settings";
     
     @Override
@@ -40,7 +40,7 @@ public class Settings extends PreferenceActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        findPreference(KEY_CALL_SETTINGS).setEnabled(!AirplaneModeEnabler.isAirplaneModeOn(this));
+        //findPreference(KEY_CALL_SETTINGS).setEnabled(!AirplaneModeEnabler.isAirplaneModeOn(this));
     }
 
 }
